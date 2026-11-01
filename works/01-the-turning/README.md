@@ -77,6 +77,16 @@ Each section file ends with a `HANDOFF:` block describing the state of the orche
 
 The score files were written with a `.txt` extension and are published here as `.sgn`; the contents are unchanged. The general format specification that was written alongside this symphony is kept verbatim in [docs/sgn-v1.1-spec.txt](../../docs/sgn-v1.1-spec.txt).
 
+## Files
+
+| File | What it is |
+|---|---|
+| [midi/1-allegro-con-fuoco.mid](midi/1-allegro-con-fuoco.mid) · [2-andante-con-moto.mid](midi/2-andante-con-moto.mid) · [3-menuetto.mid](midi/3-menuetto.mid) · [4-finale.mid](midi/4-finale.mid) | Full-score MIDI, one file per movement: one track per part, named by instrument, with General MIDI programs and the score's tempo, meters and keys. The repeats are played (the exposition repeat in I; both halves of the Menuetto and the Trio, then the Menuetto da capo without repeats in III), so the four files run c. 20′. |
+| [sheet/1-allegro-con-fuoco.pdf](sheet/1-allegro-con-fuoco.pdf) · [2-andante-con-moto.pdf](sheet/2-andante-con-moto.pdf) · [3-menuetto.pdf](sheet/3-menuetto.pdf) · [4-finale.pdf](sheet/4-finale.pdf) | The engraved full score, one PDF per movement |
+| [sheet/1-allegro-con-fuoco.musicxml](sheet/1-allegro-con-fuoco.musicxml) · [2-andante-con-moto.musicxml](sheet/2-andante-con-moto.musicxml) · [3-menuetto.musicxml](sheet/3-menuetto.musicxml) · [4-finale.musicxml](sheet/4-finale.musicxml) | The same scores as MusicXML, for MuseScore, Sibelius, Dorico or Finale |
+
+All three are generated from the SGN files in [score/](score/), which remain the source. The sheet music is a score in C: every part is notated at sounding pitch, as Grok wrote it (the contrabass sounds an octave lower than written). The horn and trumpet crooks are marked at the start of each part. Analytic labels in the SGN (theme names, section names) are left out of the engraving; the movement's own markings are kept.
+
 ---
 
 ## Credits
