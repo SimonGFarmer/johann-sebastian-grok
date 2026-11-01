@@ -60,6 +60,16 @@ Rehearsal letters A–R run through the score. The tempo map is shaded bar by ba
 
 In the Chorale Fantasia the chorale is a cantus firmus, one note per bar, passed from trombone to horns to two trombones to trumpets and horns, while the strings spin free counterpoint above. In its last phrase the violins sing the sarabande's cadence melody (bars 13–16) over the chorale; after one beat of silence (bar 114) the deceptive cadence of bars 15–16 finally resolves to E♭ (bar 115).
 
+## Files
+
+| File | What it is |
+|---|---|
+| [midi/vigil.mid](midi/vigil.mid) | Full-score MIDI: one track per part, named by instrument, with General MIDI programs, the shaded tempo map (7′29″), meters and keys |
+| [sheet/vigil.pdf](sheet/vigil.pdf) | The engraved full score |
+| [sheet/vigil.musicxml](sheet/vigil.musicxml) | The same score as MusicXML, for MuseScore, Sibelius, Dorico or Finale |
+
+All three are generated from the SGN files in [score/](score/), which remain the source. The sheet music is a score in C: every part is notated at sounding pitch, as Grok wrote it (the contrabass, a five-string or C-extension instrument down to C1, sounds an octave lower than written). The engraving prints the main tempo marks; the bar-by-bar tempo shading is carried in the MIDI and the MusicXML playback data rather than printed.
+
 ---
 
 ## Credits
