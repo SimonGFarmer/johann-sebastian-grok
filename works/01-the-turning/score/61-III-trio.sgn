@@ -1,0 +1,45 @@
+# MOVEMENT III — TRIO, G major, 3/4, same tempo. ||: b45-60 :||: b61-80 :||
+# then Menuetto D.C. al Fine (Scherzo WITHOUT repeats, ends b44).
+# A Ländler: the CELL turned major (g g b | a g f# | g - d | b) sung by
+# cl1 with fg1 two octaves below; hn12 G-drones; vc/cb pizz on the beat,
+# vn2/va after-beats. Part 2: horn call on D echoed by fl/ob, vn1 sings
+# the CELL in E minor (the only shadow), cl/fg lead back, return.
+# Trumpets, hn34 tacet (Bb basso horns cannot play in G major).
+
+== b45-60 [D] TRIO ==
+@ K=GM "Trio" repeat=b45-60
+cl1:  | 4 {p}{dolce} [g4 g4 b4 | 4 a4 g4 f#4] | 2 [g4 4 d5 | 2. b4] | 4 [c5 c5 e5 | 4 d5 c5 b4] | 2 [c5 4 a4 | 2. d5] | 4 [b4 b4 d5 | 4 c5 b4 a4] | 4 [b4 g4 d5 | 2. e5] | 4 [d5 b4 g4 | 4 a4 c5 f#4] | 2. g4 | 4 g4 r r |
+fg1:  =cl1 -16
+hn12: | 2. {pp} (g3 d4) | % | % | % | % | % | 2. (d4 a4) | % | 2. (g3 d4) | 2. (d4 a4) | 2. (g3 d4) | % | % | 2. (d4 a4) | 2. (g3 d4) | 4 (g3 d4) r r |
+fl1:  | R*7 | 4 {pp} r a5' f#5' | R*7 | 4 r d6' c6' |
+vn2:  | 4 {p} r (b3 d4) (b3 d4) | r (a3 c4) (a3 c4) | r (b3 d4) (b3 d4) | r (b3 d4) (b3 d4) | r (c4 e4) (c4 e4) | r (b3 d4) (b3 d4) | r (c4 f#4) (c4 f#4) | r (a3 d4) (a3 d4) | r (b3 d4) (b3 d4) | r (a3 c4) (a3 c4) | r (b3 d4) (b3 d4) | r (c4 e4) (c4 e4) | r (b3 d4) (b3 d4) | r (a3 c4) (a3 c4) | r (b3 d4) (b3 d4) | r r r |
+va:   | 4 {p} r g3 g3 | r f#3 f#3 | r g3 g3 | r g3 g3 | r g3 g3 | r g3 g3 | r a3 a3 | r f#3 f#3 | r g3 g3 | r f#3 f#3 | r g3 g3 | r g3 g3 | r g3 g3 | r f#3 f#3 | r g3 g3 | r r r |
+vc:   | 4 {pizz}{p} g2 r r | d3 r r | g2 r r | b2 r r | c3 r r | g2 r r | a2 r r | d3 r r | g2 r r | d3 r r | b2 r r | c3 r r | d3 r r | d2 r r | g2 r r | g2 r r |
+cb:   =vc -8 {pizz}
+
+== b61-80 [E] ==
+@ repeat=b61-80
+hn12: | 4 {p} d4' d4' g4' | 2 a4 4 d4 | R*2 | R*4 | 2. {pp} g3 | 2. (g3 d4) | 2. (d4 a4) | % | 2. (g3 d4) | % | % | % | % | 2. (d4 a4) | 2. (g3 d4) | 4 (g3 d4) r r |
+timp: | 4 {pp} d3 r r | d3 r r | d3 r r | d3 r r | R*16 |
+fl1:  | R*2 | 4 {pp} d6' d6' g6' | 2. a6 | R*8 | R*8 |
+fl1:  =cl1 +8 @b73-80
+ob1:  | R*2 | 4 {pp} d5' d5' g5' | 2. a5 | R*16 |
+vn1:  | R*4 | 4 {p}{espress} [e5 e5 g5 | 4 f#5 e5 d#5] | 2 [e5 4 b4 | 2. e5] | R*12 |
+cl1:  | R*8 | 4 {p} [c5 c5 e5 | 4 d5 c5 b4] | 4 [a4 c5 f#4 | 2. a4] | 4 [g4 g4 b4 | 4 a4 g4 f#4] | 2 [g4 4 d5 | 2. b4] | 4 [d5 b4 g4 | 4 a4 c5 f#4] | 2. g4 | 4 g4 r r |
+fg1:  =cl1 -16 @b69-80
+vn2:  | 4 {p} r (a3 d4) (a3 d4) | r (a3 d4) (a3 d4) | r (a3 d4) (a3 d4) | r (a3 d4) (a3 d4) | r (b3 e4) (b3 e4) | r (a3 d#4) (a3 d#4) | r (b3 e4) (b3 e4) | r (b3 e4) (b3 e4) | r (c4 e4) (c4 e4) | r (b3 d4) (b3 d4) | r (a3 c4) (a3 c4) | r (c4 f#4) (c4 f#4) | r (b3 d4) (b3 d4) | r (a3 c4) (a3 c4) | r (b3 d4) (b3 d4) | r (b3 d4) (b3 d4) | r (b3 d4) (b3 d4) | r (a3 c4) (a3 c4) | r (b3 d4) (b3 d4) | r r r |
+va:   | 4 {p} r f#3 f#3 | r f#3 f#3 | r f#3 f#3 | r f#3 f#3 | r g3 g3 | r f#3 f#3 | r g3 g3 | r g3 g3 | r g3 g3 | r g3 g3 | r f#3 f#3 | r a3 a3 | r g3 g3 | r f#3 f#3 | r g3 g3 | r g3 g3 | r g3 g3 | r f#3 f#3 | r g3 g3 | r r r |
+vc:   | 4 {pizz} d3 r r | d3 r r | d3 r r | d3 r r | e3 r r | b2 r r | e3 r r | e3 r r | c3 r r | b2 r r | d3 r r | d3 r r | g2 r r | d3 r r | g2 r r | b2 r r | d3 r r | d2 r r | g2 r r | g2 r r |
+cb:   =vc -8 {pizz}
+@ "Menuetto da capo al Fine, senza replica" (play b1-44 without repeats; end at b44)
+
+HANDOFF:
+  next_bar: Mvt IV b1   key: G minor   meter: 2/2 (alla breve)
+  tempo: Presto, h = 112   dynamics: ff (motto)
+  At the seam: Mvt III ends at b44 after the D.C.: tutti ff G-minor
+  stroke on beat 1 (bass g2/g1, vn1 four-note chord g4-d5-bb5-g6,
+  horns and trumpets on g, timp g2), beats 2-3 silent.  Horns stay in
+  G (hn12) and Bb basso (hn34); tp in G; timp g2/d3.  Strings arco.
+  NEXT: Mvt IV motto b1-8: the whole orchestra hurls the CELL in 8ths
+  (g3 g3 bb3 a3 g3 f#3 g3 d3) ff unison, answered by a G-minor chord
+  stroke; then P (02-themes no.7) p in vn1 at b9 over a pulsing bass.

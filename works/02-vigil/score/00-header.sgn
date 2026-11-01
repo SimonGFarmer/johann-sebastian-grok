@@ -1,0 +1,74 @@
+# =====================================================================
+#  VIGIL  —  Sarabande, Fugue and Chorale for Orchestra
+#  by Johann Sebastian Grok, for Simon.   C minor -> E-flat major, c. 7'30"
+#  SGN score (format v1.1, see FORMAT.md at the root of this
+#  repository) - NO notes in this file.
+# =====================================================================
+#
+# FILES (play in this order; bars are numbered continuously)
+#   10-sarabande.sgn        b1-34     I.   Sarabande (C minor)            0:00
+#   20-chorale.sgn          b35-45    II.  Chorale, far off (E-flat)      1:55
+#   30-fugue.sgn            b46-73    III. Fugue (C minor, agitato)       2:54
+#   40-recitative.sgn       b74-78    IV.  Recitative (cor anglais)       4:05
+#   50-chorale-fantasia.sgn b79-116   V.   Chorale Fantasia (E-flat)      4:33
+#   60-coda.sgn             b117-126  VI.  Coda - Amen                    6:44
+#   One continuous movement, no breaks between sections.  Total c. 7'29".
+#   Timings computed from the tempo map.
+#
+# ---------------------------------------------------------------------
+# PARTS (score order).  Everything is written at CONCERT pitch.
+#   fl     2 Flutes            (pair line: single note = a2, {1.} = solo)
+#   ob     2 Oboes             (pair line)
+#   ca     Cor anglais         (3rd oboe player; single line)
+#   cl     2 Clarinets in B-flat (pair line, sounding pitch)
+#   fg     2 Bassoons          (pair line)
+#   hn12   Horns 1-2 in F (modern valve horns; dyad = hn2 lower)
+#   hn34   Horns 3-4 in F (valve; dyad = hn4 lower)
+#          NOTE: the natural-horn harmonic rules of the G-minor symphony
+#          do NOT apply - these are valve horns.  sgncheck's
+#          "non-harmonic" horn/trumpet messages are therefore ignored.
+#   tp     2 Trumpets in C (valve; pair line)
+#   tb1    Tenor trombone 1    tb2  Tenor trombone 2
+#   btb    Bass trombone
+#          The trombones are silent until the first Chorale (b35):
+#          their first sound IS the chorale.
+#   timp   Timpani, 4 drums: eb2 g2 bb2 c3 (retuned only where marked)
+#   vn1 vn2 va vc cb   strings.  {solo} = desk-1 player alone,
+#          {tutti} = section again.  cb = 5-string / C-extension basses,
+#          floor c1 (sgn2flp: set CB_FLOOR = 24).
+#
+# ---------------------------------------------------------------------
+# PERFORMANCE / RENDERING NOTES
+#  * Tempo shading is written into the tempo map (@ and @@ bN T=...)
+#    bar by bar: phrases lean forward and draw back.  Treat them as a
+#    conductor's rubato, not as steps.
+#  * FERMATAS (*) are marked for the players AND their extra length is
+#    written into the tempo map (the fermata bar has a slower T), so the
+#    computed duration is the real one and a MIDI rendering breathes.
+#  * sgn2flp quirk: a block-start  @ T=x  equal to the piece's FIRST tempo
+#    (54) is dropped, so every block that sets a tempo also repeats it as
+#    @@ bN T=x on its first bar.
+#  * Hairpins: {<} / {>} run to the next written dynamic (or to {/}).
+#  * Text in {"..."} is expression for the players (sul tasto, dolce...).
+#
+# ---------------------------------------------------------------------
+# THEMES (concert pitch)
+#  S  SARABANDE (b1-16, C minor, 3/4).  Head: falling 4th, rising
+#     semitone, rising 5th:  c5 g4 ab4 eb5.  16 bars; bar 15-16 is a
+#     DECEPTIVE cadence (V7 of E-flat -> C minor): the melody reaches for
+#     E-flat major and is turned back.  That unfinished cadence is the
+#     question the whole piece answers.
+#  C  CHORALE (E-flat, 4 phrases).  Its head g4 d4 eb4 bb4 is S's head
+#     exactly (4th down, semitone up, 5th up) in the major - the same
+#     shape, heard in daylight.
+#       | g4 d4 eb4 bb4 | ab4 g4 f4 |  | bb4 c5 bb4 ab4 | g4 f4 g4 |
+#       | eb4 f4 g4 ab4 | bb4 g4 c5 |  | eb5 d5 c5 bb4  | ab4 f4 eb4 |
+#  F  FUGUE SUBJECT (C minor, 2 bars): S's head in eighths, then a
+#     chromatic fall:  r c g ab eb~ eb d | c b bb~ bb a ab g
+#  In the Chorale Fantasia the chorale is a cantus firmus (one note per
+#  bar) passed trombone -> horns -> trombones a 2 -> trumpets+horns, while
+#  the strings spin free counterpoint above it.  In the last phrase the
+#  violins sing S's cadence melody (b13-16) over the chorale; after one
+#  beat of silence (b114) the deceptive cadence of b15-16 finally
+#  resolves to E-flat (b115).
+# =====================================================================

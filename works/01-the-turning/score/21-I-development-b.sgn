@@ -1,0 +1,73 @@
+# MOVEMENT I — DEVELOPMENT part b: climax (b131-146) and retransition
+# (b147-160).
+# b131-138: the CELL in ALL strings (vn at +16, va +8, vc, cb -8; fg) on
+#   Ab, Bb, Cm, D (two bars each, bass rising ab-bb-c-d) while fl+ob
+#   proclaim the T1 head in augmentation (4th up + steps) each time a step
+#   higher, landing on the b9 E-flat over D (b138).
+# b139-146: D pedal, L5; eb-d sighs; Ger6 (eb g bb c#); unison D arpeggio.
+# b147-160: the long fade: L3 -> L2 -> L1 -> vc ALONE pp (b153-156, the
+#   quietest moment of the movement) with ghostly T1 head in fl/ob,
+#   then a four-bar crescendo to the recapitulation.
+
+== b131-138 [H] ==
+@ K=gm "Climax"
+vc:   | 16 {ff} ab2^ ab2' ab2' ab2' 8 c3>' bb2' ab2>' g2' ab2>' eb2' | % | 16 bb2^ bb2' bb2' bb2' 8 d3>' c3' bb2>' a2' bb2>' f2' | % | 16 c3^ c3' c3' c3' 8 eb3>' d3' c3>' b2' c3>' g2' | % | 16 d3^ d3' d3' d3' 8 f#3>' e3' d3>' c#3' d3>' a2' | % |
+vn1:  =vc +16
+vn2:  =vc +16
+va:   =vc +8
+cb:   =vc -8
+fg:   =vc
+fl:   | 2 {ff} eb5^ ab5^ | 2. bb5 4 c6 | 2 f5^ bb5^ | 2. c6 4 d6 | 2 g5^ c6^ | 2. d6 4 eb6 | 2 a5^ d6^ | 1 eb6^ |
+ob:   =fl -8
+cl:   | 1 {ff} (eb4 ab4) | 1 (eb4 ab4) | 1 (d4 f4) | 1 (d4 f4) | 1 (eb4 g4) | 1 (eb4 g4) | 1 (f#4 a4) | 1 (f#4 c5) |
+hn12: | R*2 | 1 {ff} (d4 f4) | 1 (d4 f4) | 1 (g3 g4) | 1 (g3 g4) | 1 (d4 a4) | 1 (d4 d5) |
+hn34: | 1 {ff} (ab4 c5) | 1 (ab4 c5) | 1 (bb3 d4) | 1 (bb3 d4) | 1 c5 | 1 c5 | 1 d4 | 1 (d4 d5) |
+tp:   | R*2 | 4 {ff} (d4 d5)^ r r r | 4 (d4 d5)^ r (d4 d5)' r | 4 g4^ r r r | 4 g4^ r g4' r | 4 (d4 d5)^ r r r | 8 (d4 d5)^ (d4 d5)' 4 (d4 d5)' (d4 d5)' (d4 d5)' |
+timp: | R*2 | 1 {ff} d3=z | 1 d3=z | 1 g2=z | 1 g2=z | 1 d3=z | 1 d3=z |
+
+== b139-146 ==
+vc:   | 16 {ff} d3^ d3' d3' d3' 8 f#3' e3' 16 d3^ d3' d3' d3' 8 d3' a2' | % | % | % | 16 eb3^ eb3' eb3' eb3' 8 g3' eb3' 16 eb3^ eb3' eb3' eb3' 8 c#3' eb3' | % | 8 d4^ a3' f#3' d3' a2' f#2' d2' d2' | 4 d2^ r 2 r |
+cb:   =vc -8
+fg:   =vc
+va:   =vc +8 @b139-144
+va:   | R*6 | 8 {ff} d5^ a4' f#4' d4' a3' f#3' d3' r | 4 d3^ r 2 r |
+vn1:  | 2 {ff} eb6^ d6 | 2 eb6^ d6 | 4 eb6^ c6' a5' f#5' | 4 eb5^ f#5' a5' c6' | 2 c#6^ 4 bb5' g5' | 4 eb5^ g5' bb5' c#6' | 8 d6^ a5' f#5' d5' a4' f#4' d4' a3' | 4 d4^ r 2 r |
+vn2:  =vn1 -8 @b139-144
+vn2:  | R*6 | 8 {ff} d5^ a4' f#4' d4' 2 a3^ | 4 d4^ r 2 r |
+fl:   | 4 {ff} (c6 eb6)^ r (a5 d6)^ r | % | 4 (c6 eb6)^ (c6 eb6)' (a5 c6)' (a5 c6)' | 4 (f#5 a5)^ (f#5 a5)' (a5 c6)' (c6 eb6)' | 1 (bb5 c#6)^ | 1 (g5 c#6)^ | 8 d6^ a5' f#5' d5' a4' f#4' d4' r | 4 d5^ r 2 r |
+ob:   | 4 {ff} (f#5 c6)^ r (f#5 a5)^ r | % | 4 (f#5 a5)^ (f#5 a5)' (eb5 f#5)' (eb5 f#5)' | 4 (c5 eb5)^ (c5 eb5)' (eb5 f#5)' (f#5 a5)' | 1 (g5 bb5)^ | 1 (eb5 g5)^ | 8 d6^ a5' f#5' d5' a4' f#4' d4' r | 4 d5^ r 2 r |
+cl:   | 4 {ff} (d5 f#5)^ r (d5 f#5)^ r | % | 4 (c5 eb5)^ (c5 eb5)' (a4 c5)' (a4 c5)' | 4 (a4 c5)^ (a4 c5)' (c5 eb5)' (d5 f#5)' | 1 (eb5 g5)^ | 1 (c#5 bb5)^ | 8 d5^ a4' f#4' d4' a3' f#3' d3' r | 4 d4^ r 2 r |
+hn12: | 1 {ff} (d4 d5)^ | 1 (d4 d5)^ | 1 (d4 a4) | 1 (d4 a4) | 1 (g3 g4)^ | 1 (g3 g4)^ | 4 (d4 d5)^ (a4 a4)' 2 (d4 d4)' | 4 (d4 d5)^ r 2 r |
+hn34: | 1 {ff} d4^ | 1 d4^ | 1 d4 | 1 d4 | 1 bb3^ | 1 bb3 | 4 d4^ d4' 2 d4' | 4 (d3 d4)^ r 2 r |
+tp:   | 4 {ff} (d4 d5)^ r (d4 d5)^ r | % | 8 (d4 d5)^ (d4 d5)' 4 (d4 d5)' (d4 d5)' (d4 d5)' | % | 4 g4^ r g4^ r | % | 4 (d4 d5)^ (d4 d5)' 2 (d4 d5)' | 4 (d4 d5)^ r 2 r |
+timp: | 1 {ff} d3=z | 1 d3=z | 8 d3^ d3' d3' d3' d3' d3' d3' d3' | % | 1 g2=z | 1 g2=z | 4 d3^ d3' 2 d3=z | 4 d3^ r 2 r |
+
+== b147-160 [I] ==
+@ "Retransition"
+vc:   | 16 {f}{dim} d3>' d3' d3' d3' 8 f#3' e3' d3' c#3' d3' a2' | % | 8 {p} d3' d3' f#3' e3' d3' c#3' d3' a2' | % | 8 {pp} d3' r f#3' e3' d3' r d3' a2' | % | 8 {pp}{"sotto voce"} d3' d3' f#3' e3' d3' c#3' d3' a2' | % | % | % | 8 {p}{cresc} d3' d3' f#3' e3' d3' c#3' d3' a2' | 16 d3>' d3' d3' d3' 8 f#3' e3' d3' c#3' d3' a2' | 16 {f} d3^ d3' d3' d3' 8 f#3>' e3' d3>' c#3' d3>' a2' | 16 {ff} d3^ d3' d3' d3' 8 f#3' e3' 16 d3^ d3' d3' d3' 8 c3' a2' |
+cb:   =vc -8 @b147-150
+cb:   | R*4 | 8 {pp} d2' r r r d2' r r r | 4 d2' r r r | R*4 | 8 {p}{cresc} d2' d2' f#2' e2' d2' c#2' d2' a1' | 16 d2>' d2' d2' d2' 8 f#2' e2' d2' c#2' d2' a1' | 16 {f} d2^ d2' d2' d2' 8 f#2>' e2' d2>' c#2' d2>' a1' | 16 {ff} d2^ d2' d2' d2' 8 f#2' e2' 16 d2^ d2' d2' d2' 8 c2' a1' |
+fg:   | 1 {f}{dim} (d3 a3) | 1 (d3 a3) | 1 {p} d3 | 2 d3 r | R*6 | 1 {p}{cresc} (d3 a3) | 1 (d3 a3) | 16 {f} d3^ d3' d3' d3' 8 f#3>' e3' d3>' c#3' d3>' a2' | 16 {ff} d3^ d3' d3' d3' 8 f#3' e3' 16 d3^ d3' d3' d3' 8 c3' a2' |
+va:   | 1 {f}{dim} (d4 a4)=16 | 1 (d4 a4)=16 | 1 {p} (d4 f#4)=z | 2 (d4 f#4)=z r | R*6 | R | 1 {mf}{cresc} (d4 a4)=16 | 1 {f} (d4 a4)=16 | 1 {ff} (c4 a4)=16 |
+vn2:  | 1 {f}{dim} (a4 f#5)=16 | 1 (a4 f#5)=16 | 1 {p} (a4 d5)=z | 2 (a4 d5)=z r | R*6 | R | 1 {mf}{cresc} (a4 c5)=16 | 1 {f} (a4 c5)=16 | 4 {ff} (c5 a5)^ (c5 a5)^ (a4 f#5)^ (a4 f#5)^ |
+vn1:  | 1 {f}{dim} (d5 a5)=16 | 1 (d5 a5)=16 | 1 {p} (f#5 a5)=z | 2 (f#5 a5)=z r | R*6 | 1 {p}{cresc} (c5 a5)=z | 1 (c5 a5)=z | 16 {f} d4 eb4 f#4 g4 a4 bb4 c5 d5 eb5 f#5 g5 a5 bb5 c6 d6 eb6 | 4 {ff} d6^ c6^ a5^ f#5^ |
+fl1:  | R*6 | 4 {pp}{"come un ricordo"} r [d5 4. g5 8 a5] | 4 [bb5 8 a5 g5] 4 f#5 d5 | R*2 | 1 {p}{cresc} a5 | 1 c6 | 1 {f} eb6 | 4 {ff} d6^ c6^ a5^ f#5^ |
+fl2:  | R*10 | 1 {p}{cresc} f#5 | 1 a5 | 1 {f} c6 | 4 {ff} a5^ a5^ f#5^ d5^ |
+ob1:  | R*8 | 4 {pp} r [d4 4. g4 8 a4] | 4 [bb4 8 a4 g4] 4 f#4 d4 | 1 {p}{cresc} d5 | 1 f#5 | 1 {f} a5 | 4 {ff} f#5^ f#5^ d5^ c5^ |
+ob2:  | R*10 | 1 {p}{cresc} c5 | 1 c5 | 1 {f} f#5 | 4 {ff} c5^ c5^ c5^ a4^ |
+cl:   | 1 {f}{dim} (d4 f#4) | 1 (d4 f#4) | R*8 | 1 {p}{cresc} (d4 a4) | 1 (f#4 c5) | 1 {f} (a4 c5) | 4 {ff} (a4 c5)^ (a4 c5)^ (f#4 c5)^ (f#4 a4)^ |
+hn12: | 1 {f}{dim} (d4 d5) | 1 (d4 d4) | 1 {p} (d4 d4) | 1 {pp} d4 | R*6 | 1 {p}{cresc} (d4 d4) | 1 (d4 a4) | 1 {f} (d4 d5) | 4 {ff} (d4 d5)^ (d4 d5)^ (d4 a4)^ (d4 a4)^ |
+hn34: | 1 {f}{dim} d4 | 1 d4 | R*8 | R | 1 {p}{cresc} d4 | 1 {f} (d4 d5) | 4 {ff} (d4 d5)^ (d4 d5)^ d4^ d4^ |
+tp:   | R*12 | 8 {f} (d4 d5)^ (d4 d5)' 4 (d4 d5)' (d4 d5)' (d4 d5)' | 4 {ff} (d4 d5)^ (d4 d5)^ (d4 d5)^ (d4 d5)^ |
+timp: | 4 {f}{dim} d3' r d3' r | 4 d3' r r r | R*8 | 1 {pp}{cresc} d3=z | 1 d3=z | 1 {f} d3=z | 4 {ff} d3^ d3^ d3^ d3^ |
+
+HANDOFF:
+  next_bar: 161 (RECAPITULATION)   key: G minor (from D7)   4/4  T=138
+  dynamics: tutti ff.  Everyone strikes D7 quarters in b160 (vn1 d6 c6 a5
+  f#5 descending; winds D7 chords; tp/timp 4 quarters).
+  vc/cb/fg: L5 D bar ending c3-a2 (cb c2-a1) -> must hit g2 (L5) at b161.
+  va (c4 a4) tremolo; vn2 D7 chords; horns d.
+  NEXT: b161 [J] T1 ff tutti immediately, ostinato L5 from the first bar;
+  vn1+fl+ob melody, vn2+cl lower octave, va tremolo, brass/timp strokes;
+  consequent re-harmonised (b165-168), then rewritten transition b169-192
+  (stays in G minor: Cm, Ab, D pedal), dim. to p, T2 in G MAJOR at b193.

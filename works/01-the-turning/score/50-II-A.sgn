@@ -1,0 +1,64 @@
+# MOVEMENT II — Andante con moto, 2/4, q=66, Eb major
+# Section A b1-34: intro (b1-2), a b3-10 vn1, a' b11-18 ob1 + cl1 in
+# sixths, b b19-26 fl1/ob1 dialogue (Cm -> Bb), a'' b27-34 vn1+fl1
+# octaves with cl1 countermelody, deceptive close on C minor.
+# The bass is the Mvt-I CELL turned major and halved in speed (pizz 8ths
+# spread over two bars): eb eb g f | eb d eb bb.
+
+== b1-2 ==
+@ T=66 M=2/4 K=ebM "Andante con moto" hn12=Eb hn34=Bb timp=eb2,bb2
+vc:   | 8 {pizz}{p} eb3 eb3 g3 f3 | eb3 d3 eb3 bb2 |
+cb:   =vc -8 {pizz}
+vn2:  | 8 {pp} r (bb3 eb4)' r (bb3 eb4)' | % |
+va:   | 8 {pp} r g3' r g3' | % |
+hn12: | 2 {pp} (eb3 bb3) | 2 (eb3 bb3) |
+
+== b3-18 [A] ==
+vn1:  | 4 {p}{"dolce, cantabile"} g4_ 8 [eb5 d5] | 8. [c5 16 bb4 8 ab4 g4] | 8 [f4 bb4] 4 d5 | 4 c5~ 8 [c5 bb4] | 4 g4_ 8 [eb5 g5] | 8. [f5 16 eb5 8 d5 c5] | 8 [c5 ab5 8. g5 16 f5] | 4 eb5 r | R*8 |
+ob1:  | R*8 | 4 {p}{"dolce"} g4_ 8 [eb5 d5] | 8. [c5 16 bb4 8 ab4 g4] | 8 [f4 bb4] 4 d5 | 4 c5~ 8 [c5 bb4] | 4 g4_ 8 [eb5 g5] | 8. [f5 16 eb5 8 d5 c5] | 8 [c5 ab5 8. g5 16 f5] | 4 eb5 r |
+cl1:  | R*8 | 4 {p} eb4_ 8 [g4 f4] | 8. [eb4 16 d4 8 c4 bb3] | 8 [d4 f4] 4 bb4 | 4 eb4~ 8 [eb4 d4] | 4 eb4_ 8 [g4 bb4] | 8. [ab4 16 g4 8 f4 eb4] | 8 [ab4 c5 8. bb4 16 ab4] | 4 g4 r |
+vn2:  | 8 {pp} r (bb3 eb4)' r (bb3 eb4)' | % | r (bb3 d4)' r (bb3 d4)' | r (a3 eb4)' r (bb3 d4)' | r (bb3 eb4)' r (bb3 eb4)' | r (c4 f4)' r (ab3 d4)' | r (c4 eb4)' r (bb3 eb4)' | r (bb3 eb4)' 4 r | 8 r (bb3 eb4)' r (bb3 eb4)' | % | r (bb3 d4)' r (bb3 d4)' | r (a3 eb4)' r (bb3 d4)' | r (bb3 eb4)' r (bb3 eb4)' | r (c4 f4)' r (ab3 d4)' | r (c4 eb4)' r (bb3 eb4)' | r (bb3 eb4)' 4 r |
+va:   | 8 {pp} r g3' r g3' | % | r f3' r f3' | r c4' r f3' | r g3' r g3' | r ab3' r f3' | r ab3' r g3' | r g3' 4 r | 8 r g3' r g3' | % | r f3' r f3' | r c4' r f3' | r g3' r g3' | r ab3' r f3' | r ab3' r g3' | r g3' 4 r |
+vc:   | 8 {p} eb3 eb3 g3 f3 | eb3 d3 eb3 bb2 | bb2 bb2 d3 c3 | bb2 a2 bb2 f2 | eb3 eb3 g3 f3 | ab2 ab2 c3 bb2 | ab2 ab2 bb2 bb2 | eb3 bb2 eb2 r | eb3 eb3 g3 f3 | eb3 d3 eb3 bb2 | bb2 bb2 d3 c3 | bb2 a2 bb2 f2 | eb3 eb3 g3 f3 | ab2 ab2 c3 bb2 | ab2 ab2 bb2 bb2 | eb3 bb2 eb2 r |
+cb:   =vc -8
+fg:   | R*5 | 2 {pp} ab2 | 4 ab2 bb2 | 4 eb3 r | R*8 |
+fg:   =vc @b11-18
+hn12: | 2 {pp} (eb3 bb3) | 2 (eb3 bb3) | R*2 | 2 (eb3 bb3) | R*2 | 4 (eb3 bb3) r | 2 (eb3 bb3) | 2 (eb3 bb3) | R*2 | 2 (eb3 bb3) | R*2 | 4 (eb3 bb3) r |
+
+== b19-26 [B] ==
+@ K=cm->bbM
+fl1:  | 4 {p} eb5_ 8 [c6 b5] | 8. [ab5 16 g5 8 f5 eb5] | R*2 | 4 {cresc} g5_ 8 [eb6 d6] | 8. [c6 16 bb5 8 a5 bb5] | 8 {mf} [g5 eb6 8. d6 16 c6] | 4 {dim} bb5 r |
+ob1:  | R*2 | 4 {p} d5_ 8 [bb5 a5] | 8. [g5 16 f5 8 eb5 d5] | 4 {cresc} eb5_ 8 [g5 f5] | 8. [eb5 16 d5 8 c5 d5] | 8 {mf} [eb5 g5 8. f5 16 eb5] | 4 {dim} d5 r |
+vn2:  | 8 {pp} r (g3 eb4)' r (g3 eb4)' | % | r (bb3 d4)' r (bb3 d4)' | r (a3 eb4)' r (bb3 d4)' | r (g3 eb4)' r (g3 eb4)' | r (a3 eb4)' r (a3 eb4)' | r (bb3 eb4)' r (bb3 d4)' | r (bb3 d4)' 4 r |
+va:   | 8 {pp} r c4' r c4' | % | r f3' r f3' | r c4' r f3' | r c4' r c4' | % | r g3' r f3' | r f3' 4 r |
+vc:   | 8 {p} c3 c3 eb3 d3 | c3 b2 c3 g2 | bb2 bb2 d3 c3 | bb2 a2 bb2 f2 | {arco}{cresc} c3_ c3_ eb3_ c3_ | f2_ f2_ a2_ f2_ | {mf} eb3_ eb3_ f3_ f3_ | 4 {dim} bb2 r |
+cb:   | 8 {p} c2 c2 eb2 d2 | c2 b1 c2 g1 | bb1 bb1 d2 c2 | bb1 a1 bb1 f1 | {arco}{cresc} c2_ c2_ eb2_ c2_ | f1_ f1_ a1_ f1_ | {mf} eb2_ eb2_ f2_ f2_ | 4 {dim} bb1 r |
+fg:   | R*4 | 8 {p}{cresc} c3_ c3_ eb3_ c3_ | f2_ f2_ a2_ f2_ | {mf} eb3_ eb3_ f3_ f3_ | 4 {dim} bb2 r |
+hn12: | 2 {pp} (eb3 g3) | R*3 | 2 (eb3 g3) | R | 4 (eb3 bb3) r | R |
+hn34: | R*2 | 2 {pp} (f3 bb3) | 2 (f3 bb3) | R*2 | 4 r (f3 bb3) | 4 (bb2 bb3) r |
+
+== b27-34 [C] ==
+@ K=ebM
+vn1:  | 4 {p}{"poco più espress."} g4_ 8 [eb5 d5] | 8. [c5 16 bb4 8 ab4 g4] | 8 [f4 bb4] 4 d5 | 4 c5~ 8 [c5 bb4] | 4 g4_ 8 [eb5 g5] | 8. [f5 16 eb5 8 d5 c5] | 8 [c5 ab5 8. g5 16 f5] | 4 eb5 r |
+fl1:  =vn1 +8 @b27-32
+fl1:  | R*6 | 8 [c6 eb6 8. eb6 16 d6] | 4 eb6 r |
+cl1:  | 4 {p} eb4_ 8 [g4 f4] | 8. [eb4 16 d4 8 c4 bb3] | 8 [d4 f4] 4 bb4 | 4 eb4~ 8 [eb4 d4] | 4 eb4_ 8 [g4 bb4] | 8. [ab4 16 g4 8 f4 eb4] | 8 [ab4 c5 8. bb4 16 ab4] | 4 g4 r |
+fg:   | 2 {p} eb3 | 2 eb3 | 2 d3 | 4 c3 d3 | 2 eb3 | 4 ab2 bb2 | 4 ab2 bb2 | 4 c3 r |
+vn2:  | 8 {pp} r (bb3 eb4)' r (bb3 eb4)' | % | r (bb3 d4)' r (bb3 d4)' | r (a3 eb4)' r (bb3 d4)' | r (bb3 eb4)' r (bb3 eb4)' | r (c4 f4)' r (ab3 d4)' | r (c4 eb4)' r (bb3 eb4)' | r (g3 eb4)' 4 r |
+va:   | 8 {pp} r g3' r g3' | % | r f3' r f3' | r c4' r f3' | r g3' r g3' | r ab3' r f3' | r ab3' r g3' | r c4' 4 r |
+vc:   | 8 {pizz}{p} eb3 eb3 g3 f3 | eb3 d3 eb3 bb2 | bb2 bb2 d3 c3 | bb2 a2 bb2 f2 | eb3 eb3 g3 f3 | ab2 ab2 c3 bb2 | ab2 ab2 bb2 bb2 | c3 g2 c2 r |
+cb:   =vc -8
+hn12: | 2 {pp} (eb3 bb3) | 2 (eb3 bb3) | R*2 | 2 (eb3 bb3) | R | 4 eb4 bb3 | 4 (eb3 g3) r |
+hn34: | R*2 | 2 {pp} (f3 bb3) | 4 f3 (f3 bb3) | R*4 |
+
+HANDOFF:
+  next_bar: 35 [D]   key: C minor (after deceptive V7-vi, b33-34)
+  meter 2/4   T=q66   dynamics: p/pp, everything stopped by b34 beat 2.
+  At the seam: vc/cb pizz end c3/c2-g-c (b34 1st beat), vn1 & fl1 end
+  on eb (eb5/eb6) quarter, cl1 g4, fg c3, vn2/va after-beat Cm chord on
+  the 2nd 8th, hn12 (eb3 g3) quarter. Nothing sustains into b35.
+  NEXT: b35 [D] the B section, C minor "storm": vc/cb ARCO play the
+  Mvt-I CELL in 16ths (= the old ostinato at nearly its old speed),
+  p, "come un ricordo"; ob1 laments with the T1 head in C minor; vn2/va
+  tremolo; crescendo to ff climax b49-52 (Ab - N6 - Ger6 - V), then
+  dying to the Bb7 dominant b56-60 for A' at b61.

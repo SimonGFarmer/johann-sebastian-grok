@@ -1,0 +1,95 @@
+# MOVEMENT I — EXPOSITION: closing group (b73-96) and endings (b97-100)
+# K = hammer-arpeggio closing theme (each 2 bars: arpeggio up + CELL turn
+# down). Ostinato L5 in Bb major. Brass and timp return.
+# Repeat scheme: ||: b1 ... b96 | end1 b97-98 :|| end2 b99-100 -> b101.
+
+== b73-80 [E] ==
+@ K=bbM "K"
+vn1:  | 4 {ff} bb4^ d5' f5' bb5^ | 4 a5' 8 g5 f5 4 eb5' c5' | 4 d5^ f5' bb5' d6^ | 4 c6' 8 bb5 a5 4 g5^ f5' | 4 eb6^ 8 d6 c6 4 bb5' a5' | 4 g5^ 8 f5 eb5 4 d5' c5' | 4 bb4' d5' c5' a4' | 2 bb4^ r |
+fl:   =vn1
+ob:   =vn1
+vn2:  =vn1 -8
+cl:   =vn1 -8
+va:   | 1 {ff} (d4 f4)=16 | 1 (c4 a4)=16 | 1 (d4 f4)=16 | 2 (eb4 g4)=16 (c4 a4)=16 | 2 (eb4 g4)=16 (c4 f4)=16 | 2 (d4 g4)=16 (c4 f4)=16 | 2 (d4 f4)=16 (c4 eb4)=16 | 2 (d4 f4)=16 (d4 f4)=16 |
+vc:   | 16 {ff} bb2^ bb2' bb2' bb2' 8 d3' c3' 16 bb2^ bb2' bb2' bb2' 8 bb2' f2' | 16 f2^ f2' f2' f2' 8 a2' g2' 16 f2^ f2' f2' f2' 8 eb3' c3' | 16 d3^ d3' d3' d3' 8 f3' eb3' 16 d3^ d3' d3' d3' 8 d3' bb2' | 16 c3^ c3' c3' c3' 8 eb3' d3' 16 f2^ f2' f2' f2' 8 a2' f2' | 16 eb3^ eb3' eb3' eb3' 8 g3' f3' 16 f2^ f2' f2' f2' 8 a2' c3' | 16 g2^ g2' g2' g2' 8 bb2' a2' 16 f2^ f2' f2' f2' 8 a2' f2' | 16 f2^ f2' f2' f2' 8 f3' f2' 16 f2^ f2' f2' f2' 8 a2' c3' | 16 bb2^ bb2' bb2' bb2' 8 d3' c3' 16 bb2^ bb2' bb2' bb2' 8 bb2' f2' |
+cb:   =vc -8
+fg:   =vc
+hn12: | 1 {ff} (d4 f4)^ | 1 (f4 a4) | 1 (d4 f4)^ | 2 g4 (f4 a4) | 2 g4 (f4 a4) | 2 (d4 g4) (f4 a4) | 2 (d4 f4) (f4 a4) | 2 (d4 f4)^ r |
+hn34: | 1 {ff} (bb3 f4)^ | 1 (f3 f4) | 1 (bb3 d4)^ | 2 r (f3 f4) | 2 r (f3 f4) | 2 (bb3 d4) (f3 f4) | 2 (bb3 f4) (f3 f4) | 2 (bb3 d4)^ r |
+tp:   | 4 {ff} (d4 d5)^ r r r | R | 4 (d4 d5)^ r r r | R | R | 4 (d4 d5)^ r r r | R | 2 (d4 d5)^ r |
+timp: | 4 {ff} d3^ r r r | R | 4 d3^ r r r | R | R | 4 g2^ r r r | R | 2 d3^ r |
+
+== b81-92 ==
+# K again: melody in winds (fl/ob at pitch, cl 8vb); violins in unison
+# octaves spin the CELL in 16ths over each harmony; va join the ostinato
+# an octave up (full L5). b88 deceptive to G minor (true CELL with f#,
+# a shadow of home); b89-92 cadence Eb - Bb6/4 - F7 - Bb.
+fl:   | 4 {ff} bb4^ d5' f5' bb5^ | 4 a5' 8 g5 f5 4 eb5' c5' | 4 d5^ f5' bb5' d6^ | 4 c6' 8 bb5 a5 4 g5^ f5' | 4 eb6^ 8 d6 c6 4 bb5' a5' | 4 g5^ 8 f5 eb5 4 d5' c5' | 4 bb4' d5' c5' a4' | 2 bb4^ r | 4 eb5^ g5' bb5' eb6^ | 4 d6^ 8 c6 bb5 4 bb5' d6' | 4 c6^ 8 bb5 a5 4 c6' a5' | 2 bb5^ r |
+ob:   =fl
+cl:   =fl -8
+vn1:  | 16 {ff} bb5' bb5' d6' c6' bb5' a5' bb5' f5' d6' d6' f6' eb6' d6' c6' d6' bb5' | 16 a5' a5' c6' bb5' a5' g5' a5' f5' c6' c6' eb6' d6' c6' bb5' c6' a5' | 16 bb5' bb5' d6' c6' bb5' a5' bb5' f5' d6' d6' f6' eb6' d6' c6' d6' bb5' | 16 c6' c6' eb6' d6' c6' bb5' c6' g5' a5' a5' c6' bb5' a5' g5' a5' f5' | 16 eb6' eb6' g6' f6' eb6' d6' eb6' bb5' a5' a5' c6' bb5' a5' g5' a5' f5' | 16 g5' g5' bb5' a5' g5' f5' g5' d5' f5' f5' a5' g5' f5' e5' f5' c5' | 16 d6' d6' f6' eb6' d6' c6' d6' bb5' c6' c6' eb6' d6' c6' bb5' c6' a5' | 16 g5' g5' bb5' a5' g5' f#5' g5' d5' g5' g5' bb5' a5' g5' f#5' g5' d5' | 4 eb5^ g5' bb5' eb6^ | 4 d6^ 8 c6 bb5 4 bb5' d6' | 4 c6^ 8 bb5 a5 4 c6' a5' | 2 bb5^ r |
+vn2:  =vn1 -8 @b81-88
+vn2:  | R*8 | 1 (bb4 eb5)=16 | 1 (bb4 d5)=16 | 1 (a4 eb5)=16 | 2 (bb4 d5)^ r |
+vc:   | 16 {ff} bb2^ bb2' bb2' bb2' 8 d3' c3' 16 bb2^ bb2' bb2' bb2' 8 bb2' f2' | 16 f2^ f2' f2' f2' 8 a2' g2' 16 f2^ f2' f2' f2' 8 eb3' c3' | 16 d3^ d3' d3' d3' 8 f3' eb3' 16 d3^ d3' d3' d3' 8 d3' bb2' | 16 c3^ c3' c3' c3' 8 eb3' d3' 16 f2^ f2' f2' f2' 8 a2' f2' | 16 eb3^ eb3' eb3' eb3' 8 g3' f3' 16 f2^ f2' f2' f2' 8 a2' c3' | 16 g2^ g2' g2' g2' 8 bb2' a2' 16 f2^ f2' f2' f2' 8 a2' f2' | 16 f2^ f2' f2' f2' 8 f3' f2' 16 f2^ f2' f2' f2' 8 a2' c3' | 16 g2^ g2' g2' g2' 8 bb2' a2' 16 g2^ g2' g2' g2' 8 f#2' d2' | 16 eb3^ eb3' eb3' eb3' 8 g3' f3' 16 eb3^ eb3' eb3' eb3' 8 eb3' bb2' | 16 f2^ f2' f2' f2' 8 f3' f2' 16 f2^ f2' f2' f2' 8 f3' f2' | 16 f2^ f2' f2' f2' 8 a2' g2' 16 f2^ f2' f2' f2' 8 eb3' c3' | 4 bb2^ r f2^ r |
+cb:   =vc -8
+fg:   =vc
+va:   =vc +8
+hn12: | 1 {ff} (d4 f4)^ | 1 (f4 a4) | 1 (d4 f4)^ | 2 g4 (f4 a4) | 2 g4 (f4 a4) | 2 (d4 g4) (f4 a4) | 2 (d4 f4) (f4 a4) | 1 (g3 g4)^ | 1 g4 | 1 (d4 f4) | 1 (f4 a4) | 2 (d4 f4)^ r |
+hn34: | 1 {ff} (bb3 f4)^ | 1 (f3 f4) | 1 (bb3 d4)^ | 2 r (f3 f4) | 2 r (f3 f4) | 2 (bb3 d4) (f3 f4) | 2 (bb3 f4) (f3 f4) | 1 (bb3 d4)^ | 1 (bb3 bb3) | 1 (bb3 f4) | 1 (f3 f4) | 2 (bb3 d4)^ r |
+tp:   | 4 {ff} (d4 d5)^ r r r | R | 4 (d4 d5)^ r r r | R | R | 4 (d4 d5)^ r r r | R | 4 (g4 d5)^ r (g4 d5)^ r | R | 4 (d4 d5)^ r r r | R | 2 (d4 d5)^ r |
+timp: | 4 {ff} d3^ r r r | R | 4 d3^ r r r | R | R | 4 g2^ r r r | R | 4 g2^ g2' g2' g2' | R | 4 d3^ r r r | R | 2 d3^ r |
+
+== b93-96 ==
+# Codetta: the CELL in Bb by the WHOLE orchestra in unison/octaves
+# (the engine becomes the melody), answered by hammer chords.
+fl:   | 8 {ff} bb5^ bb5' d6' c6' bb5' a5' bb5' f5' | 4 (d6 f6)^ r (c6 eb6)^ r | 8 bb5^ bb5' d6' c6' bb5' a5' bb5' f5' | 4 (d6 f6)^ (c6 eb6)^ (d6 bb6)^ r |
+ob:   =fl -8
+cl:   =fl -16
+fg:   =fl -24
+vn1:  =fl
+vn2:  =fl -8
+va:   =fl -16
+vc:   =fl -24
+cb:   =fl -32
+hn12: | 1 {ff} (d4 f4)^ | 4 (d4 f4)^ r (f4 a4)^ r | 1 (d4 f4)^ | 4 (d4 f4)^ (f4 a4)^ (d4 f4)^ r |
+hn34: | 1 {ff} (bb2 bb3)^ | 4 (bb3 f4)^ r (f3 f4)^ r | 1 (bb2 bb3)^ | 4 (bb3 f4)^ (f3 f4)^ (bb3 d4)^ r |
+tp:   | 4 {ff} (d4 d5)^ r r r | 4 (d4 d5)^ r r r | 4 (d4 d5)^ r r r | 4 (d4 d5)^ r (d4 d5)^ r |
+timp: | 4 {ff} d3^ r r r | 4 d3^ r r r | 4 d3^ r r r | 4 d3^ r d3^ r |
+# NB: in the =fl -N lines the chords transpose with the source, e.g. vc
+# b94 = (d3 f3) (c3 eb3) double stops, cb b96 last chord (d2 bb2)->play bb1.
+
+== b97-98 [1st ending] ==
+# back to the opening: dominant CELL(d) in the cellos, p, winds hold D7.
+vc:   | 8 {p} d3' d3' f#3' e3' d3' c#3' d3' a2' | 8 {dim} d3' r f#3' r d3' r a2' r |
+cb:   | 4 {pizz}{p} d2 r r r | 4 d2 r r r |
+ob:   | 1 {p}{dim} (c5 f#5) | 2 (c5 f#5) r |
+fg:   | 1 {p}{dim} (d3 a3) | 2 (d3 a3) r |
+hn12: | 1 {p}{dim} (d4 d4) | 2 d4 r |
+# -> repeat from b1 (cb arco again at b5).
+
+== b99-100 [2nd ending] ==
+# Bb hammer stroke, then the horns hold one B-flat alone: the common tone
+# that will become the dominant of E-flat minor.
+fl:   | 4 {ff} (d6 bb6)^ r r r | R |
+ob:   | 4 {ff} (f5 bb5)^ r r r | R |
+cl:   | 4 {ff} (d5 bb5)^ r r r | R |
+fg:   | 4 {ff} (bb2 bb3)^ r r r | R |
+hn12: | 4 {ff} (d4 f4)^ r r r | R |
+hn34: | 4 {ff} (bb3 f4)^ r 2 {pp} bb3~ | 1 {dim} bb3 |
+tp:   | 4 {ff} (d4 d5)^ r r r | R |
+timp: | 4 {ff} d3^ r r r | R |
+vn1:  | 4 {ff} (f5 d6 bb6)^ r r r | R |
+vn2:  | 4 {ff} (d4 bb4 f5)^ r r r | R |
+va:   | 4 {ff} (f3 d4)^ r r r | R |
+vc:   | 4 {ff} (bb2 f3)^ r r r | R |
+cb:   | 4 {arco}{ff} bb1^ r r r | R |
+
+HANDOFF:
+  next_bar: 101 (development begins)   key: moving to Eb minor
+  meter 4/4   T=138
+  dynamics at seam: everyone silent except hn34 holding bb3, struck pp on
+  b99 beat 3 and tied through b100 with {dim} (dying away to nothing).
+  NEXT: b101 [F] development part a: violas take the CELL up into their
+  register in Eb minor (L1, pp, at the eb4 level: eb4 eb4 gb4 f4 eb4 d4
+  eb4 bb3),
+  low strings silent; T1 head fragments in fl/ob/cl in Eb minor -> Cm.

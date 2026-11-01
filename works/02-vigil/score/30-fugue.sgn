@@ -1,0 +1,133 @@
+# III. FUGUE  b46-73  (C minor, 4/4, Allegro moderato)
+# Subject (cellos, b46-47): it begins with the sarabande's head
+# (c g a-flat e-flat) and then slides down the chromatic lament
+# c b b-flat a a-flat g.  Countersubject (b48-49): a long note, then
+# four rising eighths - the line that refuses to sink.
+#   b46-53  exposition, strings only, four voices (vc, va, vn2, vn1)
+#   b54-56  episode 1: the strings place the cadence and fall silent;
+#           oboe and clarinet toss the head down a chain of thirds
+#           (C - A-flat - F - D-flat - B-flat7)
+#   b57-58  middle entry in E-flat MAJOR, horn 1, dolce, with the
+#           countersubject in the flute - the subject imagining
+#           consolation
+#   b59-63  episode 2: the head climbs by step (Cm/G-Ab, Dm/A-Bb,
+#           Em/B-C), cellos and basses climb chromatically under it,
+#           and a C pedal with the violins' d-flat 6 winds the spring
+#   b64-65  bass entry in F minor (bassoons, cellos, basses), forte
+#   b66-69  stretto by augmentation: trombones (first time forte) carry
+#           the subject at half speed in C minor while the first
+#           violins sing it at full speed above
+#   b70-73  climax: the deceptive cadence (G -> A-flat) the sarabande
+#           only hinted at, Neapolitan, Italian sixth, dominant - the
+#           top line turns c db c b around the sarabande's own c-db
+#           neighbour, the second violins climb eb f f# g against it -
+#           and a cut-off into silence.
+
+== b46-53 [G] ==
+@ T=104 M=4/4 K=cm "Fuga. Allegro moderato, inquieto"
+@@ b46 T=104
+@@ b50 T=104
+@@ b52 T=105
+vc:  | 8 {p}{senza sord}{"sotto voce, ma inquieto"} r [c3 g2 ab2 4 eb3~ 8 eb3 d3 | 8 c3 b2 4 bb2~ 8 bb2 a2 ab2 g2] | 2 [bb2 8 g2 a2 bb2 c3 | 4 eb3 4. d3 8 c3 4 b2] | 2 c3 ab2 | 2 g2 d2 | 2 {mp} g2 eb3 | 2 d3 g2 |
+va:  | R*2 | 8 {p}{senza sord} r [g3 d3 eb3 4 bb3~ 8 bb3 a3 | 8 g3 f#3 4 f3~ 8 f3 e3 eb3 d3] | 2 [g3 8 c4 d4 eb4 f4 | 4 ab4 4. g4 8 f#4 4 c4] | 2 {mp} d4 c4 | 4 c4 4. b3 8 a3 4 d4 |
+vn2: | R*4 | 8 {p}{senza sord} r [c5 g4 ab4 4 eb5~ 8 eb5 d5 | 8 c5 b4 4 bb4~ 8 bb4 a4 ab4 g4] | 2 {mp} [bb4 8 g4 a4 bb4 c5 | 4 eb5 4. d5 8 c5 4 b4] |
+vn1: | R*6 | 8 {mp}{senza sord}{"espress."} r [g5 d5 eb5 4 bb5~ 8 bb5 a5 | 8 g5 f#5 4 f5~ 8 f5 e5 eb5 d5] |
+
+== b54-58 [H] ==
+@ T=100 "poco meno mosso - i fiati"
+@@ b54 T=100
+@@ b56 T=97
+@@ b57 T=94
+@@ b58 T=93
+vn1: | 4 {mp} eb5 r 2 r | R*4 |
+vn2: | 4 {mp} c5 r 2 r | R*4 |
+va:  | 2 {p} c4 c4 | 2 c4 db4 | 1 {>} d4 | R*2 |
+vc:  | 4 {pizz}{p} c3 r ab2 r | 4 f2 r db3 r | 4 bb2 r bb2 r | R*2 |
+fg:  | 2 {p} [c3 ab2 | 2 f2 db3 | 1 bb2] | 2 {p}{"dolce"} [eb3 c3 | 4 ab2 g2 2 bb2] |
+ob:  | 8 {p}{"dolce"} r [c5 g4 ab4 2 eb5] | 8 [eb5 f5 c5 db5 2 ab5~ | 4 ab5 g5 f5 d5] | 2 {>} eb5 r | R |
+cl:  | 2 r 8 {p}{"dolce"} r [ab4 eb4 f4 | 2 c5] 8 r [db5 ab4 bb4 | 2 f5 4 d5 ab4] | 2 {pp} [g4 c5 | 2 eb5 d5] |
+fl:  | R*3 | 2 {p}{"dolce, legato"} [g5 8 eb5 f5 g5 ab5 | 4 c6 4. bb5 8 ab5 4 g5] |
+hn12: | R*3 | 8 {p}{1.}{"dolce, cantabile - consolazione"} r [eb4 bb3 c4 4 g4~ 8 g4 f4 | 8 eb4 d4 4 c4~ 8 c4 bb3 ab3 g3] |
+
+== b59-63 [I] ==
+@ T=104 "a tempo - poco a poco crescendo"
+@@ b59 T=104
+@@ b61 T=106
+@@ b62 T=107
+@@ b63 T=104
+vn1: | 8 {mp} r [c5 g4 ab4 4 eb5 ab5] | 8 r [d5 a4 bb4 4 f5 bb5] | 8 {mf} r [e5 b4 c5 4 g5 e5] | 8 {<} [c5 db5 e5 f5 g5 ab5 bb5 c6] | 1 {f}{<} db6 |
+vn2: | 2 {mp} g4 c5 | 2 a4 d5 | 2 {mf} b4 e5 | 2 g4 c5 | 1 {<} e5 |
+va:  | 2 {mp} eb4 c4 | 2 f4 d4 | 2 {mf} g4 e4 | 8 {<} [e4 f4 g4 ab4 bb4 c5 db5 e5] | 1 bb4 |
+vc:  | 2 {mp}{arco}{<} g2 ab2 | 2 a2 bb2 | 2 b2 c3 | 1 {f} c3~=z | 1 {<} c3=z |
+cb:  =vc -8
+cl:  | R*3 | 1 {p}{<} (e4 g4) | 1 {mf}{<} (g4 bb4) |
+ob:  | R*4 | 1 {mf}{<} (bb4 e5) |
+fl:  | R*4 | 1 {mf}{<} (g5 db6) |
+hn12: | R*3 | 1 {p}{<} (c4 g4) | 1 {mf}{<} (c4 g4) |
+hn34: | R*4 | 1 {mf}{<} (e4 bb4) |
+timp: | R*3 | 1 {pp}{<} c3~=z | 1 {mf}{<} c3=z |
+
+== b64-65 [J] ==
+@ T=104 K=fm "F minor - the basses take the subject"
+@@ b64 T=103
+@@ b65 T=103
+vc:  | 8 {f}{"pesante"} r [f2 c2 db2 4 ab2~ 8 ab2 g2 | 8 f2 e2 4 eb2~ 8 eb2 d2 db2 c2] |
+fg:  =vc
+cb:  =vc -8
+vn1: | 4 {f} c6 ab5 8 [f5 g5 ab5 bb5 | 4 db6 4. c6 8 b5 4 f5] |
+vn2: | 2 {f} f5 c5 | 4 [bb4 4. eb5 8 f5 4 db5] |
+va:  | 2 {f} ab4 eb4 | 4 [f4 4. g4 8 f4 4 f4] |
+fl:  | 4 {f} (ab5 c6)' r 2 r | R |
+ob:  | 4 {f} (ab4 f5)' r 2 r | R |
+cl:  | 4 {f} (f4 c5)' r 2 r | R |
+hn12: | 4 {f} (c4 f4)' r 2 r | R |
+hn34: | 4 {f} (f4 ab4)' r 2 r | R |
+timp: | 4 {f} c3' r 2 r | R |
+
+== b66-69 [K] ==
+@ T=100 K=cm "Pesante - stretto per aumentazione"
+@@ b66 T=100
+@@ b68 T=99
+@@ b69 T=97
+tb1: | 4 {f}{"pesante, sonoro - the subject in augmentation"} r [c3 g2 ab2 | 2 eb3~ 4 eb3 d3 | 4 c3 b2 2 bb2~ | 4 bb2 a2 ab2 {<} g2] |
+tb2: =tb1
+btb: =tb1 -8
+vc:  | 4 {f} c3 [c3 g2 ab2 | 2 eb3~ 4 eb3 d3 | 4 c3 b2 2 bb2~ | 4 bb2 a2 ab2 {<} g2] |
+fg:  =vc
+cb:  =vc -8
+vn1: | 8 {f} e5 [c6 g5 ab5 4 eb6~ 8 eb6 d6 | 8 c6 b5 4 bb5~ 8 bb5 a5 ab5 g5] | 4 {<} [g5 f5 2 e5 | 4 g5 2 c6 4 b5] |
+vn2: | 4 {f} c5 2 eb5 4 c5 | 2 g5 f5 | 4 {<} eb5 d5 2 c5~ | 2. c5 4 f5 |
+va:  | 2. {f} g4 4 eb4 | 2. c4 4 b3 | 4 {<} c4 d4 2 g4~ | 4 g4 2 f4 4 d4 |
+cl:  =va
+fl:  | R*2 | 4 {mf}{<} [g5 f5 2 e5 | 4 g5 2 c6 4 b5] |
+ob:  | R*2 | 4 {mf}{<} [eb5 d5 2 c5~ | 2. c5 4 f5] |
+hn12: | R*2 | 4 {mf}{<} (c4 g4) (d4 f4) 2 (e4 g4) | 4 (e4 g4) 2 (c4 f4) 4 (b3 f4) |
+timp: | 4 r {f} c3' 2 r | R*2 | 2. r 4 {<} g2=z |
+
+== b70-73 [L] ==
+@ T=94 "Grandioso - allargando"
+@@ b70 T=94
+@@ b71 T=86
+@@ b72 T=74
+@@ b73 T=46
+vn1: | 2. {ff} c6 8 [bb5 c6 | 2. db6 8 eb6 db6 | 2. c6 8 d6 c6 | 2 b5^] 2 r |
+fl:  =vn1
+vn2: | 1 {ff} eb5 | 1 f5 | 1 f#5 | 2 g5^ 2 r |
+ob:  =vn2
+va:  | 1 {ff} c4 | 1 ab3 | 1 c4 | 2 d4^ 2 r |
+cl:  =va
+vc:  | 1 {ff} ab2> | 1 f2> | 1 ab2> | 2 g2^ 2 r |
+cb:  =vc -8
+fg:  =vc
+btb: =vc
+tb1: | 1 {ff} c4 | 1 db4 | 1 c4 | 2 b3^ 2 r |
+tb2: | 1 {ff} ab3 | 1 ab3 | 1 f#3 | 2 g3^ 2 r |
+tp:  | 1 {ff}{"a2"} c5 | 1 db5 | 1 c5 | 2 b4^ 2 r |
+hn12: | 1 {ff}{"a2"} (c4 eb4) | 1 (db4 f4) | 1 (c4 f#4) | 2 (d4 g4)^ 2 r |
+hn34: | 1 {ff} (ab3 c4) | 1 (ab3 db4) | 1 (ab3 c4) | 2 (g3 b3)^ 2 r |
+timp: | 1 {ff} c3~=z | 1 c3=z | 1 c3=z | 4 g2^ r 2 r |
+
+HANDOFF:
+  next_bar 74, 4/4, T=48.  Seam: the G-major chord is cut off on beat 3
+  of b73 and two beats of silence follow (written into the tempo).
+  Cor anglais, solo, enters alone into the silence.

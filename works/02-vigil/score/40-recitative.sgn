@@ -1,0 +1,27 @@
+# IV. RECITATIVE  b74-78  (4/4, free)
+# Out of the silence after the fugue: the cor anglais alone - its first
+# notes in the piece.  It sings the chorale's head (g d e-flat), then the
+# fugue's opening gesture (an eighth rest, three eighths) turned
+# tender, and drifts downward through A-flat and F minor to a
+# dominant seventh of E-FLAT - not the G of the sarabande again.  It
+# stops on the seventh (a-flat), unresolved.  The violins will resolve
+# it an octave higher, in the next bar, in the major.
+# Strings sul tasto, almost nothing; one soft timpani roll on B-flat.
+
+== b74-78 [M] ==
+@ T=46 M=4/4 K=ebM "Recitativo - liberamente"
+@@ b74 T=46
+@@ b75 T=48
+@@ b76 T=50
+@@ b77 T=44
+@@ b78 T=30
+ca:   | 4. {mp}{solo}{"recitativo, come una domanda"} [g4 8 d4 2 eb4] | 8 {p}{"dolce"} r [c5 bb4 ab4 4 eb5~ 8 eb5 c5] | 4. {<} [f5 8 eb5 4 {>} d5 8 c5 bb4] | 2 {p} [c5 4. bb4 8 ab4~ | 1 {>} ab4*] |
+va:   | R | 1 {ppp}{"sul tasto, senza vibrato"} (eb4 ab4)~ | 1 (eb4 ab4) | 1 (d4 f4)~ | 1 (d4 f4)* |
+vc:   | R | 1 {ppp}{"sul tasto"} ab2~ | 1 ab2~ | 1 ab2~ | 1 ab2* |
+cb:   | R | 1 {ppp}{arco} ab1 | 1 f1 | 1 bb1~ | 1 bb1* |
+timp: | R*3 | 1 {ppp}{"quasi niente"} bb2~=z | 1 bb2=z |
+
+HANDOFF:
+  next_bar 79, E-flat major, 3/4, T=56.  Seam: B-flat7 (cb bb1, vc ab2,
+  va d4 f4, cor anglais a-flat 4 with fermata), ppp.  The first violins
+  begin the Chorale Fantasia on g5 - the cor anglais' a-flat resolved.

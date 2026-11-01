@@ -1,0 +1,83 @@
+# MOVEMENT I — RECAPITULATION part 2: T2 (b193-212) and closing K (b213-232)
+# T2 first in G MAJOR (fl1, dolce; va arpeggios; vc CELL-major pp), then
+# at once clouded into G MINOR (ob1+vn1) - the major is only a memory.
+# Head sequence b209-212 to D7. Closing K in G minor b213-232 (mapping of
+# b73-92), deceptive to Eb at b228, cadence iv - i6/4 - V7 - i.
+
+== b193-200 [K] ==
+@ K=gM "T2"
+fl1:  | 2 {p}{"dolce"} [d5 4. b5 8 a5] | 4 [g5 f#5 g5 a5] | 2 [b5 4. c6 8 b5] | 2. a5 4 r | 2 [d5 4. c6 8 b5] | 4 [a5 g5 8 f#5 g5 4 e5] | 4 [d5 g5 4. b5 8 a5] | 2. g5 4 r |
+va:   | 8 {pp} b3 d4 g4 d4 b3 d4 g4 d4 | % | b3 e4 g4 e4 b3 e4 g4 e4 | a3 d4 f#4 d4 a3 d4 f#4 d4 | b3 d4 f4 d4 b3 d4 f4 d4 | a3 c4 e4 c4 a3 d4 c4 e4 | b3 d4 g4 d4 a3 d4 f#4 d4 | b3 d4 g4 d4 b3 d4 g4 d4 |
+vc:   | 8 {pp}{"leggiero, sempre stacc."} g2' g2' b2' a2' g2' f#2' g2' d2' | % | e2' e2' g2' f#2' e2' d2' e2' b2' | d3' d3' f#3' e3' d3' c#3' d3' a2' | g2' g2' b2' a2' g2' f2' g2' d2' | a2' a2' c3' b2' a2' g2' a2' e2' | d2' d2' d3' d2' a2' a2' f#2' a2' | g2' g2' b2' a2' g2' f#2' g2' d2' |
+cb:   | 4 {pizz}{pp} g1 r r r | 4 g1 r r r | 4 e2 r r r | 4 d2 r r r | 4 g1 r r r | 4 a1 r r r | 4 d2 r a1 r | 4 g1 r r r |
+hn12: | 1 {pp} (g3 d4) | 1 (g3 d4) | R*6 |
+
+== b201-208 ==
+@ K=gm "T2 in minore"
+ob1:  | 2 {p}{"dolce, ma mesto"} [d5 4. bb5 8 a5] | 4 [g5 f#5 g5 a5] | 2 [bb5 4. c6 8 bb5] | 2. a5 4 r | 2 [d5 4. c6 8 bb5] | 4 [a5 g5 8 f#5 g5 4 eb5] | 4 [d5 g5 4. bb5 8 a5] | 2. g5 4 r |
+vn1:  =ob1
+vn2:  | 1 {pp} bb4 | 1 bb4 | 1 g4 | 1 f#4 | 1 f4 | 1 eb4 | 2 g4 f#4 | 1 g4 |
+va:   | 8 {pp} bb3 d4 g4 d4 bb3 d4 g4 d4 | % | bb3 eb4 g4 eb4 bb3 eb4 g4 eb4 | a3 d4 f#4 d4 a3 d4 f#4 d4 | bb3 d4 f4 d4 bb3 d4 f4 d4 | a3 c4 eb4 c4 a3 d4 c4 eb4 | bb3 d4 g4 d4 a3 d4 f#4 d4 | bb3 d4 g4 d4 bb3 d4 g4 d4 |
+vc:   | 8 {pp} g2' g2' bb2' a2' g2' f#2' g2' d2' | % | eb2' eb2' g2' f2' eb2' d2' eb2' bb2' | d3' d3' f#3' e3' d3' c#3' d3' a2' | g2' g2' bb2' a2' g2' f2' g2' d2' | a2' a2' c3' bb2' a2' g2' a2' eb2' | d2' d2' d3' d2' a2' a2' f#2' a2' | g2' g2' bb2' a2' g2' f#2' g2' d2' |
+cb:   | 4 {pp} g1 r r r | 4 g1 r r r | 4 eb2 r r r | 4 d2 r r r | 4 g1 r r r | 4 a1 r r r | 4 d2 r a1 r | 4 g1 r r r |
+hn34: | 1 {pp} (bb3 d4) | 1 (bb3 d4) | R*2 | 1 bb3 | R | 1 d4 | 1 (bb3 d4) |
+
+== b209-212 ==
+vn1:  | 2 {mf}{cresc} [eb5 4. c6 8 bb5] | 4 [a5 g5 a5 c6] | 4 {f} bb5 a5 g5 f#5 | 8 c6 a5 f#5 d5 c5 a4 f#4 d4 |
+fl:   =vn1
+vn2:  =vn1 -8 @b209-211
+vn2:  | R*3 | 1 {f} (f#4 c5)=16 |
+ob:   | 1 {cresc} (eb5 g5) | 1 (c5 eb5) | 2 (d5 g5) (c5 f#5) | 1 {f} (c5 f#5) |
+cl:   | 1 {cresc} (c4 g4) | 1 (c4 eb4) | 2 (bb4 d5) (a4 c5) | 1 {f} (a4 c5) |
+va:   | 1 {mf}{cresc} (eb4 g4)=16 | 1 (eb4 a4)=16 | 2 (d4 g4)=16 (c4 d4)=16 | 1 {f} (c4 d4)=16 |
+vc:   | 8 {mf}{cresc} c3' c3' eb3' d3' c3' bb2' c3' g2' | 16 a2>' a2' a2' a2' 8 c3' bb2' a2' g2' a2' eb2' | 16 {f} d3>' d3' d3' d3' 8 f#3' e3' d3' c#3' d3' a2' | 16 d3^ d3' d3' d3' 8 f#3' e3' 16 d3^ d3' d3' d3' 8 c3' a2' |
+cb:   =vc -8 {arco}
+fg:   =vc @b211-212
+hn12: | R*2 | 2 {f} (d4 g4) (d4 a4) | 1 {cresc} (d4 a4) |
+hn34: | 1 {cresc} c5 | R | 1 {f} d4 | 1 d4 |
+timp: | R*3 | 1 {f}{cresc} d3=z |
+
+== b213-220 [L] ==
+@ "K"
+vn1:  | 4 {ff} g4^ bb4' d5' g5^ | 4 f#5' 8 eb5 d5 4 c5' a4' | 4 bb4^ d5' g5' bb5^ | 4 a5' 8 g5 f#5 4 eb5^ d5' | 4 c6^ 8 bb5 a5 4 g5' f#5' | 4 eb5^ 8 d5 c5 4 bb4' a4' | 4 g4' bb4' a4' f#4' | 2 g4^ r |
+fl:   =vn1
+ob:   =vn1
+cl:   =vn1 -8
+vn2:  =vn1 -8 @b213-218
+vn2:  | R*6 | 4 g3' bb3' a3' d4' | 2 g3^ r |
+va:   | 1 {ff} (bb3 d4)=16 | 1 (a3 f#4)=16 | 1 (bb3 d4)=16 | 2 (c4 eb4)=16 (a3 f#4)=16 | 2 (c4 eb4)=16 (a3 d4)=16 | 2 (bb3 eb4)=16 (a3 d4)=16 | 2 (bb3 d4)=16 (a3 c4)=16 | 2 (bb3 d4)=16 (bb3 d4)=16 |
+vc:   | 16 {ff} g2^ g2' g2' g2' 8 bb2' a2' 16 g2^ g2' g2' g2' 8 g2' d2' | 16 d2^ d2' d2' d2' 8 f#2' e2' 16 d2^ d2' d2' d2' 8 c3' a2' | 16 bb2^ bb2' bb2' bb2' 8 d3' c3' 16 bb2^ bb2' bb2' bb2' 8 bb2' g2' | 16 a2^ a2' a2' a2' 8 c3' bb2' 16 d2^ d2' d2' d2' 8 f#2' d2' | 16 c3^ c3' c3' c3' 8 eb3' d3' 16 d2^ d2' d2' d2' 8 f#2' a2' | 16 eb2^ eb2' eb2' eb2' 8 g2' f2' 16 d2^ d2' d2' d2' 8 f#2' d2' | 16 d2^ d2' d2' d2' 8 d3' d2' 16 d2^ d2' d2' d2' 8 f#2' a2' | 16 g2^ g2' g2' g2' 8 bb2' a2' 16 g2^ g2' g2' g2' 8 g2' d2' |
+cb:   =vc -8
+fg:   =vc
+hn12: | 1 {ff} (g3 g4)^ | 1 (d4 a4) | 1 (g3 d4)^ | 2 g4 (d4 a4) | 2 g4 (d4 a4) | 2 g4 (d4 a4) | 2 (d4 g4) (d4 a4) | 2 (g3 g4)^ r |
+hn34: | 1 {ff} (bb3 d4)^ | 1 d4 | 1 (bb3 d4)^ | 2 r d4 | 2 r d4 | 2 bb3 d4 | 2 (bb3 d4) d4 | 2 (bb3 d4)^ r |
+tp:   | 4 {ff} (g4 d5)^ r r r | R | 4 (g4 d5)^ r r r | R | R | 4 g4^ r r r | R | 2 (g4 d5)^ r |
+timp: | 4 {ff} g2^ r r r | R | 4 g2^ r r r | R | R | 4 g2^ r r r | R | 2 g2^ r |
+
+== b221-232 ==
+# K in the winds; violins spin the CELL in 16ths; va join the ostinato
+# 8va (full L5). b228 deceptive to Eb; b229-232 Cm - Gm6/4 - D7 - Gm.
+fl:   | 4 {ff} g4^ bb4' d5' g5^ | 4 f#5' 8 eb5 d5 4 c5' a4' | 4 bb4^ d5' g5' bb5^ | 4 a5' 8 g5 f#5 4 eb5^ d5' | 4 c6^ 8 bb5 a5 4 g5' f#5' | 4 eb5^ 8 d5 c5 4 bb4' a4' | 4 g4' bb4' a4' f#4' | 2 g4^ r | 4 c5^ eb5' g5' c6^ | 4 bb5^ 8 a5 g5 4 g5' bb5' | 4 a5^ 8 g5 f#5 4 a5' f#5' | 2 g5^ r |
+ob:   =fl
+cl:   =fl -8
+vn1:  | 16 {ff} g5' g5' bb5' a5' g5' f#5' g5' d5' bb5' bb5' d6' c6' bb5' a5' bb5' g5' | 16 f#5' f#5' a5' g5' f#5' e5' f#5' d5' a5' a5' c6' bb5' a5' g5' a5' f#5' | 16 g5' g5' bb5' a5' g5' f#5' g5' d5' bb5' bb5' d6' c6' bb5' a5' bb5' g5' | 16 a5' a5' c6' bb5' a5' g5' a5' eb5' f#5' f#5' a5' g5' f#5' e5' f#5' d5' | 16 c6' c6' eb6' d6' c6' bb5' c6' g5' f#5' f#5' a5' g5' f#5' e5' f#5' d5' | 16 eb5' eb5' g5' f5' eb5' d5' eb5' bb4' d5' d5' f#5' e5' d5' c#5' d5' a4' | 16 bb5' bb5' d6' c6' bb5' a5' bb5' g5' a5' a5' c6' bb5' a5' g5' a5' f#5' | 16 eb5' eb5' g5' f5' eb5' d5' eb5' bb4' eb5' eb5' g5' f5' eb5' d5' eb5' bb4' | 4 c5^ eb5' g5' c6^ | 4 bb5^ 8 a5 g5 4 g5' bb5' | 4 a5^ 8 g5 f#5 4 a5' f#5' | 2 g5^ r |
+vn2:  =vn1 -8 @b221-228
+vn2:  | R*8 | 1 {ff} (g4 c5)=16 | 1 (g4 bb4)=16 | 1 (f#4 c5)=16 | 2 (g4 bb4)^ r |
+vc:   | 16 {ff} g2^ g2' g2' g2' 8 bb2' a2' 16 g2^ g2' g2' g2' 8 g2' d2' | 16 d2^ d2' d2' d2' 8 f#2' e2' 16 d2^ d2' d2' d2' 8 c3' a2' | 16 bb2^ bb2' bb2' bb2' 8 d3' c3' 16 bb2^ bb2' bb2' bb2' 8 bb2' g2' | 16 a2^ a2' a2' a2' 8 c3' bb2' 16 d2^ d2' d2' d2' 8 f#2' d2' | 16 c3^ c3' c3' c3' 8 eb3' d3' 16 d2^ d2' d2' d2' 8 f#2' a2' | 16 eb2^ eb2' eb2' eb2' 8 g2' f2' 16 d2^ d2' d2' d2' 8 f#2' d2' | 16 d2^ d2' d2' d2' 8 d3' d2' 16 d2^ d2' d2' d2' 8 f#2' a2' | 16 eb3^ eb3' eb3' eb3' 8 g3' f3' 16 eb3^ eb3' eb3' eb3' 8 d3' bb2' | 16 c3^ c3' c3' c3' 8 eb3' d3' 16 c3^ c3' c3' c3' 8 c3' g2' | 16 d2^ d2' d2' d2' 8 d3' d2' 16 d2^ d2' d2' d2' 8 d3' d2' | 16 d2^ d2' d2' d2' 8 f#2' e2' 16 d2^ d2' d2' d2' 8 c3' a2' | 4 g2^ r d2^ r |
+cb:   =vc -8
+fg:   =vc
+va:   =vc +8
+hn12: | 1 {ff} (g3 g4)^ | 1 (d4 a4) | 1 (g3 d4)^ | 2 g4 (d4 a4) | 2 g4 (d4 a4) | 2 g4 (d4 a4) | 2 (d4 g4) (d4 a4) | 1 (g3 g4)^ | 1 g4 | 1 (d4 g4) | 1 (d4 a4) | 2 (g3 g4)^ r |
+hn34: | 1 {ff} (bb3 d4)^ | 1 d4 | 1 (bb3 d4)^ | 2 r d4 | 2 r d4 | 2 bb3 d4 | 2 (bb3 d4) d4 | 1 bb3^ | 1 c5 | 1 (bb3 d4) | 1 d4 | 2 (bb3 d4)^ r |
+tp:   | 4 {ff} (g4 d5)^ r r r | R | 4 (g4 d5)^ r r r | R | R | 4 g4^ r r r | R | 4 g4^ r g4^ r | R | 4 (d4 d5)^ r r r | R | 2 (g4 d5)^ r |
+timp: | 4 {ff} g2^ r r r | R | 4 g2^ r r r | R | R | 4 g2^ r r r | R | 4 g2^ g2' g2' g2' | R | 4 d3^ r r r | R | 2 g2^ r |
+
+HANDOFF:
+  next_bar: 233 (CODA)   key: G minor   4/4   T=138
+  dynamics: tutti ff stroke on G minor b232 beat 1; vc/cb/va/fg add d on
+  beat 3 (vc d2, va d3, cb d1->d2); beats 2 and 4 silent; all else rests
+  after beat 1-2.
+  NEXT: b233 [M] coda: subito pp, the ostinato ALONE in vc (L1, as b1)
+  -> cb joins -> canon of the CELL between low strings, va, vn2, vn1 at
+  one-bar distance; T1 head in horns; growth to unison CELL tutti (L5),
+  final cadence with CELL-cadence variant; last chord G minor.

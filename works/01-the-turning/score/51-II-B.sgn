@@ -1,0 +1,66 @@
+# MOVEMENT II — Section B b35-60, C minor.
+# The Mvt-I ostinato returns literally (CELL in 16ths = its old speed)
+# under the slow pulse: a memory breaking into the song. ob1 laments with
+# the T1 head; fl1/ob1 sigh in thirds; rising sequence of the cantilena
+# head (vn1) b43-48; ff climax Ab - N6 - Ger6 - V (b49-52); subito p,
+# ostinato thins and slows back to pizz 8ths over the Bb7 pedal.
+
+== b35-42 [D] ==
+@ K=cm
+vc:   | 16 {arco}{p}{"come un ricordo del I"} c3' c3' eb3' d3' c3' b2' c3' g2' | % | f2' f2' ab2' g2' f2' e2' f2' c2' | g2' g2' b2' a2' g2' f#2' g2' d2' | c3' c3' eb3' d3' c3' b2' c3' g2' | % | ab2' ab2' c3' bb2' ab2' g2' ab2' eb2' | g2' g2' b2' a2' g2' f2' g2' d2' |
+cb:   =vc -8 {arco}
+ob1:  | 4 {p}{"espress."} r g4 | 4. [c5 8 d5] | 4 [eb5 8 d5 c5] | 4 b4 g4 | 2 eb5 | 4 [f5 8 eb5 d5] | 4 [c5 8 bb4 ab4] | 4 b4 g4 |
+fl1:  | R*4 | 2 {p} g5 | 4 [ab5 8 g5 f5] | 4 [eb5 8 d5 c5] | 4 d5 b4 |
+vn2:  | 2 {pp} (g3 eb4)=16 | 2 (g3 eb4)=16 | 2 (ab3 f4)=16 | 2 (g3 d4)=16 | 2 (g3 eb4)=16 | 2 (g3 eb4)=16 | 2 (ab3 eb4)=16 | 2 (g3 f4)=16 |
+va:   | 2 {pp} c4=16 | 2 c4=16 | 2 c4=16 | 2 b3=16 | 2 c4=16 | 2 c4=16 | 2 c4=16 | 2 b3=16 |
+fg:   | R*4 | 2 {pp} c3 | 2 c3 | 2 ab2 | 2 g2 |
+
+== b43-48 ==
+vc:   | 16 {cresc} eb3' eb3' g3' f3' eb3' d3' eb3' bb2' | f2' f2' ab2' g2' f2' e2' f2' c2' | g2' g2' b2' a2' g2' f#2' g2' d2' | ab2' ab2' c3' bb2' ab2' g2' ab2' eb2' | b2' b2' d3' c3' b2' c3' b2' f2' | {f} g2>' g2' b2' a2' g2' f2' g2' d2' |
+cb:   =vc -8
+fg:   =vc
+vn1:  | 4 {p}{cresc} g4> 8 [eb5 d5] | 4 ab4> 8 [f5 e5] | 4 b4> 8 [g5 f#5] | 4 c5> 8 [ab5 g5] | 4 d5> 8 [ab5 f5] | 8 {f} g5 b5 d6 f6 |
+fl1:  =vn1
+ob1:  =vn1 -8 @b45-48
+vn2:  | 2 {p}{cresc} (bb3 eb4)=16 | 2 (ab3 c4)=16 | 2 (b3 d4)=16 | 2 (c4 eb4)=16 | 2 (d4 f4)=16 | 2 {f} (d4 f4)=16 |
+va:   | 2 {p}{cresc} g3=16 | 2 f3=16 | 2 g3=16 | 2 ab3=16 | 2 ab3=16 | 2 {f} b3=16 |
+hn12: | R*2 | 2 {mp}{cresc} (g3 g4) | 2 eb4 | 2 f4 | 2 {f} (g3 f4) |
+hn34: | 2 {p}{cresc} bb3 | 2 f3 | 2 d4 | 2 ab4 | 2 (f4 ab4) | 2 {f} (d4 f4) |
+timp: | 4 {p} eb2' r | R*5 |
+
+== b49-52 [E] ==
+vn1:  | 4 {ff} eb6^ 8 c6 ab5 | 8. db6 16 c6 8 ab5 f5 | 8 eb6^ c6 ab5 f#5 | 4 g5^ r |
+fl:   =vn1
+ob:   =vn1 -8
+cl:   | 2 {ff} (ab4 c5) | 2 (ab4 db5) | 2 (c5 eb5) | 4 (b4 d5)^ r |
+vn2:  | 2 {ff} (eb4 c5)=16 | 2 (f4 db5)=16 | 2 (eb4 f#4)=16 | 4 (d4 b4)^ r |
+va:   | 2 {ff} ab3=16 | 2 ab3=16 | 2 c4=16 | 4 g3^ r |
+vc:   | 16 {ff} ab2^ ab2' c3' bb2' ab2' g2' ab2' eb2' | 16 f2^ f2' ab2' f2' db3' ab2' f2' db2' | 16 ab2^ ab2' c3' eb3' f#3' eb3' c3' ab2' | 4 g2^ r |
+cb:   =vc -8
+fg:   =vc
+hn12: | 2 {ff} (eb3 eb4)^ | 2 f4 | 2 eb4 | 4 (g3 g4)^ r |
+hn34: | 2 {ff} ab4^ | 2 (f4 ab4) | 2 ab4 | 4 d4^ r |
+timp: | 2 {ff} eb2=z | R | 2 eb2=z | R |
+
+== b53-60 [F] ==
+@ K=cm->ebM
+vc:   | 16 {p}{"subito"} c3' c3' eb3' d3' c3' b2' c3' g2' | g2' g2' b2' a2' g2' f2' g2' d2' | {dim} f2' f2' ab2' g2' f2' e2' f2' c2' | bb2' bb2' d3' c3' bb2' a2' bb2' f2' | {pp} bb2' bb2' d3' c3' bb2' a2' bb2' f2' | % | 8 {pizz} bb2 bb2 d3 c3 | bb2 a2 bb2 f2 |
+cb:   | 4 {p} c2' r | 4 g1' r | 4 f1' r | 4 bb1' r | 4 {pp} bb1' r | 4 bb1' r | 4 {pizz} bb1 r | 4 bb1 r |
+vn1:  | 4 {p} eb5_ 8 [d5 c5] | 4 f5_ 8 [d5 b4] | R*6 |
+ob1:  | R*2 | 4 {p} ab5_ 8 [g5 f5] | 4 d5 8 [f5 ab5] | R*4 |
+fl1:  | R*4 | 4 {pp} ab5_ 8 [g5 f5] | 4 d5 8 [c5 bb4] | R*2 |
+cl1:  | R*6 | 4 {pp} ab4_ 8 [g4 f4] | 4 d4 r |
+vn2:  | 2 {pp} (g3 eb4) | 2 (g3 d4) | 2 (ab3 eb4) | 2 (ab3 d4) | 2 (ab3 d4) | 2 (ab3 d4) | 2 (ab3 d4) | 4 (ab3 d4) r |
+va:   | 2 {pp} c4 | 2 b3 | 2 c4 | 2 f3 | 2 f3 | 2 f3 | 2 f3 | 4 f3 r |
+hn34: | R*2 | 2 {pp} f3 | 2 (bb2 f3) | % | % | % | 4 (bb2 f3) r |
+timp: | R*3 | 2 {pp} bb2=z | % | % | 4 bb2' r | 4 bb2' r |
+
+HANDOFF:
+  next_bar: 61 [G] (A')   key: Eb major   2/4   T=q66   dynamics pp
+  At the seam (b60): vc pizz finishes the CELL half bb2 a2 bb2 f2 in
+  8ths; cb pizz bb1 on beat 1; vn2 (ab3 d4) / va f3 quarter on beat 1
+  (Bb7), hn34 (bb2 f3) quarter, timp bb2 quarter, cl1 ends d4 quarter.
+  NEXT: b61 A': cantilena in ob1+fl1 (unison, g4 level), vn1 16th
+  filigree above, va the sixths counterline, vc/cb pizz CELL-major bass,
+  vn2 after-beats; b69 vn1 takes the melody an octave up; b77-84 head
+  sequence and big cadence; coda b85 with the CELL augmented in horns.

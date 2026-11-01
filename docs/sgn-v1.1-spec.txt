@@ -1,0 +1,127 @@
+SGN — "Symphony G-minor Notation"  (private composing format, v1.1)
+=====================================================================
+Read this whole file before reading or writing any score file. Every rule
+here is binding; anything not covered is a comment.
+
+0. FILES
+  One section file = one musical unit. It contains: a header comment, a
+  series of BLOCKS (each block = a run of consecutive bars for the full
+  orchestra), and a final HANDOFF block. Lines starting with '#' are
+  comments (analysis, intentions). Blank lines are ignored.
+
+1. PITCH  (always CONCERT / SOUNDING pitch, every instrument)
+  letter a-g + accidental + octave number (scientific: c4 = middle C,
+  a4 = 440, b3 is just below c4).
+  accidentals: #  b  ##  bb  n (natural, cautionary only)
+     g4 = G natural   bb4 = B-flat   b4 = B natural   bbb4 = B double-flat
+     f#5, c##4, ebb3 ...
+  KEY SIGNATURES ARE INFORMATIONAL ONLY. Every pitch is written with its
+  real accidental every time (in G minor you still write bb and eb).
+  So "e4" is ALWAYS E natural, never E-flat.
+  Transposing instruments (clarinets in Bb, horns, trumpets, contrabass)
+  are ALL notated at sounding pitch. The contrabass line therefore shows
+  the real low octave (cb doubling a cello g2 is written g1).
+  Contrabass range floor = e1 (4-string). Any cb note below e1 (including
+  notes produced by a doubling rule) is played an octave higher. This is
+  automatic; it is not an error.
+
+2. DURATION TOKENS  (stand alone, precede the notes they govern)
+  1 = whole  2 = half  4 = quarter  8 = eighth  16 = sixteenth  32
+  dotted: 2.  4.  8.   double-dotted: 4..
+  triplets: 8t (three 8t = one quarter), 4t (three 4t = one half), 16t.
+  A duration token is STICKY: it applies to every following note/rest/
+  chord on that line until another duration token appears, across bar
+  lines too. Every part line MUST begin with an explicit duration token
+  (after any bar range/dynamic), so lines never inherit from each other.
+  In 3/8 or 6/8 the same tokens are used (8 = eighth).
+
+3. EVENTS
+  r            rest of current duration
+  R            whole-bar rest (any meter)
+  R*n          n consecutive whole-bar rests; occupies n bar slots
+  (g3 bb3 d4)  chord / double stop / pair-dyad (see 6). Lowest first.
+  g4~          tie into next note (the next event on the line, same pitch)
+  %            alone in a bar: repeat this line's previous bar exactly
+               (notes, articulations; NOT dynamics/hairpins).
+  %2           alone in a bar slot: repeat the previous TWO bars; occupies
+               two bar slots.
+  x=16         measured tremolo: the note/chord x, for its written duration,
+               is played as repeated 16ths (x=8 repeated 8ths, x=32 ...).
+  x=z          unmeasured tremolo (strings) / roll (timpani).
+  grace:       `gr:f#5` before a note = short acciaccatura.
+
+4. ARTICULATION SUFFIXES (attached to a pitch/chord, any order, after ~ if both)
+  '  staccato        >  accent        ^  marcato/strong accent
+  _  tenuto          !  sforzando (sfz) on that note
+  *  fermata         +tr trill        +tr# / +trb trill w/ altered upper note
+  "sim." in a dynamic brace means keep the previous articulation pattern.
+
+5. SLURS, DYNAMICS, TEXT
+  [ ... ]    slur (legato phrase); may cross barlines.  A slur over
+             staccato notes = portato.
+  {p} {pp} {ppp} {mp} {mf} {f} {ff} {fff} {fp} {sfz} {sfp} {rfz}
+  {cresc} {dim} {<} (hairpin cresc start) {>} (hairpin dim start)
+  {/} hairpin end.  Dynamics apply from the next event onward.
+  {"text"} expressive text, e.g. {"dolce"} {"espress."} {"sempre stacc."}
+  {pizz} {arco} {con sord} {senza sord} {div} {unis} {a2} {1.} {2.}
+  {solo} {tutti}  {rit} {a tempo} {stringendo} {poco rit}
+  A dynamic stays in force until changed (per line, per block). At the
+  start of a block each part restates its dynamic on its first note.
+
+6. PARTS AND LINE CODES (score order)
+  fl  ob  cl  fg          wind PAIRS on one line. Single note = a2
+                          (both play) unless {1.} or {2.} given. Dyad
+                          (x y) = 2nd player lower x, 1st upper y.
+  fl1 fl2 ob1 ... fg2     single player lines (used when parts diverge).
+  hn12 hn34               horns 1-2 (crooked in G), 3-4 (crooked Bb basso).
+                          Dyad = lower player lower note. Natural-horn
+                          idiom preferred; occasional stopped notes ok.
+  tp                      trumpets 1-2 (in G), dyads as winds.
+                          Crooks may change per movement: the first @ line
+                          of a movement may say hn12=Eb (etc.). Mvt II: hn12
+                          in Eb (Bb2 Eb3 G3 Bb3 Eb4 F4 G4 Bb4 C5 Eb5), hn34
+                          stays Bb basso; tp tacet.
+  timp                    timpani; tuning declared in block header.
+  vn1 vn2 va vc cb        strings. Chords are double/triple stops unless
+                          {div} given (then divisi, top/bottom halves).
+  A part ABSENT from a block = rests for that whole block.
+
+7. BLOCK SYNTAX
+  == b17-24 [B] ==          bar range of the block; optional rehearsal mark
+  @ T=138 M=4/4 K=gm "Allegro con fuoco" timp=g2,d3
+                            global settings, valid from first bar of block.
+                            T = quarter (or dotted value stated: T=66d.q
+                            means dotted quarter = 66; T=76h = half=76).
+                            M = meter. K = key (gm, bbM, ebM ... info only).
+  @@ b21 T=120 "poco rit."  mid-block global change at bar b21.
+  part: | bar | bar | ... |  ONE line per part per block; the number of
+                            bar slots must equal the block's bar count.
+  Doubling lines (colla parte, standard score shorthand):
+  part: =src            plays exactly src's line (all bars of the block)
+  part: =src +8         one octave higher (+16 two octaves, +24 three);
+                        -8 -16 -24 -32 lower by 1-4 octaves.
+  part: =src -8 @b5-8   only (ABSOLUTE) bars 5-8; rests elsewhere,
+                        unless another line for the same part covers
+                        other bars (multiple lines per part allowed only
+                        when their bar ranges do not overlap; a full
+                        written line may also be given with R in the
+                        bars covered by a doubling line).
+  A doubling line may end with ONE brace directive, e.g.  =vc -8 {arco},
+  which applies at its first bar (playing technique only).
+  A doubling copies src's dynamics, slurs and articulations. src must be
+  a written line in the same block (no chains of doubling).
+  Pair-line doubling of a single-note source = a2.
+
+8. BAR CHECK
+  Every bar's durations must sum to the meter. Pickups are written as a
+  full bar with leading rests. Repeats: ||: at bar start, :|| at bar end
+  written in the @ line as  repeat=b1-100  (1st/2nd endings: end1=b99
+  end2=b100).
+
+9. ABBREVIATED MOTIF NAMES used in comments only (never as notes):
+  CELL, CELL', T1, T2, etc., defined in 02-themes.txt.
+
+10. HANDOFF block (end of every section file)
+  HANDOFF:
+    next_bar, key, meter, tempo, per-section dynamic, what each
+    instrument is doing at the seam, what comes next.

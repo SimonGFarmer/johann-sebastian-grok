@@ -1,0 +1,49 @@
+# MOVEMENT I — DEVELOPMENT part a: b101-130
+# b101-112 [F]: the CELL migrates UP to the violas (pp), bass silent: a new,
+#   hollow colour. T1 head in ob/fl/cl in Eb minor; pivot via the shared
+#   diminished 7th (D-F-Ab-Cb = B-D-F-Ab) to G7 -> C minor.
+# b113-130 [G]: FUGATO. Subject = T1 head + falling tail + CELL(c) as its
+#   last bar (subject and ostinato fuse). Entries vc/cb (C) b113, va (G)
+#   b117, vn2 (C) b121, vn1 (G) b125; countersubject = held line
+#   (eb | eb f d | c c b | CELL in 10ths). After each entry that voice
+#   takes over the ostinato. Intensity 1 -> 4.
+
+== b101-112 [F] ==
+@ K=ebm "Development"
+va:   | 8 {pp}{"sempre stacc."} eb4' eb4' gb4' f4' eb4' d4' eb4' bb3' | % | ab3' ab3' cb4' bb3' ab3' g3' ab3' eb3' | bb3' bb3' d4' c4' bb3' a3' bb3' f3' | eb4' eb4' gb4' f4' eb4' d4' eb4' bb3' | d4' d4' f4' d4' ab3' ab3' cb4' ab3' | g3' g3' b3' a3' g3' f3' g3' d4' | c4' c4' eb4' d4' c4' b3' c4' g3' | {cresc} c4' c4' eb4' d4' c4' b3' c4' g3' | f3' f3' ab3' g3' f3' e3' f3' c3' | g3' g3' b3' a3' g3' f3' g3' d4' | c4' c4' eb4' d4' c4' b3' c4' g3' |
+ob1:  | 4 {p}{"espress."} r [bb4 4. eb5 8 f5] | 4 [gb5 8 f5 eb5] 4 d5 bb4 | R*4 | 4 r [d5 4. g5 8 ab5] | 4 [g5 8 f5 eb5] 4 d5 b4 | R*2 | 4 {cresc} r [g4 4. c5 8 d5] | 4 [eb5 8 d5 c5] 4 b4 g4 |
+fl1:  | R*2 | 4 {p} r [eb5 4. ab5 8 bb5] | 4 [cb6 8 bb5 ab5] 4 f5 d5 | R*2 | 4 r [d5 4. g5 8 ab5] | 4 [g5 8 f5 eb5] 4 d5 b4 | 4 {cresc} r [g5 4. c6 8 d6] | 4 [eb6 8 d6 c6] 4 b5 g5 | R*2 |
+cl1:  | R*4 | 4 {p} r [bb3 4. eb4 8 gb4] | 4 [f4 8 eb4 d4] 4 cb4 ab3 | R*6 |
+hn34: | 1 {pp} bb3 | 1 bb3 | R | 1 bb3 | 1 bb3 | R*7 |
+hn12: | R*6 | 1 {pp} g3 | 1 g3 | R | R | 1 {cresc} (g3 g4) | 1 (g3 g4) |
+fg:   | R*8 | 1 {pp} c3 | 1 f2 | 1 g2 | 1 c3 |
+vn1:  | R*8 | 1 {pp}{cresc} eb5 | 1 d5 | 1 d5 | 1 eb5 |
+vn2:  | R*8 | 1 {pp}{cresc} g4 | 1 ab4 | 1 f4 | 1 g4 |
+timp: | R*10 | 1 {pp}{cresc} g2=z | 4 {p} g2' r r r |
+
+== b113-130 [G] ==
+@ K=cm "Fugato"
+vc:   | 4 {mf} r [g2 4. c3 8 d3] | 4 eb3> [8 d3 c3] 4 b2' g2' | 4 ab3> [8 g3 f3] 4 eb3' d3' | 8 c3' c3' eb3' d3' c3' b2' c3' g2' | g2' g2' bb2' a2' g2' f#2' g2' d2' | d3' d3' f#3' e3' d3' c#3' d3' a2' | c3' c3' g2' a2' c3' bb2' d3' d2' | g2' g2' bb2' a2' g2' f#2' g2' d2' | c3' c3' eb3' d3' c3' b2' c3' g2' | c3' c3' g2' ab2' g2' g2' b2' g2' | f2' f2' c3' ab2' c3' c3' g2' g2' | c3' c3' eb3' d3' c3' b2' c3' g2' | 16 {f} g2>' g2' g2' g2' 8 bb2' a2' g2' f#2' g2' d2' | 16 d3>' d3' d3' d3' 8 f#3' e3' d3' c#3' d3' a2' | 16 c3>' c3' c3' c3' 8 g2' a2' c3' bb2' d3' d2' | 16 g2>' g2' g2' g2' 8 bb2' a2' g2' f#2' g2' d2' | 16 {cresc} eb3^ eb3' eb3' eb3' 8 g3' f3' eb3' d3' eb3' bb2' | 16 eb3^ eb3' eb3' eb3' 8 g3' f3' eb3' db3' eb3' bb2' |
+cb:   =vc -8
+fg:   =vc @b125-130
+va:   | 1 {p} eb4 | 4 eb4 f4 2 d4 | 2 c4 4 c4 b3 | 8 eb4' eb4' g4' f4' eb4' d4' eb4' b3' | 4 {mf} r [d3 4. g3 8 a3] | 4 bb3> [8 a3 g3] 4 f#3' d3' | 4 eb4> [8 d4 c4] 4 bb3' a3' | 8 g3' g3' bb3' a3' g3' f#3' g3' d3' | 1 {p} eb4 | 4 eb4 f4 2 d4 | 2 c4 4 c4 b3 | 8 eb4' eb4' g4' f4' eb4' d4' eb4' b3' | 16 {f} g3>' g3' g3' g3' 8 bb3' a3' g3' f#3' g3' d3' | 16 d4>' d4' d4' d4' 8 f#4' e4' d4' c#4' d4' a3' | 16 c4>' c4' c4' c4' 8 g3' a3' c4' bb3' d4' d3' | 16 g3>' g3' g3' g3' 8 bb3' a3' g3' f#3' g3' d3' | 16 {cresc} eb4^ eb4' eb4' eb4' 8 g4' f4' eb4' d4' eb4' bb3' | 16 eb4^ eb4' eb4' eb4' 8 g4' f4' eb4' db4' eb4' bb3' |
+vn2:  | R*8 | 4 {mf} r [g4 4. c5 8 d5] | 4 eb5> [8 d5 c5] 4 b4' g4' | 4 ab5> [8 g5 f5] 4 eb5' d5' | 8 c5' c5' eb5' d5' c5' b4' c5' g4' | 1 {f} bb4 | 4 bb4 c5 2 a4 | 2 g4 4 g4 f#4 | 8 bb4' bb4' d5' c5' bb4' a4' bb4' f#4' | 1 {cresc} (g4 eb5)=16 | 1 (g4 db5)=16 |
+vn1:  | R*12 | 4 {f} r [d5 4. g5 8 a5] | 4 bb5> [8 a5 g5] 4 f#5' d5' | 4 eb6> [8 d6 c6] 4 bb5' a5' | 8 g5' g5' bb5' a5' g5' f#5' g5' d5' | 4 {cresc} r [bb5 4. eb6 8 f6] | 4 g6^ 8 f6 eb6 4 db6 bb5 |
+cl:   | R*8 | 1 {p} (eb4 g4) | 1 (d4 g4) | 2 (c4 f4) (c4 eb4) | 1 (eb4 g4) | 1 {mf} (d4 g4) | 1 (d4 f#4) | 2 (eb4 g4) (d4 f#4) | 1 (d4 g4) | 1 {cresc} (eb4 g4) | 1 (eb4 g4) |
+ob:   | R*12 | 1 {mf} (bb4 d5) | 1 (a4 d5) | 2 (c5 eb5) (c5 d5) | 1 (bb4 d5) | 1 {cresc} (bb4 eb5) | 1 (bb4 db5) |
+fl:   | R*16 | 1 {f}{cresc} (g5 bb5) | 1 (g5 db6) |
+hn12: | R*12 | 1 {mf} (g3 g4) | 1 (d4 d5) | 1 (g3 g4) | 1 (g3 g4) | 1 {cresc} (g3 g4) | 1 (g3 g4) |
+hn34: | R*16 | 1 {f}{cresc} bb3 | 1 (bb3 ab4) |
+timp: | R*12 | 4 {mf} g2' r r r | 4 d3' r r r | R | 4 g2' r r r | 1 {cresc} g2=z | 1 g2=z |
+
+HANDOFF:
+  next_bar: 131   key: Eb7 resolving to Ab major   meter 4/4   T=138
+  dynamics: all strings f cresc -> ff at b131; ww f cresc; hn f; timp roll g2.
+  vn1: Eb7 descent g6 f6 eb6 db6 bb5 (ends bb5 on beat 4).
+  vn2: (g4 db5) tremolo.  va, vc, cb, fg: CELL(eb) with db (Eb7), L4.
+  fl (g5 db6), ob (bb4 db5), cl (eb4 g4), hn12 (g3 g4), hn34 (bb3 ab4).
+  NEXT: b131 [H] climax: CELL in ALL strings in octaves (L4) on Ab, Bb,
+  Cm, D (2 bars each), ww+hn T1 head augmented (eb ab | bb c ...),
+  b139-142 D pedal with b9 (eb) hammering (L5), b143-144 Ger6 on Eb,
+  b145-146 D unison arpeggio ff; b147-160 retransition (collapse to vc
+  alone pp b153-156, sudden crescendo b157-160) -> recap b161.

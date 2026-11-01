@@ -1,0 +1,65 @@
+# MOVEMENT IV — file 72: b81-96 = CLOSING GROUP (Bb major).
+# b81-84: the CELL in Bb MAJOR in four octaves of strings (cb bb1 ... vn1
+#   bb4), f, moving Bb - F - Eb - CELLcad(F->Bb); winds+horns throw
+#   syncopated chords on the off-quarters (beats 2 and 4).
+# b85-88: roles swapped. Winds (fl, ob+cl 8vb, fg 16vb below ob) take the
+#   CELL on Gm (with f#: a shadow of home) - Cm - F - F7; strings now
+#   syncopate, cresc.
+# b89-92: cadence in broad accented quarter-half-quarter syncopations
+#   (hemiola-like): bass eb-d-c | f | f | bb = IV - I6 - ii - V(6/4-7) - I.
+# b93-96: low strings + fg hammer the CELL L5 and CELLcad under tutti
+#   Bb/F7 strokes; b96 one stroke, then silence (no fermata; strict time).
+# Intensity: L3 (b81) -> L4 (b85-88) -> L5 (b93-95) -> 0.
+
+== b81-88 [F] ==
+@ T=112h M=2/2 K=bbM "Closing"
+vc:   | 8 {f} bb2^ bb2' d3' c3' bb2' a2' bb2' f2' | f2^ f2' a2' g2' f2' e2' f2' c2' | eb3^ eb3' g3' f3' eb3' d3' eb3' bb2' | f2^ f2' c3' a2' bb2^ bb2' d3' f2' | 4 {f}{cresc} g2^ r g2^ r | c3^ r c3^ r | f2^ r f2^ r | f2^ r f2^ r |
+cb:   =vc -8
+va:   =vc +8 @b81-84
+va:   | R*4 | 4 {f}{cresc} r (g3 d4)^ r (g3 d4)^ | r (g3 eb4)^ r (g3 eb4)^ | r (a3 f4)^ r (a3 f4)^ | r (a3 eb4)^ r (a3 eb4)^ |
+vn2:  =vc +16 @b81-84
+vn2:  | R*4 | 4 {f}{cresc} r (d4 bb4)^ r (d4 bb4)^ | r (eb4 c5)^ r (eb4 c5)^ | r (f4 c5)^ r (f4 c5)^ | r (f4 c5)^ r (f4 c5)^ |
+vn1:  =vc +24 @b81-84
+vn1:  | R*4 | 4 {f}{cresc} r (bb4 g5)^ r (bb4 g5)^ | r (c5 g5)^ r (c5 g5)^ | r (c5 a5)^ r (c5 a5)^ | r (eb5 a5)^ r (eb5 a5)^ |
+fl:   | 4 {f} r (bb5 d6)^ r (bb5 d6)^ | r (a5 c6)^ r (a5 c6)^ | r (bb5 eb6)^ r (bb5 eb6)^ | r (a5 c6)^ r (bb5 d6)^ | 8 {f}{cresc} g5^ g5' bb5' a5' g5' f#5' g5' d5' | c6^ c6' eb6' d6' c6' b5' c6' g5' | f5^ f5' a5' g5' f5' e5' f5' c5' | f5^ f5' a5' g5' f5' eb5' f5' c5' |
+ob:   | 4 {f} r (f5 bb5)^ r (f5 bb5)^ | r (f5 a5)^ r (f5 a5)^ | r (g5 bb5)^ r (g5 bb5)^ | r (f5 a5)^ r (f5 bb5)^ | R*4 |
+ob:   =fl -8 @b85-88
+cl:   | 4 {f} r (d5 f5)^ r (d5 f5)^ | r (c5 f5)^ r (c5 f5)^ | r (eb5 g5)^ r (eb5 g5)^ | r (c5 eb5)^ r (d5 f5)^ | R*4 |
+cl:   =fl -8 @b85-88
+fg:   | 4 {f} r (bb3 d4)^ r (bb3 d4)^ | r (a3 c4)^ r (a3 c4)^ | r (bb3 eb4)^ r (bb3 eb4)^ | r (a3 eb4)^ r (bb3 d4)^ | R*4 |
+fg:   =fl -24 @b85-88
+hn12: | 4 {f} r (d4 d5)^ r (d4 d5)^ | r a4^ r a4^ | r (g3 g4)^ r (g3 g4)^ | r a4^ r (d4 d5)^ | 1 {f}{cresc} (g3 g4) | 1 (g3 g4) | 1 a4 | 1 (f4 a4) |
+hn34: | 4 {f} r (bb3 d4)^ r (bb3 d4)^ | r (f3 c4)^ r (f3 c4)^ | r bb3^ r bb3^ | r (f3 c4)^ r (bb3 d4)^ | 1 {f}{cresc} (bb3 d4) | 1 c4 | 1 (f3 c4) | 1 (f3 f4) |
+
+== b89-96 ==
+# b89-92 cadence: melody eb6 d6 c6 | bb5 a5 c6 | bb5 a5 | bb5 f5 d5 bb4
+# in vn1 + fl (ob 8vb); every chord accented, syncopated half in the
+# middle of the bar.  b93-96 hammer coda of the exposition.
+vn1:  | 4 {ff} eb6^ 2 d6^ 4 c6^ | 4 bb5^ 2 a5^ 4 c6^ | 2 bb5^ a5^ | 4 bb5^ f5' d5' bb4' | 4 (f4 d5 bb5)^ r (f4 d5 bb5)^ r | (f4 eb5 a5)^ r (f4 d5 bb5)^ r | (f4 d5 bb5)^ r (f4 d5 bb5)^ r | (bb3 f4 d5 bb5)^ r r r |
+fl:   =vn1 @b89-92
+fl:   | R*4 | 4 (bb5 d6)^ r (bb5 d6)^ r | (a5 c6)^ r (bb5 d6)^ r | (bb5 d6)^ r (bb5 d6)^ r | (bb5 d6)^ r r r |
+ob:   =vn1 -8 @b89-92
+ob:   | R*4 | 4 (f5 bb5)^ r (f5 bb5)^ r | (f5 a5)^ r (f5 bb5)^ r | (f5 bb5)^ r (f5 bb5)^ r | (f5 bb5)^ r r r |
+vn2:  | 4 {ff} (g4 bb4)^ 2 (f4 bb4)^ 4 (eb4 g4)^ | 4 (d4 bb4)^ 2 (eb4 c5)^ 4 (eb4 a4)^ | 2 (f4 d5)^ (eb4 c5)^ | 4 (d4 bb4)^ r 2 r | 4 (d4 bb4)^ r (d4 bb4)^ r | (c4 a4)^ r (d4 bb4)^ r | (d4 bb4)^ r (d4 bb4)^ r | (d4 bb4)^ r r r |
+va:   | 4 {ff} (eb3 bb3)^ 2 (d3 bb3)^ 4 (c3 g3)^ | 4 (f3 d4)^ 2 (f3 c4)^ 4 (f3 c4)^ | 2 (f3 d4)^ (f3 c4)^ | 4 (f3 d4)^ r 2 r | R*4 |
+va:   =vc +8 @b93-96
+vc:   | 4 {ff} eb3^ 2 d3^ 4 c3^ | 4 f2^ 2 f2^ 4 f2^ | 2 f2^ f2^ | 4 bb2^ r 2 r | 16 bb2^ bb2' bb2' bb2' 8 d3' c3' 16 bb2^ bb2' bb2' bb2' 8 bb2' f2' | 8 f2^ f2' c3' a2' bb2^ bb2' d3' f2' | 4 bb2^ r bb2^ r | 4 bb2^ r r r |
+cb:   =vc -8
+fg:   | 4 {ff} (eb3 g3)^ 2 (d3 f3)^ 4 (c3 eb3)^ | 4 (f2 d3)^ 2 (f2 eb3)^ 4 (f2 eb3)^ | 2 (f2 d3)^ (f2 c3)^ | 4 (bb2 bb3)^ r 2 r | R*4 |
+fg:   =vc @b93-96
+cl:   | 4 {ff} (bb4 eb5)^ 2 (bb4 d5)^ 4 (g4 c5)^ | 4 (bb4 d5)^ 2 (a4 c5)^ 4 (a4 eb5)^ | 2 (bb4 d5)^ (a4 eb5)^ | 4 (bb4 d5)^ r 2 r | 4 (d5 f5)^ r (d5 f5)^ r | (c5 eb5)^ r (d5 f5)^ r | (d5 f5)^ r (d5 f5)^ r | (d5 f5)^ r r r |
+hn12: | 4 {ff} (g3 g4)^ 2 (d4 d5)^ 4 (g3 g4)^ | 4 (d4 d5)^ 2 a4^ 4 a4^ | 2 (d4 d5)^ a4^ | 4 (d4 d5)^ r 2 r | 4 (d4 d5)^ r (d4 d5)^ r | a4^ r (d4 d5)^ r | (d4 d5)^ r (d4 d5)^ r | (d4 d5)^ r r r |
+hn34: | 4 {ff} bb3^ 2 (bb3 d4)^ 4 c4^ | 4 (f3 d4)^ 2 (f3 c4)^ 4 (f3 c4)^ | 2 (f3 d4)^ (f3 c4)^ | 4 (bb2 bb3)^ r 2 r | 4 (bb3 d4)^ r (bb3 d4)^ r | (f3 c4)^ r (bb3 d4)^ r | (bb3 d4)^ r (bb3 d4)^ r | (bb2 bb3)^ r r r |
+tp:   | 4 {ff} g4^ 2 (d4 d5)^ 4 g4^ | 4 (d4 d5)^ r 2 r | 2 (d4 d5)^ r | 4 (d4 d5)^ r 2 r | 4 (d4 d5)^ r (d4 d5)^ r | r r (d4 d5)^ r | (d4 d5)^ r (d4 d5)^ r | (d4 d5)^ r r r |
+timp: | 4 {ff} g2^ 2 d3^ 4 g2^ | 4 d3^ r 2 r | 2 d3^ r | 4 d3^ r 2 r | 4 d3^ r d3^ r | r r d3^ r | d3^ d3' d3' d3' | d3^ r r r |
+
+HANDOFF:
+  next_bar: 97 [G] DEVELOPMENT   key: C minor (abrupt, a step above Bb)
+  2/2, h=112   dynamics: subito p
+  At the seam: b96 one tutti ff Bb stroke on beat 1 (vn1 bb3-f4-d5-bb5,
+  vn2 d4-bb4, va/vc/fg bb3/bb2, cb bb1, fl bb5-d6, ob f5-bb5, cl d5-f5,
+  hn d4-d5 / bb2-bb3, tp d4-d5, timp d3); beats 2-4 silent.  Arco.
+  NEXT: development b97: vn1 p spins the CELL in 8ths on C minor while vc
+  (+cb) state the CELL AUGMENTED in quarters (c3 c3 eb3 d3 | c3 b2 c3 g2);
+  the pair moves round the circle of fifths Cm - Fm - Bb - Eb - Ab ...
+  then a fugato on the augmented CELL, the Mvt-I T1 head ff, D pedal.

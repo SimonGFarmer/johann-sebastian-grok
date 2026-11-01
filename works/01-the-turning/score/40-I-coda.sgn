@@ -1,0 +1,94 @@
+# MOVEMENT I — CODA [M] b233-270 (38 bars)
+# After the ff cadence the engine is heard ALONE again, pp, exactly as at
+# the start (b233-240 = b1-8 recalled). Then the T1 antecedent twice
+# (ob1+cl1 p, then vn1+fl mf), the violins' CELL16 hocket over Cm (L4),
+# the tutti UNISON CELL with hammer chords (= b93-96 in the tonic), a
+# Ger6 - i6/4 - V7 cadence, CELLcad, last T1 head, last unison CELL,
+# three G-minor strokes.
+
+== b233-240 [M] ==
+@ "Coda"
+vc:   | 8 {pp}{"come prima, sotto voce"} g2' g2' bb2' a2' g2' f#2' g2' d2' | % | c3' c3' eb3' d3' c3' b2' c3' g2' | g2' g2' bb2' a2' g2' f#2' g2' d2' | g2' g2' bb2' a2' g2' f#2' g2' d2' | % | eb3' eb3' g3' f3' eb3' d3' eb3' bb2' | d3' d3' f#3' e3' d3' c#3' d3' a2' |
+cb:   =vc -8 @b237-240
+timp: | R*4 | 4 {pp} g2' r r r | 4 g2' r r r | R | 4 d3' r r r |
+
+== b241-248 ==
+vc:   | 8 {p} g2' g2' bb2' a2' g2' f#2' g2' d2' | % | eb3' eb3' g3' f3' eb3' d3' eb3' bb2' | d3' d3' f#3' e3' d3' c#3' d3' a2' | 16 {mf}{cresc} g2>' g2' g2' g2' 8 bb2' a2' g2' f#2' g2' d2' | % | 16 eb3>' eb3' eb3' eb3' 8 g3' f3' eb3' d3' eb3' bb2' | 16 d3>' d3' d3' d3' 8 f#3' e3' d3' c#3' d3' a2' |
+cb:   =vc -8
+fg:   =vc @b245-248
+va:   =vc +8 @b245-248
+ob1:  | 4 {p} r [d5 4. g5 8 a5] | 4 [bb5 8 a5 g5] 4 f#5 d5 | 4. [eb5 8 d5] 4 c5 bb4 | 2 a4 4 d4 r | R*4 |
+cl1:  =ob1 -8 @b241-244
+vn1:  | R*4 | 4 {mf}{cresc} r [d5 4. g5 8 a5] | 4 [bb5 8 a5 g5] 4 f#5 d5 | 4. [eb5 8 d5] 4 c5 bb4 | 2 a4 4 d4 r |
+fl1:  =vn1 +8 @b245-248
+vn2:  | R*4 | 1 {mf}{cresc} (g4 bb4)=16 | 1 (g4 bb4)=16 | 1 (g4 bb4)=16 | 1 (f#4 a4)=16 |
+hn12: | 1 {pp} g3 | 1 g3 | R | 1 d4 | 1 {mf}{cresc} (g3 g4) | 1 (g3 g4) | 1 (g3 g4) | 1 (d4 a4) |
+timp: | 4 {p} g2' r r r | R | R | 4 d3' r r r | 4 {mf} g2' r g2' r | 4 g2' r g2' r | R | 1 {cresc} d3=z |
+
+== b249-252 ==
+vc:   | 16 {f}{cresc} c3^ c3' c3' c3' 8 eb3>' d3' c3>' b2' c3>' g2' | % | 16 eb3^ eb3' eb3' eb3' 8 g3>' f3' eb3>' d3' eb3>' bb2' | 16 d3^ d3' d3' d3' 8 f#3' e3' 16 d3^ d3' d3' d3' 8 d3' a2' |
+cb:   =vc -8
+fg:   =vc
+va:   =vc +8
+vn1:  | 16 {f}{cresc} c6' c6' eb6' d6' c6' b5' c6' g5' 2 r | % | 16 eb6' eb6' g6' f6' eb6' d6' eb6' bb5' 2 r | 16 d6' d6' f#6' e6' d6' c#6' d6' a5' d6' d6' f#6' e6' d6' c#6' d6' a5' |
+vn2:  | 2 {f}{cresc} r 16 c5' c5' eb5' d5' c5' b4' c5' g4' | % | 2 r 16 eb5' eb5' g5' f5' eb5' d5' eb5' bb4' | 16 d5' d5' f#5' e5' d5' c#5' d5' a4' d5' d5' f#5' e5' d5' c#5' d5' a4' |
+fl:   | 1 {f}{cresc} (g5 c6) | 1 (g5 c6) | 1 (g5 bb5) | 1 (a5 c6) |
+ob:   | 1 {f}{cresc} (eb5 g5) | 1 (eb5 g5) | 1 (eb5 g5) | 1 (f#5 a5) |
+cl:   | 1 {f}{cresc} (c5 eb5) | 1 (c5 eb5) | 1 (bb4 eb5) | 1 (c5 d5) |
+hn12: | 1 {f}{cresc} (g3 g4) | % | 1 (g3 g4) | 1 (d4 a4) |
+hn34: | 1 {f}{cresc} c5 | 1 c5 | 1 bb3 | 1 d4 |
+tp:   | R*2 | 4 {f} g4^ r r r | 8 {cresc} (d4 d5)^ (d4 d5)' 4 (d4 d5)' (d4 d5)' (d4 d5)' |
+timp: | R*2 | 1 {f} g2=z | 1 {cresc} d3=z |
+
+== b253-256 ==
+# Tutti unison CELL with hammer chords: b93-96 brought home to G minor.
+fl:   | 8 {ff} g5^ g5' bb5' a5' g5' f#5' g5' d5' | 4 (bb5 d6)^ r (a5 c6)^ r | 8 g5^ g5' bb5' a5' g5' f#5' g5' d5' | 4 (bb5 d6)^ (a5 c6)^ (bb5 g6)^ r |
+vn1:  =fl
+ob:   =fl -8
+vn2:  =fl -8
+cl:   =fl -16
+va:   =fl -16
+fg:   =fl -24
+vc:   =fl -24
+cb:   =fl -32
+hn12: | 1 {ff} (g3 g4)^ | 4 (g3 g4)^ r (d4 a4)^ r | 1 (g3 g4)^ | 4 (g3 g4)^ (d4 a4)^ (g3 g4)^ r |
+hn34: | 1 {ff} (bb2 bb3)^ | 4 (bb3 d4)^ r d4^ r | 1 (bb2 bb3)^ | 4 (bb3 d4)^ d4^ (bb3 d4)^ r |
+tp:   | 4 {ff} (g4 g5)^ r r r | 4 (g4 d5)^ r (d4 d5)^ r | 4 (g4 g5)^ r r r | 4 (g4 d5)^ (d4 d5)^ (g4 g5)^ r |
+timp: | 4 {ff} g2^ r r r | 4 g2^ r d3^ r | 4 g2^ r r r | 4 g2^ d3^ g2^ r |
+
+== b257-270 ==
+# iv - Ger6 - i6/4 - V7 | CELLcad x2 | T1 head over i, Cm7, V |
+# last unison CELL + CELLcad | three strokes.
+vn1:  | 4 {ff} eb6^ 8 d6 c6 4 bb5 8 a5 g5 | 4 c#6^ 8 bb5 g5 4 c#6^ 8 bb5 c#6 | 4 d6^ 8 bb5 g5 4 d6^ 8 bb5 g5 | 4 c6^ 8 a5 f#5 4 d5' 8 f#5 a5 | 4 (a5 c6)^ (f#5 a5)^ (bb5 d6)^ (g5 bb5)^ | % | 4 r d5^ 4. g5^ 8 a5 | 4 bb5^ 8 a5 g5 4 f#5^ d5' | 4 r g5^ 4. bb5^ 8 c6 | 4 d6^ 8 c6 bb5 4 a5^ f#5' | 8 g5^ g5' bb5' a5' g5' f#5' g5' d5' | 8 d6^ d6' a5' f#5' g5^ g5' bb5' d5' | 4 (g4 d5 bb5 g6)^ r (g4 d5 bb5 g6)^ r | 4 (g4 d5 bb5 g6)^ r 2 r* |
+fl:   =vn1 @b257-268
+fl:   | R*12 | 4 (bb5 g6)^ r (bb5 g6)^ r | 4 (bb5 g6)^ r 2 r* |
+ob:   =vn1 @b257-266
+ob:   =vn1 -8 @b267-268
+ob:   | R*12 | 4 (d5 bb5)^ r (d5 bb5)^ r | 4 (d5 bb5)^ r 2 r* |
+cl:   =vn1 -8 @b257-266
+cl:   =vn1 -16 @b267-268
+cl:   | R*12 | 4 (bb4 g5)^ r (bb4 g5)^ r | 4 (bb4 g5)^ r 2 r* |
+vn2:  =vn1 -8 @b257-268
+vn2:  | R*12 | 4 (g3 d4 bb4)^ r (g3 d4 bb4)^ r | 4 (g3 d4 bb4)^ r 2 r* |
+vc:   =vn1 -24 @b267-268
+vc:   | 16 {ff} c3^ c3' c3' c3' 8 eb3' d3' 16 c3^ c3' c3' c3' 8 c3' g2' | 16 eb3^ eb3' eb3' eb3' 8 g3' eb3' 16 eb3^ eb3' eb3' eb3' 8 c#3' eb3' | 16 d3^ d3' d3' d3' 8 bb2' g2' 16 d3^ d3' d3' d3' 8 bb2' g2' | 16 d3^ d3' d3' d3' 8 f#3' e3' 16 d3^ d3' d3' d3' 8 c3' a2' | 8 d3^ d3' a2' f#2' g2^ g2' bb2' d2' | % | 16 g2^ g2' g2' g2' 8 bb2' a2' 16 g2^ g2' g2' g2' 8 g2' d2' | % | 16 c3^ c3' c3' c3' 8 eb3' d3' 16 c3^ c3' c3' c3' 8 bb2' g2' | 16 d3^ d3' d3' d3' 8 f#3' e3' 16 d3^ d3' d3' d3' 8 c3' a2' | R*2 | 4 (g2 d3)^ r (g2 d3)^ r | 4 (g2 d3)^ r 2 r* |
+va:   =vc +8 @b257-266
+va:   =vn1 -16 @b267-268
+va:   | R*12 | 4 (g3 d4)^ r (g3 d4)^ r | 4 (g3 d4)^ r 2 r* |
+fg:   =vc @b257-266
+fg:   =vn1 -24 @b267-268
+fg:   | R*12 | 4 (g2 d3)^ r (g2 d3)^ r | 4 (g2 d3)^ r 2 r* |
+cb:   =vc -8 @b257-266
+cb:   =vn1 -32 @b267-268
+cb:   | R*12 | 4 g1^ r g1^ r | 4 g1^ r 2 r* |
+hn12: | 1 {ff} (g3 g4) | 1 (g3 g4) | 1 (d4 g4) | 1 (d4 a4) | 2 (d4 a4)^ (g3 g4)^ | % | 1 (g3 g4) | 2 (g3 g4) (d4 a4) | 1 (g3 g4) | 1 (d4 a4) | 1 (g3 g4)^ | 2 (d4 a4)^ (g3 g4)^ | 4 (g3 g4)^ r (g3 g4)^ r | 4 (g3 g4)^ r 2 r* |
+hn34: | 1 {ff} c5 | 1 bb3 | 1 (bb3 d4) | 1 d4 | 2 d4^ (bb3 d4)^ | % | 1 (bb3 d4) | 2 (bb3 d4) d4 | 1 c5 | 1 d4 | 1 (bb3 d4)^ | 2 d4^ (bb3 d4)^ | 4 (bb3 d4)^ r (bb3 d4)^ r | 4 (bb3 d4)^ r 2 r* |
+tp:   | 4 {ff} g4^ r r r | 4 g4^ r g4^ r | 4 (g4 d5)^ r (g4 d5)^ r | 8 (d4 d5)^ (d4 d5)' 4 (d4 d5)' (d4 d5)' (d4 d5)' | 4 (d4 d5)^ (d4 d5)^ (g4 d5)^ (g4 d5)^ | % | 4 (g4 d5)^ r r r | 4 (g4 d5)' r (d4 d5)' r | 4 g4^ r r r | 4 (d4 d5)^ r (d4 d5)' r | 4 (g4 g5)^ r r r | 4 (d4 d5)^ r (g4 g5)^ r | 4 (g4 g5)^ r (g4 g5)^ r | 4 (g4 g5)^ r 2 r* |
+timp: | 4 {ff} g2^ r r r | 4 g2^ r g2^ r | 1 d3=z | 8 d3^ d3' d3' d3' d3' d3' d3' d3' | 4 d3^ d3^ g2^ g2^ | % | 4 g2^ r r r | 4 g2' r d3' r | 4 g2^ r r r | 1 d3=z | 1 g2=z | 4 d3^ d3^ g2^ g2^ | 4 g2^ r g2^ r | 4 g2^ r 2 r* |
+
+HANDOFF:
+  next_bar: Movement II b1   key: Eb major   2/4   T=q66 "Andante con moto"
+  Movement I ends: b270 beat 1, tutti ff G-minor stroke (g1-g6),
+  fermata on the closing rest. Nothing sustains.
+  NEXT: Movement II opens p: va/vc pizz CELL in Eb major (eb3 eb3 g3 f3  eb3 d3 eb3 bb2 in 8ths across two 2/4 bars), then vn1 cantilena (S of
+  02-themes) with ob1 sharing the second phrase; horns pp sustained.

@@ -1,0 +1,198 @@
+SYMPHONY IN G MINOR — MASTER PLAN
+=================================
+Orchestra: 2 fl, 2 ob, 2 cl (in Bb; notated at concert pitch), 2 fg,
+4 hn (1-2 in G, 3-4 in Bb basso; concert pitch), 2 tp (in G; concert),
+timpani (G-D in I/III/IV, Eb-Bb in II), strings vn1 vn2 va vc cb.
+
+UNIFYING IDEA: the CELL (02-themes.txt) — one bar of eight staccato
+eighths:  repeated tonic, up a minor 3rd, stepwise down through the
+leading tone back to the tonic, drop to the dominant
+   G G Bb A G F# G D
+It is the cello/bass ostinato engine of Mvt I, the walking pizzicato bass
+and the storm of Mvt II, the Scherzo theme of Mvt III (in 3/4 crotchets)
+and its major form in the Trio, and the perpetuum-mobile / final major
+apotheosis of Mvt IV.
+
+INTENSITY SCALE for the ostinato (used in comments as L0-L5)
+  L0  silence / single pizz strokes on downbeats
+  L1  vc alone (or cb pizz) p/pp, CELL in plain 8ths, maybe broken by rests
+  L2  vc+cb in octaves, p-mf, plain 8ths
+  L3  vc+cb (+fg) mf-f, first beat split into four 16ths, accents on 1
+  L4  L3 + accents every beat, timpani doubling, va joining an octave up
+  L5  all low strings + fg + hn pedals, ff, 16ths on beats 1 and 3,
+      marcato; or the CELL taken over by the WHOLE orchestra in unison
+Raising/lowering is done by: register (va/vn take the cell up), doubling,
+rhythmic density (8ths -> 16th splits -> measured 16th tremolo),
+accentuation, dynamics, and harmonic rhythm (cell moving every bar vs
+pedalling).
+
+---------------------------------------------------------------------
+MOVEMENT I — Allegro con fuoco, 4/4, q = 138, G minor. Sonata form.
+Planned 270 bars (exposition 1-100 repeated).
+
+EXPOSITION
+ b1-8     Ostinato alone. vc p L1; cb joins b5 (L2); timp G pp b5.
+          Harmonic motion: Gm Gm Cm Gm | Gm Gm Eb D.        I: 1->2
+ b9-16 [A] T1 antecedent+consequent, vn1 p espress.; vn2/va held
+          chords; cl1 doubles at 8vb from b13; hn G pedal b13-16.
+          Bass: g g Eb D | g Bb C D-g.                       I: 2
+ b17-24 [B] T1 tutti f: vn1+fl+ob, vn2+cl 8vb, va 16th tremolo,
+          ostinato L3 (+fg); b24 deceptive to Eb.          I: 4
+ b25-32   T1 head sequence Eb-Cm-F#dim7-Ger6(Eb) -> D pedal ff
+          (b29-31 L4), unison crash b32.                   I: 5
+ b33-48 [C] TRANSITION. sudden p; CELL in 16th diminution passed
+          vn1/vn2 in imitation over the bass CELL moving
+          Gm Cm F Bb Eb C7 -> F pedal b39-46 (cresc. to ff b44)
+          -> dim. to pp b47-48.                           I: 2->5->1
+ b49-64 [D] T2 in Bb major: ob1 solo dolce (b49-56), then fl1+vn1
+          (b57-64). Ostinato L1: vc plays the CELL in MAJOR, pp,
+          cb pizz downbeats.  Strings sustain, cl arpeggio.  I: 1
+ b65-72   T2 extension, cresc.; ostinato thickens to L2-L3. I: 1->3
+ b73-92 [E] CLOSING THEME (hammer arpeggio theme) ff tutti in Bb,
+          ostinato L5 in major; tp/timp.                     I: 5
+ b93-100  Codetta: CELL in Bb by whole orchestra in unison b93-96,
+          cadence. 1st ending b99-100 pivots (Bb->G7->Gm? no: Bb->D7)
+          back to b1; 2nd ending b99-100 drops to Gb/Eb-minor colour
+          for the development.                          I: 5 -> 0
+
+DEVELOPMENT
+ b101-112 [F] pp. Ostinato transferred UP to violas (L1, new colour),
+          bass silent. T1 head fragments fl/ob/cl in Eb minor -> Cm.
+ b113-130 [G] FUGATO on T1 head (subject = T1 b1-4 compressed):
+          vc+cb (C minor) b113, va (G minor) b117, vn2 (C) b121,
+          vn1 (F/ Bb) b125; fg carry the CELL as countersubject.
+          Rising intensity 2->4.
+ b131-146 [H] CLIMAX. CELL in all strings in octaves, sequence
+          rising by steps: Ab - Bb - Cm - D? (b131-138), ww/brass T1
+          head in augmentation; Ger6 b143-144, D arrival b145-146 ff.
+ b147-160 [I] RETRANSITION over D pedal. Intensity collapses:
+          b147-152 L3->L1, b153-156 vc ALONE pp on D (lowest point of
+          the movement), fl/ob whisper T1 head, b157-160 sudden
+          crescendo (cb, timp roll, all) -> recap.
+
+RECAPITULATION
+ b161-176 [J] T1 ff tutti AT ONCE (no quiet presentation): ostinato
+          L5 from the first bar. Consequent re-harmonised.
+ b177-192 transition rewritten to stay in G minor (Cm, Ab, D pedal),
+          dim. to p.
+ b193-212 [K] T2 in G MAJOR (ob, then fl+vn1); second phrase clouds
+          to G minor (bII colour Ab).
+ b213-232 [L] closing theme in G minor ff.
+
+CODA b233-270 [M]
+ b233-240  ostinato alone again (vc pp) as at the opening — a
+          "rewind"; b241-252 T1 head canon in ww over L2->L4;
+          b253-262 CELL in full orchestral unison ff (L5) twice,
+          b263-270 final cadence: hammered tonic chords, last bar
+          unison G.
+
+INTENSITY CURVE I (0-5):
+ 1 2 2 4 5 | 2 5 1 | 1 3 5 5 | 1 2 4 5 5 | 2 1 0 4 | 5 3 1 3 5 | 1 4 5 5
+
+ORCHESTRATION ARC I: strings-only start; ww enter as colour (cl) then
+doubling; brass/timp reserved for structural arrivals (b17, b29, b44,
+b73, b145, b161, b253). Horns hold pedals; trumpets only on G/D/(A,F).
+
+---------------------------------------------------------------------
+MOVEMENT II — Andante con moto, 2/4, q = 66, Eb major. Ternary ABA'+coda.
+Planned ~96 bars.
+ A  b1-32   CANTILENA (vn1, sotto voce) over pizz vc/cb walking the
+            CELL in MAJOR, augmented feel (eb eb g f | eb d eb bb).
+            b1-8 a, b9-16 a' (cadence Eb), b17-24 b (to Bb, ob/fl
+            dialogue), b25-32 a'' (fl+vn1 octaves, cl countermelody).
+ B  b33-60  C MINOR storm: the Mvt-I ostinato returns arco staccato
+            in vc/cb (L3) - a memory of I; ww lament from T1 head;
+            climax b49-52 (Ab, Neapolitan Fb?), dies to Bb dominant.
+ A' b61-84  Cantilena in ob+fl, vn1 16th filigree, va/vc sing the
+            counterline; horns.
+ Coda b85-96 CELL in horns pp (in Eb), timp Bb pedal, final pizz.
+
+MOVEMENT III — Menuetto: Allegro molto, 3/4, dotted-half = 80,
+G minor; Trio G major.  ~96 bars written + D.C.
+ Scherzo ||: b1-16 :||: b17-44 :||  theme = CELL in crotchets
+          (g g bb | a g f# | g - d), hemiolas, sf offbeats; b17-28
+          development in Bb/Eb; b29-44 return + coda-tag.
+ Trio    ||: b45-60 :||: b61-80 :||  G major ländler: cl+fg melody,
+          horn drones (G horns), CELL in major as pizz bass.
+ D.C. al Fine (Scherzo without repeats), Fine at b44.
+
+MOVEMENT IV — Finale: Presto, 2/2, half = 112, G minor -> G MAJOR.
+Sonata form, no expo repeat. Planned ~208 bars; WRITTEN 240 (see R2).
+ b1-8      motto: CELL in tutti unison ff, answered by chords.   [70]
+ b9-40     P: perpetuum mobile in vn1 8ths (CELL diminished +
+           scale), p then tutti f at b25; b40 G.P.               [70]
+ b41-56    transition (fugal entries of P head) to Bb.           [71]
+ b57-80    S: the Mvt-II CANTILENA transformed (half notes, Bb major)
+           in cl+vn1 over running va 8ths; ob+fl with CELL counter. [71]
+ b81-96    closing: CELL in Bb in string octaves vs syncopated winds,
+           cadence, hammer-strokes.                              [72]
+ b97-144   development: CELL vs. its augmentation round the fifths;
+           fugato (CELL4 subject, P-head countersubject); Mvt-I T1
+           head recalled ff; D pedal, sinking CELL, rising scale. [73]
+ b145-200  recap: P ff over the L4 ostinato; compressed transition
+           (Neapolitan Ab); S in G MAJOR (vn1+fl1, then the cello);
+           cadence; closing group in G major.                    [74]
+ b201-240  coda: motto in G minor ff, sinks pp; G major dawn (hn1
+           CELLM4 over string tremolo); CELLM rising through the
+           strings; apotheosis ff; CELLcad, strokes, unison G.   [75]
+
+---------------------------------------------------------------------
+REVISION LOG
+ (filled in after composing; see bottom)
+
+R1 — MOVEMENT I REVISION (after b1-270 were drafted)
+ - Bar map confirmed: 10 = b1-32, 11 = b33-72, 12 = b73-100 (repeat
+   b1-98, 1st ending b97-98, 2nd b99-100), 20 = b101-130, 21 = b131-160,
+   30 = b161-192, 31 = b193-232, 40 = b233-270. Movement I = 270 bars.
+ - Development viola CELL moved up from the eb3 level to eb4 (eb3 would
+   need gb3/f3/d3/bb2 below viola c3 - impossible). 12 HANDOFF corrected.
+ - hn34 b99-100: {dim} moved in front of the tied note (spec: directives
+   precede their note); 12 HANDOFF text corrected to match.
+ - Fugato b113-130: three bass bars rewritten (subject bars 2-3 and the Fm
+   bar) to remove major 7ths against the countersubject; countersubject
+   bar 2 rewritten (eb f d instead of a step clash).
+ - b153-156: ob1 echo of the T1 head changed from D minor to G minor at
+   d4 (the D-minor version's f clashed with f# in the vc CELL).
+ - Spec 00-format: doubling offsets -24/-32 added (needed for the tutti
+   unisons b93-96, b253-256, b267-268 where cb = fl -32).
+ - Recap: the expo's modulating route (to Bb) re-cut so the D pedal sits
+   at b183-190 (= b39-48 down a minor 3rd); T2 is given first in G MAJOR
+   (fl1, b193) and then re-stated in G MINOR (ob1+vn1, b201) - a planned
+   darkening that the finale will reverse (S in G major, plan IV).
+ - Coda b233-270: plan said "canon"; strict 1-bar canon of the CELL makes
+   f#/g seconds on every beat, so it became an accumulation (vc alone ->
+   +cb -> T1 antecedent in ob/cl, then vn1/fl 8va -> CELL16 hocket
+   vn1/vn2) followed by the unison CELL (= b93-96 in the tonic), Ger6
+   cadence, and three strokes. Recorded in 40 header.
+ - 40 HANDOFF: Mvt II bass rhythm stated as 8ths over two 2/4 bars
+   (matches 02-themes no.5), not 16ths.
+
+R2 — WHOLE-SYMPHONY REVISION PASS (after Mvt IV was completed)
+ - Bar map: I = 270 (10-40, as R1); II = 96 (50 = b1-34, 51 = b35-60,
+   52 = b61-96); III = 80 written (60 = b1-44 Menuetto, 61 = b45-80 Trio)
+   + D.C. b1-44; IV = 240 (70 = b1-40, 71 = b41-80, 72 = b81-96,
+   73 = b97-144, 74 = b145-200, 75 = b201-240).  Written total 686 bars.
+ - IV lengthened from the planned ~208 to 240 for proportion: expo 96,
+   development 48, recap 56, coda 40 (the coda must answer a 270-bar
+   first movement).  The coda's major CELL is given to strings/winds;
+   natural horns cannot play its leading tone except hand-stopped, so
+   the brass get a series-fitted fanfare instead, and the one exposed
+   horn CELLM (hn1, pp, b209-216) uses a deliberate stopped f#4.
+ - 50-II: vn2/va sticky-duration error at b11 fixed; dynamics restated
+   at block starts.
+ - 40-I coda: vc's split lines merged into one continuous line; the
+   redundant R*12 line removed.
+ - 10-I b20 and 30-I b164: vn2 doubling split around the bar where
+   vn1's line went below the violin's g3; vn2 written by hand there.
+ - 60-III b8: ob doubling stops at b7, the cadence chord written.
+ - 71-IV b49/b51: hn12 (f4 c5) -> (f4 a4) (c5 is not a good G-horn
+   note); b73: strings given an explicit {p} before {cresc}.
+ - 10-I b19-28 and 11-I b70: hn34 (Bb basso) eb4 was a sustained
+   stopped note in f/ff tutti; replaced by open bb3 / c4.  hn34 c5
+   kept as house convention (16th partial, usable).
+ - 73-IV b143-144: single-bar doublings rewritten as @b143-143 /
+   @b144-144 (vn2 must not double vn1's scale 8vb below g3 at b143).
+ - 74-IV b184: ob doubling ended at b183 (final stroke written).
+ - Checker (tools/sgncheck.py, read-only verification - it generates
+   nothing) run over all files together: 0 issues except the two
+   intended stopped f#4 notes in hn1 at b210/b214 of IV.

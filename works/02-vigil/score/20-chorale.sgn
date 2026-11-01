@@ -1,0 +1,41 @@
+# II. CHORALE, FAR OFF  b35-45  (E-flat major, 4/4)
+# Four players only: horn 1 (soprano), horn 2 (alto), trombone 1 (tenor),
+# bass trombone (bass) - the first sound of the trombones in the piece.
+# Pianissimo, as if from another room.  The G of the sarabande's last
+# chord becomes the third of E-flat: no modulation, just a change of
+# light.  The chorale's head (g d eb bb) is the sarabande's head
+# (c g ab eb) in the major.
+# Between the phrases a single string voice answers with the
+# sarabande's head IN THE MINOR, each a step further from the dark:
+#   b37 solo viola (b-flat minor shadow of the V chord),
+#   b40 solo cello (g minor shadow of the G-major half cadence),
+#   b43 the first violins: c g a-flat ... and the horn's e-flat 5 that
+#        opens the last phrase completes the head - the minor question
+#        and the major answer become one line.
+# Phrase ends carry fermatas; their length is written into the tempo map.
+
+== b35-45 [F] ==
+@ T=50 M=4/4 K=ebM "Corale. Adagio - lontano, senza vibrato"
+@@ b35 T=50
+@@ b36 T=42
+@@ b37 T=46
+@@ b38 T=50
+@@ b39 T=42
+@@ b40 T=46
+@@ b41 T=51
+@@ b42 T=42
+@@ b43 T=46
+@@ b44 T=49
+@@ b45 T=34
+hn12: | 4 {pp}{"lontano, dolcissimo"} [(eb4 g4) (bb3 d4) (c4 eb4) (d4 bb4) | 4 (eb4 ab4) (eb4 g4) 2 (d4 f4)*] | R | 4 {pp} [(eb4 bb4) {<} (eb4 c5) (d4 bb4) (eb4 ab4) | 4 {>} (eb4 g4) (d4 f4) 2 {pp} (b3 g4)*] | R | 4 {pp}{<} [(c4 eb4) (bb3 f4) (bb3 g4) (eb4 ab4) | 4 {p} (d4 bb4) (eb4 g4) 2 (eb4 c5)*] | R | 4 {mp}{"con calore"} [(g4 eb5) (g4 d5) (ab4 c5) (g4 bb4) | 4 {>} (f4 ab4) (d4 f4) 2 {pp} (bb3 eb4)*] |
+tb1:  | 4 {pp} [bb3 g3 g3 g3 | 4 c4 bb3 2 bb3*] | R | 4 {pp} [bb3 {<} ab3 bb3 c4 | 4 {>} c4 ab3 2 {pp} g3*] | R | 4 {pp}{<} [g3 ab3 g3 c4 | 4 {p} bb3 bb3 2 ab3*] | R | 4 {mp} [c4 d4 eb4 eb4 | 4 {>} c4 ab3 2 {pp} g3*] |
+btb:  | 4 {pp} [eb3 g2 c3 g2 | 4 ab2 bb2 2 bb2*] | R | 4 {pp} [g2 {<} ab2 g2 f2 | 4 {>} eb2 d2 2 {pp} g1*] | R | 4 {pp}{<} [c3 d3 eb3 f3 | 4 {p} bb2 eb3 2 ab2*] | R | 4 {mp} [c3 bb2 ab2 eb3 | 4 {>} ab2 bb2 2 {pp} eb2*] |
+vn1:  | R*8 | 2 {pp}{con sord}{"sul tasto, come un'eco"} [c5 4 g4 ab4] | R*2 |
+va:   | R*2 | 2 {p}{solo}{con sord}{"espress., da lontano"} [f4 4 c4 db4] | R*5 | 1 {ppp}{tutti}{con sord} (c4 eb4) | R*2 |
+vc:   | R*5 | 2 {p}{solo}{con sord}{"espress."} [g3 4 d3 eb3] | R*2 | 1 {ppp}{tutti}{con sord} ab2 | R*2 |
+cb:   | R*2 | 1 {ppp} bb1 | R*2 | 1 {ppp} g1 | R*2 | 1 {ppp} ab1 | R*2 |
+
+HANDOFF:
+  next_bar 46, C minor, 4/4, T=104.  Seam: E-flat major chord (brass, pp,
+  fermata) dies away.  The fugue begins with the cellos alone, senza
+  sordino, on c3 after an eighth rest.
