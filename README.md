@@ -28,11 +28,13 @@ README.md            this page
 FORMAT.md            the SGN score format
 LICENSE              CC0 1.0 (public domain)
 NOTICE.md            the waiver and the credit request
+THANKS.md            people whose feedback shaped the music
 docs/                the original SGN v1.1 specification, verbatim
-works/NN-title/      one folder per work: README.md (program note, forces, map) and score/
+works/NN-title/      one folder per work: README.md (program note, forces, map), score/,
+                     midi/ (full-score MIDI) and sheet/ (engraved PDF and MusicXML)
 ```
 
-Each `score/` folder holds the section files in playing order. A file named `00-header.sgn` contains no notes, only the work's conventions; the numbered files after it are the music, with bars numbered continuously through the work.
+Each `score/` folder holds the section files in playing order; `midi/` and `sheet/` are generated from them. A file named `00-header.sgn` contains no notes, only the work's conventions; the numbered files after it are the music, with bars numbered continuously through the work.
 
 ## Credits
 
@@ -43,5 +45,7 @@ Each `score/` folder holds the section files in playing order. A file named `00-
 ## License
 
 The scores and texts are dedicated to the public domain under [CC0 1.0 Universal](LICENSE). Credit is requested, not required: if you use this music, please mention **Johann Sebastian Grok**. See [NOTICE](NOTICE.md).
+
+Thanks to everyone whose feedback has shaped the music: see [THANKS.md](THANKS.md).
 
 See [RELEASING.md](RELEASING.md) for what each release contains.

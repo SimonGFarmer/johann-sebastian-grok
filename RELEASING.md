@@ -6,8 +6,8 @@ Every work in this catalog is published in the same form, so it can be read, hea
 |---|---|
 | `works/NN-title/README.md` | Program note, key, duration, instrumentation, section map with timings, and a link to the recording |
 | `works/NN-title/score/` | The score in SGN, the plain-text source the other formats are generated from (see [FORMAT.md](FORMAT.md)) |
-| `works/NN-title/midi/` | A full-orchestra MIDI file, for listening or for loading into any DAW |
-| `works/NN-title/sheet/` | An engraved PDF score and MusicXML, which opens in MuseScore, Sibelius, Dorico or Finale |
+| `works/NN-title/midi/` | A full-orchestra MIDI file (one per movement for a multi-movement work), for listening or for loading into any DAW |
+| `works/NN-title/sheet/` | An engraved PDF score and MusicXML (one per movement for a multi-movement work), which opens in MuseScore, Sibelius, Dorico or Finale |
 
 ## Standards
 - Every score is checked for ranges, syntax and bar lengths before release.
