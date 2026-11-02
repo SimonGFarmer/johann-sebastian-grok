@@ -1,0 +1,26 @@
+# SECTION 1 — IGNITION   b1-20   (0:00 - 0:40)
+# A lone O-daiko heartbeat (DON-don, then three beats of ma) and one
+# dulcimer thread: the motif ARP = root-5th-9th-10th (d a e f), the open
+# spiral that every later arpeggio is built from.  i - bVI/D - iv/D - V/D
+# over a D drone (basses from b13).  b17-20 OROSHI: q -> 8 -> 8t -> 16.
+
+# -- b1-8: the heartbeat alone (b1-2), then the dulcimer thread answers it.
+== b1-8 [Ignition] ==
+@ T=120 M=4/4 K=dm "Ignition — lone drum, single thread" timp=d2,a2
+@@ b1 T=120
+odk:   | 8 {pp} c4> c4 4 r 2 r | 8 c4> c4 4 r 2 r | 8 {<} c4> c4 4 r 2 r | 8 c4> c4 4 r 2 r | 8 {p} c4> c4 4 r 8 r g4 4 r | 8 c4> c4 4 r 2 r | 8 c4> c4 4 r 8 r g4 4 r | 8 c4> c4 4 r r 8 r g4 |
+dulc:  | R*2 | {ks:Sus RR} 2 {p}{"let ring"} r 8 d4 a4 e5 f5 | 2 a5 r | 2 r 8 d4 a4 e5 f5 | 4 e5 8 d5 a4 2 r | 4 r 8 d4 a4 e5 f5 a5 d6 | 4 c6 8 a5 f5 2 e5 |
+
+# -- b9-16: thread widens (Bb/D, Gm/D, A/D over the D drone);
+# -- b17-20: OROSHI - the heartbeat accelerates into a roll (q, 8, 8t, 16).
+== b9-20 ==
+@ T=120 M=4/4 K=dm
+@@ b9 T=120
+odk:   | 8 {p} c4> c4 4 r 8 c4> c4 4 r | 8 c4> c4 4 r 8 c4> c4 4 r | 8 c4> c4 4 r 8 c4> c4 r g4 | 8 c4> c4 4 r 8 c4> c4 4 r | 8 {mp} c4> c4 r g4 c4> c4 4 r | 8 c4> c4 r g4 c4> c4 r g4 | 8 c4> c4 r g4 c4> c4 4 g4 | 8 c4> c4 r g4 c4> c4 g4 g4 | 4 {mp}{cresc} c4> c4 c4> c4 | 8 c4> c4 c4> c4 c4> c4 c4> c4 | 8t {mf} c4> c4 c4 c4> c4 c4 c4> c4 c4 c4> c4 c4 | 16 {f} c4> c4 c4 c4 c4> c4 c4 c4 c4> c4 c4 c4 c4> c4 d4 c4 |
+dulc:  | {ks:Sus RR} 4 r 8 {mp} d4 bb4 f5 c6 d6 c6 | 4 f5 8 d5 bb4 2 r | 8 d4 bb4 f5 c6 d6 f6 4 d6 | 8 c6 bb5 f5 d5 2 c5 | 8 d4 g4 d5 a5 bb5 a5 d5 g4 | 8 d4 g4 d5 a5 bb5 d6 4 a5 | 8 d4 a4 e5 c#6 e6 c#6 a5 e5 | 8 d4 a4 e5 g5 c#6 e6 4 g6 | 8 {cresc} d4 a4 e5 f5 a5 f5 e5 a4 | 8 d4 a4 e5 f5 a5 d6 e6 f6 | 8 {mf} d4 a4 e5 f5 a5 d6 e6 f6 | 8 e6 c#6 a5 e5 c#5 a4 e4 c#4 |
+cb:    | R*4 | {ks:Sus MAX} 1 {pp} d2~ | 1 d2~ | 1 d2~ | 1 d2 | 1 {<} d2~ | 1 d2 | 1 {mp} a1~ | 2 a1 {mf} 2 a1 |
+
+HANDOFF:
+Bar 20 ends on the dominant (A over the D pedal) with the O-daiko at 16ths, f.
+Gathering (b21, T=126) starts with the celli/basses' quarter-note arpeggio and
+the first kakeai (O-daiko call, Chu-daiko answer).  Dulcimer keeps Sus RR.

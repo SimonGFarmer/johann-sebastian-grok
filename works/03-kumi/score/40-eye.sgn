@@ -1,0 +1,23 @@
+# SECTION 4 — THE EYE   b93-103   (2:50 - 3:30)
+# No drums.  D major (the storm's last blow) heard from inside:
+# D | D/F# | Bm | Gmaj7 | Gm6 | D/A | Bbmaj7 | Gm6/Bb | Asus4 | A | (breath).
+# One slow high arpeggio (Soft Touch), women Oo, a far bass line.
+
+# -- the drums are gone. One slow high arpeggio (Soft Touch) over women's choir
+# -- Oo and a far bass line; D major darkens (Gm6, Bb) toward A.  b103: silence,
+# -- the leader's kakegoe on beat 4 calls everybody back.
+== b93-103 [The Eye] ==
+@ T=66 M=4/4 K=dM "The Eye — no drums, one breath"
+@@ b93 T=66
+@@ b102 T=60
+@@ b103 T=66
+stch:  | {ks:Non Vibrato} 8 {pp}{"very far, no attack"} d5 a5 e6 f#6 a6 f#6 e6 a5 | 8 f#5 a5 d6 e6 a6 e6 d6 a5 | 8 b4 f#5 c#6 d6 f#6 d6 c#6 f#5 | 8 g5 d6 f#6 a6 b6 a6 f#6 d6 | 8 g5 bb5 d6 e6 bb6 e6 d6 bb5 | 8 a5 d6 e6 f#6 a6 f#6 e6 d6 | 8 bb5 d6 f6 a6 c7 a6 f6 d6 | 8 bb5 d6 e6 g6 bb6 g6 e6 d6 | 8 {dim} a5 d6 e6 a6 d7 a6 e6 d6 | 8 a5 c#6 e6 a6 2 c#7~ | 2 c#7 2 r |
+wch:   | R | {ks:Womens Choir Oo} 1 {ppp}{<} (f#4 a4 d5) | 1 (f#4 b4 d5) | 1 {p}{>} (f#4 b4 d5) | 1 (g4 bb4 d5) | 1 (f#4 a4 d5) | 1 (f4 a4 d5) | 1 (e4 g4 d5) | 1 (e4 a4 d5) | 2 (e4 a4 c#5) 2 r | R |
+mch:   | R*10 | {ks:Mens Choir Ah} 2. r 4 {f}{<}{"kakegoe: Iyaaa—!"} (e3 a3)> |
+vn1:   | R*4 | {ks:Sus MAX} 1 {ppp}{"sul tasto"} d6~ | 1 d6~ | 1 d6 | 1 e6 | 1 e6~ | 2 e6 2 r | R |
+vc:    | R*2 | {ks:Sus MAX} 1 {pp} b2 | 1 g2 | 1 g2 | 1 a2 | 1 bb2 | 1 bb2 | 1 a2 | 2 a2 2 r | R |
+cb:    =vc -8 {ks:Sus MAX}
+
+HANDOFF:
+b102 ends on A (no 7th) in Soft Touch + women; b103 is silence except the
+men's "Iyaaa!" on beat 4.  Return (b104, T=138) begins with the unison blow.

@@ -1,0 +1,67 @@
+# SECTION 2 — GATHERING   b21-52   (0:40 - 1:40)
+# Cycle  Dm | Dm7/C | Bbmaj7 | Bb6 | Gm | Gm7/F | Em7b5 | A7  (lament bass
+# D-C-Bb-G-F-E-A) four times.  Layers by RATE: celli+basses quarters (b21),
+# violas 8ths (b29), 2nd violins 16ths (b37), 1st violins 16ths (b41),
+# dulcimer 8th-triplets + lutes + clarinets + horns (b45).  Taiko: the
+# Chu-daiko answers the O-daiko (kakeai), call lengths 2 beats -> 1 bar ->
+# half bar; b45 both lock into ji-uchi (3+3+2); b51-52 lead-in + "Sore!".
+
+# -- b21-28 celli+basses: quarter-note arpeggios (cycle D-C-Bb-Bb-G-F-E-A);
+# -- taiko KAKEAI: O-daiko calls (beats 1-2), Chu-daiko answers (beats 3-4).
+== b21-28 [Gathering] ==
+@ T=126 M=4/4 K=dm "Gathering — the strings come one by one" timp=d2,a2
+@@ b21 T=126
+odk:   | 8 {mf} c4> c4 4 c4> 2 r | 8 c4> c4 4 c4> 2 r | 8 c4> c4 8. c4> 16 c4 2 r | 8 c4> c4 4 c4> 2 r | 8. c4> 16 c4 8 c4> c4 2 r | 8. c4> 16 c4 8 c4> c4 2 r | 8. c4> 16 c4 8 c4> c4 4 c4> r | 4 c4> c4> c4> c4> |
+chu1:  | 2 r 8 {mp} c4> 16 d4 c4> 4 r | 2 r 8 c4> 16 d4 c4> r d4 8 c4> | 2 r 8 c4> 16 d4 c4> 8 r g4 | 2 r 16 c4> d4 d4 c4> r g4 8 c4> | 2 r 8. c4> 16 c4 8 c4> c4 | 2 r 8. c4> 16 c4 8 c4> g4 | 2 r 8 r g4 c4> 16 d4 c4> | 8 r g4 r g4 r g4 r g4 |
+dulc:  | {ks:Sus RR} 2 r 8 {mp} d4 a4 e5 f5 | 4 a5 8 f5 c5 2 r | 2 r 8 d4 a4 bb4 f5 | 4 g5 8 f5 bb4 2 r | 2 r 8 g4 d5 a5 bb5 | 4 bb5 8 f5 d5 2 r | 2 r 8 e4 bb4 d5 g5 | 4 g5 8 e5 a4 2 r |
+vc:    | {ks:Stac On Bow RRx9} 4 {mp} d2> a2 f3 a2 | 4 c2> a2 d3 f3 | 4 bb2> f3 a3 f3 | 4 bb2> f3 g3 d3 | 4 g2> bb2 d3 g3 | 4 f2> bb2 d3 g3 | 4 e2> bb2 d3 g3 | 4 a2> c#3 e3 g3 |
+cb:    =vc -8 {ks:Stac On Bow RRx9}
+
+# -- b29-36 violas add 8ths (3+3+2 accents); call = one bar, answer = next bar.
+== b29-36 ==
+@ T=126 M=4/4 K=dm
+@@ b29 T=126
+odk:   | 8. {mf} c4> 16 c4> 8 r c4> c4> c4 4 r | 4 c4> r 2 r | 8 c4> 16 c4 c4> 8 r c4> c4> c4 4 c4> | 4 c4> r 2 r | 8. c4> 16 c4> 8 r c4> r c4> 4 c4> | 4 c4> r c4> r | 8 c4> 16 c4 c4> r c4 8 c4> 4 c4> c4> | 4 c4> r 8 c4> c4> c4> c4> |
+chu1:  | 8 r {mf} g4 r g4 2 r | 4 r 8. c4> 16 c4> 8 r c4> c4> c4 | 2 r 4 r 8 r g4 | 4 r 8 c4> 16 c4 c4> 8 r c4> c4> c4 | 8 r g4 r g4 r g4 r g4 | 8 r c4> 16 r 8 c4> 16 g4 8 r c4> 16 r c4> d4 c4> | 8 r g4 r g4 r g4 r g4 | 4 r 8 c4> 16 d4 c4> 4 r 8 c4> 16 d4 c4> |
+dulc:  | {ks:Sus RR} 2 r 8 d4 a4 e5 f5 | 4 a5 8 f5 c5 2 r | 2 r 8 d4 a4 bb4 f5 | 4 g5 8 f5 bb4 2 r | 2 r 8 g4 d5 a5 bb5 | 4 bb5 8 f5 d5 2 r | 2 r 8 e4 bb4 d5 g5 | 4 g5 8 e5 a4 2 r |
+va:    | {ks:Stac On Bow RRx9} 8 {mp} f3> a3 d4 a3> d4 f4 d4> a3 | 8 d4> c4 a3 d4> c4 a3 f3> a3 | 8 f3> bb3 a3 d4> bb3 f4 d4> a3 | 8 f3> g3 bb3 f3> g3 bb3 d4> bb3 | 8 g3> bb3 d4 bb3> d4 g4 d4> bb3 | 8 f4> d4 bb3 f4> d4 bb3 g3> bb3 | 8 g3> d4 bb3 e4> d4 g4 e4> bb3 | 8 g3> a3 c#4 g3> a3 c#4 e4> c#4 |
+vc:    | {ks:Stac On Bow RRx9} 4 d2> a2 d3 e3 | 4 c2> f2 a2 d3 | 4 bb2> d3 f3 a3 | 4 bb2> g3 f3 d3 | 4 g2> d3 bb3 d3 | 4 f2> d3 bb3 d3 | 4 e2> bb2 g3 d3 | 4 a2> e3 g3 e3 |
+cb:    =vc -8 {ks:Stac On Bow RRx9}
+
+# -- b37-44 2nd violins 16ths (b37), 1st violins 16ths (b41); call/answer every half bar.
+== b37-44 ==
+@ T=129 M=4/4 K=dm
+@@ b37 T=129
+odk:   | 8 {f} c4> 16 c4 c4> 4 r 8 c4> 16 c4 c4> 4 r | 8. c4> 16 c4> 8 r c4> 2 r | 8 c4> 16 c4 c4> 4 r 8 c4> 16 c4 c4> 4 r | 8. c4> 16 c4> 8 r c4> 4 c4> r | 8 c4> 16 c4 c4> 8 r g4 c4> 16 c4 c4> 8 r g4 | 8. c4> 16 c4> 8 r c4> r g4 r g4 | 8 c4> 16 c4 c4> 8 r g4 c4> 16 c4 c4> 8 r g4 | 8. c4> 16 c4> 8 r c4> c4> c4> 16 c4> d4 c4> d4 |
+chu1:  | 4 r 8 {mf} c4> 16 d4 c4> 4 r 8 c4> 16 d4 c4> | 2 r 8. c4> 16 c4> 8 r c4> | 4 r 8 c4> 16 d4 c4> 4 r 8 c4> 16 d4 c4> | 2 r 8 c4> c4> 16 c4> d4 c4> d4 | 8 r d4 c4> 16 d4 c4> 8 r d4 c4> 16 d4 c4> | 8 r g4 4 r 8. c4> 16 c4> 8 r c4> | 8 r d4 c4> 16 d4 c4> 8 r d4 c4> 16 d4 c4> | 16 r 8 g4 16 g4 r 8 g4 16 g4 r d4 c4> d4 c4> d4 c4> d4 |
+dulc:  | {ks:Sus RR} 8 {mp} a4> e5 f5 a5 d6 a5 f5 e5 | 8 a4> f5 c5 a5 f5 d6 a5 c5 | 8 a4> bb4 f5 c6 d6 c6 f5 bb4 | 8 bb4> g5 f5 d6 g5 f6 d6 f5 | 8 g4> d5 a5 bb5 d6 bb5 a5 d5 | 8 g4> f5 d5 bb5 f5 d6 bb5 d5 | 8 bb4> d5 g5 bb5 d6 bb5 g5 d5 | 8 a4> g5 c#5 bb5 g5 e6 bb5 c#5 |
+vn1:   | R*4 | {ks:Staccatissimo RRx9} 16 {mp} d5> a5 bb5 a5 bb5> d6 bb5 d6 d5> a5 bb5 a5 bb5> d6 g6 d6 | 16 d5> f5 bb5 d6 f5> bb5 d6 g6 bb5> d6 g6 d6 d6> g6 d6 bb5 | 16 bb5> d6 e6 d6 d6> e6 d6 bb5 e6> d6 bb5 g5 d6> bb5 g5 d5 | 16 c#5> g5 bb5 e6 a6> e6 bb5 g5 c#5> g5 bb5 e6 a6> e6 bb5 g5 |
+vn2:   | {ks:Stac On Bow RRx9} 16 {mp} a3> d4 a4 e5 f5> e5 a4 d4 a3> d4 a4 e5 f5> e5 a4 d4 | 16 a3> d4 a4 d4 a4> c5 a4 c5 a3> d4 a4 d4 a4> c5 f5 c5 | 16 c4> d4 a4 bb4 d4> a4 bb4 f5 a4> bb4 f5 bb4 bb4> f5 bb4 a4 | 16 g3> d4 f4 bb4 f5> g5 f5 bb4 f4> bb4 f5 g5 f5> bb4 f4 d4 | 16 a3> g4 bb3 g4 d4> g4 bb3 g4 a3> d5 bb3 d5 d4> d5 g4 d5 | 16 bb3> d4 g4 d4 g4> d5 g4 d5 bb3> d4 g4 d4 g4> d5 f5 d5 | 16 g5> d5 bb4 e4 d5> bb4 e4 d4 bb4> e4 d4 bb3 e4> d4 bb3 g3 | 16 bb3> a4 e4 c#5 a4> g5 c#5 c#5 g5> a4 c#5 e4 a4> g5 c#5 e4 |
+va:    | {ks:Stac On Bow RRx9} 8 {mp} f3> a3 d4 f3> a3 d4 f4> d4 | 8 f3> a3 c4 a3> c4 d4 c4> a3 | 8 d4> bb3 a3 d4> bb3 a3 f3> a3 | 8 f3> bb3 g3 d4> bb3 f4 d4> g3 | 8 g3> bb3 d4 g3> bb3 d4 g4> d4 | 8 g3> bb3 d4 bb3> d4 f4 d4> bb3 | 8 e4> d4 bb3 e4> d4 bb3 g3> bb3 | 8 g3> c#4 bb3 e4> c#4 g4 e4> bb3 |
+vc:    | {ks:Stac On Bow RRx9} 4 d2> a2 f3 a2 | 4 c2> a2 d3 f3 | 4 bb2> f3 a3 f3 | 4 bb2> f3 g3 d3 | 4 g2> bb2 d3 g3 | 4 f2> bb2 d3 g3 | 4 e2> bb2 d3 g3 | 4 a2> e3 g3 bb3 |
+cb:    =vc -8 {ks:Stac On Bow RRx9}
+
+# -- b45-52 dulcimer triplets against the 16ths, lutes, clarinets, horns swell;
+# -- both drums lock into ji-uchi; b51-52 all-drum lead-in + kakegoe into the Storm.
+== b45-52 [Gathering — all] ==
+@ T=132 M=4/4 K=dm timp=d2,a2
+@@ b45 T=132
+@@ b51 T=135
+cl:    =va {ks:Stac DblTng RRx4}
+hn:    | {ks:Sus MAX} 1 {p}{<} (f3 a3 d4) | 1 (f3 a3 c4) | 1 {mp}{<} (f3 a3 bb3) | 1 (e3 g3 c4) | 1 {mf}{<} (g3 bb3 d4) | 1 (f3 bb3 d4) | 1 {f}{<} (e3 g3 bb3) | 1 (e3 g3 bb3) |
+wt:    | R*4 | {ks:C0-Big Sus} 1 {mp}{<} g2 | 1 bb2 | 1 e2 | 1 a2 |
+timp:  | {ks:Timpani Hrd Sht} 4 {mf} d2> 2. r | 2 r 4 a2 r | 4 d2> 2. r | 2 r 4 a2 a2 | 4 d2> 2. r | 4 d2> 2 r 4 a2 | {ks:Timpani Hrd Rls} 1 {mf}{<} a2~=z | 2. a2=z {ks:Timpani Hrd Sht} 8 a2> a2> |
+odk:   | 4 {f} f4> r c4> r | 4 c4> r c4> c4> | 8 c4> c4> 4 c4> 2 r | 4 c4> r 8 c4> c4> 4 c4> | 4 f4> r c4> r | 4 c4> 8 r c4> 4 c4> r | 8 {cresc} c4> c4 c4> c4 c4> c4 c4> c4 | 16 {ff} c4> c4 c4 c4 c4> c4 c4 c4 c4> c4 c4> c4 c4> c4> c4> c4> |
+chu1:  | 8. {f} c4> 16 c4> 8 r c4> 8. c4> 16 c4> 8 r c4> | 8. c4> 16 c4> 8 r c4> 8. c4> 16 c4> r d4 8 c4> | 2 r 8 c4> 16 d4 c4> r d4 8 c4> | 8. c4> 16 c4> 8 r c4> 8. c4> 16 c4> 8 r c4> | 8. c4> 16 c4> 8 r c4> 8. c4> 16 c4> 8 r c4> | 8. c4> 16 c4> 8 r c4> c4> 16 d4 c4> r d4 8 c4> | 8 {cresc} c4> c4 c4> c4 c4> c4 c4> c4 | 16 {ff} c4> c4 c4 c4 c4> c4 c4 c4 c4> c4 c4> c4 c4> c4> c4> c4> |
+dulc:  | {ks:Sus RR} 8t {mf} d4> a4 e5 f5 e5 a4 e5> f5 a5 f5 a5 d6 | 8t d4> c5 a5 a4 f5 d6 c5> a5 a5 f5 d6 f5 | 8t d4> a4 bb4 f5 bb4 a4 bb4> f5 c6 f5 c6 d6 | 8t g4> e5 c6 d5 g5 g6 e5> c6 c6 g5 g6 g5 | 8t g4> d5 a5 bb5 a5 d5 a5> bb5 d6 bb5 d6 g6 | 8t c4> f4 f5 d4 bb4 c6 f4> f5 d6 bb4 c6 f6 | 8t e4> bb4 d5 g5 d5 bb4 d5> g5 bb5 g5 bb5 d6 | 8t e4> c#5 bb5 a4 g5 e6 c#5> bb5 bb5 g5 e6 g5 |
+lute:  | {ks:Sus RRx4} 8 {mf} f4> a4 d5 f5> d5 a4 d5> f5 | 8 d5> c5 a4 f4> a4 c5 d5> f5 | 8 a4> bb4 d5 f5> d5 bb4 d5> f5 | 8 e5> c5 g4 e4> g4 c5 e5> g5 | 8 g4> bb4 d5 g5> d5 bb4 d5> g5 | 8 d5> bb4 f4 d4> f4 bb4 d5> f5 | 8 bb4> d5 e5 g5> e5 d5 e5> g5 | 8 e5> c#5 bb4 g4> bb4 c#5 e5> g5 |
+mch:   | R*7 | {ks:Mens Choir Ah} 2. r 8 r {ff}{"kakegoe: Sore!"} (a2 a3)^ |
+vn1:   | {ks:Staccatissimo RRx9} 16 {mf} e5> f5 a5 f5> a5 d6 a5> d6 e5> f5 a5 f5> a5 d6 a6> d6 | 16 c5> f5 a5 d6> a6 d6 a5> f5 c5> f5 a5 d6> a6 d6 a5> f5 | 16 a6> d6 c6 d6> c6 f5 c6> f5 a6> d6 c6 d6> c6 f5 bb4> f5 | 16 d5> e5 g5 e5> g5 c6 g5> c6 d5> e5 g5 e5> g5 c6 g6> c6 | 16 {cresc} a5> bb5 d6 g6> bb5 d6 g6> d6 d6> g6 d6 bb5> g6 d6 bb5> a5 | 16 bb4> f5 c6 d6> f5 c6 d6> f6 c6> d6 f6 d6> d6 f6 d6> c6 | 16 bb5> d6 e6 d6> bb5 g5 d5> bb4 d5> bb4 d5 g5> bb5 d6 e6> d6 | 16 bb5> e6 a6 e6> e6 a6 e6> bb5 a6> e6 bb5 g5> e6 bb5 g5> c#5 |
+vn2:   | {ks:Stac On Bow RRx9} 16 {mf} d4> a4 e5 f5> e5 a4 d4> a3 d4> a3 d4 a4> e5 f5 e5> a4 | 16 a3> c5 d4 c5> a4 c5 d4> c5 a3> f5 d4 f5> a4 f5 c5> f5 | 16 c4> d4 a4 d4> a4 bb4 a4> bb4 c4> d4 a4 d4> a4 bb4 f5> bb4 | 16 d5> e5 g5 e5> e5 g5 e5> d5 g5> e5 d5 g4> e5 d5 g4> c4 | 16 d4> d5 g4 g4> d5 d4 g4> bb3 d4> a3 bb3 bb3> a3 d4 g4> g4 | 16 c4> d4 f4 bb4> f5 bb4 f4> d4 c4> d4 f4 bb4> f5 bb4 f4> d4 | 16 d4> e4 bb4 e4> bb4 d5 bb4> d5 d4> e4 bb4 e4> bb4 d5 g5> d5 | 16 e4> a4 c#5 g5> a4 c#5 g5> c#5 c#5> g5 c#5 a4> g5 c#5 a4> e4 |
+va:    | {ks:Stac On Bow RRx9} 8 {mf} f3> a3 d4 a3> d4 f4 d4> a3 | 8 d4> c4 a3 d4> c4 a3 f3> a3 | 8 f3> bb3 a3 d4> bb3 f4 d4> a3 | 8 e3> g3 c4 e3> g3 c4 e4> c4 | 8 g3> bb3 d4 bb3> d4 g4 d4> bb3 | 8 f4> d4 bb3 f4> d4 bb3 f3> bb3 | 8 g3> d4 bb3 e4> d4 g4 e4> bb3 | 8 g3> bb3 c#4 g3> bb3 c#4 e4> c#4 |
+vc:    | {ks:Stac On Bow RRx9} 4 {mf}{cresc} d2> a2 d3> e3 | 4 c2> f2 a2> d3 | 4 bb2> d3 f3> a3 | 4 c2> g2 c3> e3 | 4 g2> d3 bb3> d3 | 4 bb2> f3 d4> f3 | 4 e2> bb2 g3> d3 | 4 a2> c#3 g3> bb3 |
+cb:    =vc -8 {ks:Stac On Bow RRx9}
+
+HANDOFF:
+b52: all strings 16ths/8ths on A7b9, horns f<, timp roll on a2, drums 16ths ff,
+men shout "Sore!" on 4&.  Storm (b53, T=138) = full kumi-daiko in D minor.

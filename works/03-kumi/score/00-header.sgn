@@ -1,0 +1,76 @@
+# =====================================================================
+#  KUMI  —  Toccata for Taiko Ensemble and Orchestra
+#  by Johann Sebastian Grok, for Simon.   D minor (-> D major), c. 4'40"
+#  SGN score (format v1.1, see FORMAT.md at the root of this
+#  repository) + extensions v1.2 ({ks:...}, placeholder percussion
+#  pitches, CB floor c1).
+#  Alternative titles:  "OROSHI"  /  "The Spiral and the Drum"
+# =====================================================================
+# Everything in docs/sgn-v1.1-spec.txt holds
+# (concert pitch, c4 = middle C, sticky durations, R / R*n, chords lowest
+# first, ~ ties, x=16 / x=32 measured, x=z roll, doubling lines
+# =src +8 @bA-B {ks:..}, HANDOFF blocks).  This file has NO notes.
+#
+# FILES (play in this order; bars are numbered continuously, all 4/4)
+#   10-ignition.sgn    b1-20     1 Ignition      T=120          0:00.0
+#   20-gathering.sgn   b21-52    2 Gathering     T=126-129-132-135  0:40.0
+#   30-storm.sgn       b53-92    3 The Storm     T=138          1:39.8
+#   40-eye.sgn         b93-103   4 The Eye       T=66 (60)      2:49.4
+#   50-return.sgn      b104-143  5 Return        T=138 -> 126 -> 108  3:29.8
+#   end of b143                                                 4:40.1
+#   (times computed from T= and M= and cross-checked against
+#    sgn2flp's tempo map)
+#   Every block's first bar repeats its tempo as  @@ bN T=..  so that
+#   sgn2flp never drops a block-start tempo.
+#
+# ---------------------------------------------------------------------
+# E1. PART CODES (score order).
+#   fl    Flute (solo)                 cl    3 Clarinets (a3)
+#   fg    3 Bassoons (a3)              hn    6 Horns (one line, chord = div.)
+#   tpt   2 Trumpets (dyad = div.)     wt    3WT low brass
+#   timp  Timpani (Hrd KS, real pitches)
+#   odk   O-daiko (one big drum, the leader)
+#   chu1  Chu-daiko group I  (3-4 players, the 3+3+2 "body")
+#   chu2  Chu-daiko group II (3-4 players, interlocking ka/don)
+#   shm   Shime-daiko (ji-uchi, the time-keeper)
+#   atr   Atarigane (hand gong, the metronome on top)
+#   dulc  3 Dulcimers   lute  3 Lutes   stch  Soft Touch (The Eye)
+#   wch   Women's choir   mch   Men's choir (+ kakegoe)   fch  Full choir
+#   vn1 vn2 va vc cb   Hollywood Strings sections.  cb floor c1.
+#
+# E2. KEYSWITCH TOKEN {ks:<exact articulation name from the KS JSON>} is
+#   sticky along its line; every keyswitched written line sets one before
+#   its first note in every block; doubling lines carry exactly one.
+#
+# E3. TAIKO = generic unpitched staves.  None of Simon's listed libraries
+#   has a taiko ensemble patch, so the five taiko lines use placeholder
+#   keys (one key per stroke type) for Simon to map to whatever taiko
+#   patch he chooses:
+#     c4 = DON   centre stroke, full  (> accent, ^ = the big "X" hits)
+#     d4 = DO / KO / TSU / KE  soft, off-centre or left-hand ghost stroke
+#     f4 = FLAM  doDON (two sticks almost together; O-daiko only here)
+#     g4 = KA    rim / shell (chu-daiko)
+#     a4 = DAMPED / choke (atarigane choke at the very end)
+#   Atarigane: c4 = CHAN (open), d4 = CHIKI (damped), a4 = choke.
+#   ROLLS ARE WRITTEN OUT: c4=16 / c4=32 = literal strokes.  Never =z.
+#   Kakegoe (the players' shouts: Sore! Yoisho! Ha! Iyaa!) are sung by
+#   mch as short accented Ah notes with the word as {"text"}.
+#
+# E4. CONTRABASS FLOOR = c1 (sgn2flp: set CB_FLOOR = 24).
+#
+# ---------------------------------------------------------------------
+# MATERIAL
+#   ARP  - the "spiral": root-5th-9th-10th-(12th) open voicing, e.g.
+#          d4 a4 e5 f5 a5 d6 ...  Every arpeggio in the piece walks a
+#          ladder of its chord's tones built this way (open = violins I,
+#          dulcimer) or in close position (violins II, violas, lutes).
+#   CYCLE - Dm | Dm7/C | Bbmaj7 | Bb6 | Gm | Gm7/F | Em7b5 | A7(b9)
+#          (descending lament bass D-C-Bb-G-F-E-A), Gathering + Return.
+#   STORM PHRASE - i | i6 | bVImaj7 | bVII | i | iv | bVIsus4 | bVI7
+#          and bVI7 = V7 of the key a semitone higher:
+#          Dm -> Ebm -> Em -> Fm -> F#m; the last bVI is D major itself.
+#   THEME (H) - the spiral sung as a melody:  d a | g. f | f d | e |
+#          f a | bb. a | bb eb | d ab f   (horns, men, then trumpets 8va)
+#   LOCK - the Return's single rhythm: 16ths 1,4,7,9,12,15 (3+3+2 x2),
+#          shared by every drum, every arpeggio accent and every stab.
+# =====================================================================
