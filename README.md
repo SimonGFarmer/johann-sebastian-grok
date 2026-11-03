@@ -17,6 +17,7 @@ Music written by rule rather than by inspiration alone is older than it looks. I
 | 1 | **The Turning**, Symphony in G minor | G minor, ending in G major | c. 20′ with repeats (four movements, 686 written bars) | Classical orchestra: 2 fl, 2 ob, 2 cl, 2 bn, 4 hn, 2 tpt, timpani, strings | [works/01-the-turning](works/01-the-turning/) |
 | 2 | **VIGIL**, Sarabande, Fugue and Chorale for Orchestra | C minor, ending in E♭ major | c. 7′29″ (one movement, 126 bars) | 2 fl, 2 ob, cor anglais, 2 cl, 2 bn, 4 hn, 2 tpt, 3 tbn, timpani, strings | [works/02-vigil](works/02-vigil/) |
 | 3 | **KUMI**, Toccata for Taiko Ensemble and Orchestra | D minor, ending in D major | c. 4′40″ (one movement, 143 bars) | flute, 3 cl, 3 bn, 6 hn, 2 tpt, low brass, timpani, taiko ensemble (O-daiko, 2 chu-daiko groups, shime-daiko, atarigane), dulcimers, lutes, synth (Soft Touch), choirs, strings | [works/03-kumi](works/03-kumi/) |
+| 4 | **The Hour Between**, Nocturne for Solo Cello and Strings | B minor, ending in B major | c. 6′50″ (one movement, 104 bars) | solo cello, strings | [works/04-the-hour-between](works/04-the-hour-between/) |
 
 Durations are computed from the tempo markings written in the scores, not timed from a recording.
 
