@@ -1,0 +1,64 @@
+# SECTION 2 - SONG   b15-42   (0:59 - 2:47)
+# The tune.  Solo cello, Legato Slur, high on the A string (F#4-B5), in three
+# statements A (b15) - B (b23, through D major) - A (b31, with a descant in
+# violins I), then a 4-bar link that darkens (G -> G minor -> C#dim7/E -> F#7).
+# Under it: celli section eighth-note figure (the nocturne "left hand"),
+# basses' slow heartbeat (no pizzicato exists in the patches: Stac On Bow,
+# short and soft, on beats 1 and 3), violas/violins II pads, pp.
+
+# -- THEME A (8 bars): F#-B-D rising, a turn, the leap B->G (a minor sixth, the
+# -- sigh of the piece), falling to A# over F#7.  Answer: same head, climbing to
+# -- A5, cadence on B.  Lament bass B-A-G-F# under it.
+== b15-22 [Song] ==
+@ T=64 M=4/4 K=bm "Andante sostenuto - the Song"
+@@ b15 T=64
+vcs:   | {ks:Legato Slur} 4. {mp}{"cantabile, molto espress."} [f#4 8 b4 {<} 2 d5 | 8 c#5 d5 e5 d5 {>} 4 c#5 b4 | 4. {mf} g5 8 f#5 {>} 2 e5 | 4 d5 8 c#5 b4 2 {p} a#4] | 4. {mp} [f#4 8 b4 2 d5 | 8 {<} c#5 d5 e5 f#5 4 g5 f#5 | 4. {mf} a5 8 g5 {>} 4 f#5 e5 | 4 d5 8 e5 c#5 2 {p} b4] |
+va:    | R*4 | {ks:Sus MAX} 1 {pp} d4 | 2 e4 c#4 | 1 d4 | 2 c#4 d4 |
+vc:    | {ks:Leg Slur MAX} {pp} 8 [b2 f#3 b3 d4 b3 f#3 b3 f#3] | 8 [a2 e3 a3 c#4 a3 e3 a3 e3] | 8 [g2 e3 g3 b3 g3 e3 g3 e3] | 8 [f#2 c#3 e3 a#3 e3 c#3 e3 c#3] | 8 [b2 f#3 b3 d4 b3 d4 b3 f#3] | 8 [a2 e3 g3 c#4 g3 e3 g3 e3] | 8 [f#2 d3 a3 d4 g2 g3 d3 b3] | 8 [f#2 c#3 e3 a#3 b2 b3 f#3 d4] |
+cb:    | {ks:Stac On Bow RRx9} {p} 4 b1' r b1' r | 4 a1' r a1' r | 4 g1' r g1' r | 4 f#1' r f#1' r | 4 b1' r b1' r | 4 a1' r a1' r | 4 f#1' r g1' r | 4 f#1' r b1' r |
+
+# -- THEME B: a rising sequence, each bar a step higher (D: A-D-F#, Em: B-E-G,
+# -- A7: C#-E-A) to the peak B5 over G, then a scale down to the cadence.
+# -- Violins II enter (div., pads).
+== b23-30 ==
+@ T=64 M=4/4 K=bm
+@@ b23 T=64
+@@ b30 T=60 "poco rit."
+vcs:   | {ks:Legato Slur} 4 r 8 {mp} [a4 d5 4. {<} f#5 8 e5 | 4 d5 8 c#5 d5 2 a4] | 4 r 8 [b4 e5 4. {<} g5 8 f#5 | 4 e5 8 d#5 e5 2 b4] | 4 r 8 {mf} [c#5 e5 4. {<} a5 8 g5 | 2 {f} b5~ 8 b5 {>} a5 g5 f#5 | 4. {mf} e5 8 d5 4 c#5 8 b4 a#4 | 2. {p} b4] 4 r |
+vn2:   | {ks:Sus MAX} 1 {pp}{div} (f#4 a4) | 2 (e4 g4) (f#4 a4) | 1 (e4 g4) | 2 (f#4 a4) (e4 g4) | 1 {<} (e4 g4) | 1 {p} (d4 g4) | 2 {>} (g4 b4) (f#4 a#4) | 1 {pp} (f#4 b4) |
+va:    | {ks:Sus MAX} 1 {pp} d4 | 2 e4 d4 | 1 e4 | 2 d#4 e4 | 1 {<} e4 | 1 {p} d4 | 1 {>} e4 | 1 {pp} d4 |
+vc:    | {ks:Leg Slur MAX} {pp} 8 [d2 a2 d3 f#3 d3 a2 d3 a2] | 8 [c#3 e3 g3 a3 d2 d3 a2 f#3] | 8 [e2 b2 e3 g3 e3 b2 e3 b2] | 8 [d#3 f#3 a3 b3 e2 e3 b2 g3] | 8 [a2 e3 g3 c#4 g3 c#4 g3 e3] | 8 [g2 d3 g3 b3 g3 d3 g3 d3] | 8 [e2 c#3 g3 b3 f#2 e3 c#3 a#3] | 8 [b2 f#3 b3 d4 b3 f#3 b3 f#3] |
+cb:    | {ks:Stac On Bow RRx9} {p} 4 d2' r d2' r | 4 c#2' r d2' r | 4 e1' r e1' r | 4 d#2' r e1' r | 4 a1' r a1' r | 4 g1' r g1' r | 4 e1' r f#1' r | 4 b1' r b1' r |
+
+# -- THEME A again, the tune ornamented; violins I float a slow descant above it
+# -- (D-C#-B-A#, the lament line inverted to the sky).  b38: the cadence is
+# -- deceived - F#7 goes to G, not B minor.
+== b31-38 ==
+@ T=64 M=4/4 K=bm
+@@ b31 T=64 "a tempo"
+@@ b38 T=60
+vcs:   | {ks:Legato Slur} 4. {mp} [f#4 8 b4 2 d5 | 8 c#5 d5 e5 d5 4 c#5 8 b4 c#5 | 4. {mf} g5 8 f#5 4 e5 8 f#5 g5 | 4 {>} e5 8 d5 c#5 2 a#4] | 4. {mp} [f#4 8 b4 2 d5 | 8 {<} c#5 d5 e5 f#5 4 g5 f#5 | 4. {f} a5 8 g5 {>} 4 f#5 e5 | 4 d5 8 e5 c#5 2 {p} b4] |
+vn1:   | {ks:Sus MAX} 1 {pp}{"dolce"} d6 | 1 c#6 | 1 b5 | 2 a#5 c#6 | 1 d6 | 2 {<} e6 c#6 | 2 {p} d6 b5 | 2 {>} c#6 b5 |
+vn2:   | {ks:Sus MAX} 1 {pp}{div} (d4 f#4) | 1 (c#4 e4) | 1 (b3 e4) | 1 (a#3 e4) | 1 (b3 d4) | 1 (c#4 g4) | 2 (d4 f#4) (d4 g4) | 2 (c#4 e4) (b3 d4) |
+vc:    | {ks:Leg Slur MAX} {pp} 8 [b2 f#3 b3 d4 b3 d4 b3 f#3] | 8 [a2 e3 a3 c#4 a3 e3 a3 e3] | 8 [g2 g3 e3 b3 g3 e3 b3 e3] | 8 [f#2 c#3 e3 a#3 e3 c#3 e3 c#3] | 8 [b2 f#3 b3 d4 b3 f#3 b3 f#3] | 8 [a2 e3 g3 c#4 g3 c#4 g3 e3] | 8 [f#2 d3 a3 d4 g2 g3 d3 b3] | 8 [f#2 c#3 e3 a#3 g2 g3 d3 b3] |
+cb:    | {ks:Stac On Bow RRx9} {p} 4 b1' r b1' r | 4 a1' r a1' r | 4 g1' r g1' r | 4 f#1' r f#1' r | 4 b1' r b1' r | 4 a1' r a1' r | 4 f#1' r g1' r | 4 f#1' r g1' r |
+
+# -- Link: the cello sinks by sighs (B-A-G, B-flat-A-G, G-F#-E, F#-E-D-C#);
+# -- G major turns to G minor - the first shadow - and the music stops on F#7.
+== b39-42 ==
+@ T=60 M=4/4 K=bm
+@@ b39 T=60 "poco a poco rit."
+@@ b40 T=58
+@@ b41 T=56
+@@ b42 T=54
+vcs:   | {ks:Legato Slur} 4. {p} [b4 8 a4 2 g4] | 4. {<} [bb4 8 a4 2 g4] | 4. {mp} [g4 8 f#4 2 e4] | 4. {>} [f#4 8 e4 4 d4 c#4] |
+vn1:   | {ks:Sus MAX} 1 {pp} b5 | 1 bb5 | 1 b5 | 1 a#5 |
+va:    | {ks:Sus MAX} 1 {pp} d4 | 1 d4 | 1 c#4 | 2 c#4 e4 |
+vc:    | {ks:Leg Slur MAX} {pp} 8 [g2 d3 g3 b3 g3 d3 g3 d3] | 8 [g2 d3 g3 bb3 g3 d3 g3 d3] | 8 [e2 c#3 g3 b3 g3 c#3 g3 c#3] | 8 [f#2 c#3 e3 a#3 e3 c#3 e3 c#3] |
+cb:    | {ks:Stac On Bow RRx9} {p} 4 g1' r g1' r | 4 g1' r g1' r | 4 e1' r e1' r | 4 f#1' r f#1' r |
+
+HANDOFF:
+Bar 42 ends on F#7 (half cadence) at T=54, solo cello on C#4.  Celli section
+figure on F#7, basses on F#1, violas C#4-E4, violins I A#5, all pp.
+Restless Hour (b43) is più mosso (T=72): the heartbeat doubles (lub-dub),
+violas pulse off the beat, the cello turns urgent.

@@ -1,0 +1,33 @@
+# SECTION 5 - DAWN   b91-104   (5:47 - 6:49)
+# B major.  Everything thins.  The cello's tune in the major, then the last
+# ascent to B5 (the Solo Cello patch has no harmonics; B5 is its highest
+# soft sustain, Sus NV NV VB, senza vibrato), over a single held B-major chord.
+
+# -- The tune's head in B major on the cello (F#-B-D#), as at the start of the Song
+# -- but softer.  The heartbeat slows to one beat per bar and then stops (b95).
+# -- b97: one last shadow - G natural (Em6/G, the minor subdominant).
+== b91-98 [Dawn] ==
+@ T=58 M=4/4 K=bM "Dawn - tranquillo"
+@@ b91 T=58
+vcs:   | {ks:Legato Slur} 4. {pp}{"dolce, semplice"} [f#4 8 b4 2 d#5 | 8 c#5 d#5 e5 d#5 4 c#5 b4 | 4. {<} g#5 8 f#5 {>} 2 e5 | 4 d#5 8 c#5 b4 2 a#4] | 4. {p} [f#4 8 b4 4 d#5 f#5 | 2 g#5~ 8 g#5 f#5 e5 d#5 | 4. {<} e5 8 b4 {>} 2 g5 | 4 f#5 8 e5 d#5 2 {pp} c#5] |
+vn2:   | {ks:Sus MAX} 1 {pp}{div} (b3 d#4) | 1 (c#4 e4) | 1 (b3 e4) | 1 (c#4 e4) | 1 (d#4 f#4) | 1 (d#4 g#4) | 1 (c#4 e4) | 1 {>} (c#4 e4) |
+va:    | {ks:Sus MAX} 1 {pp}{div} (f#3 b3) | 1 (e3 b3) | 1 (e3 g#3) | 2 (e3 b3) (e3 a#3) | 1 (f#3 b3) | 1 (g#3 b3) | 1 (g3 b3) | 1 {>} (f#3 a#3) |
+cb:    | {ks:Stac On Bow RRx9} 4 {pp} b1' r 2 r | 4 c#2' r 2 r | 4 e1' r 2 r | 4 f#1' r 2 r | {ks:Sus MAX} 1 {ppp} d#2 | 1 g#1 | 1 g1 | 1 f#1 |
+
+# -- The cello climbs through the scale (C#-E-F#-G#-A#) to B5 and stays there,
+# -- senza vibrato, over one held chord of B major spaced from B1 to F#5.
+== b99-104 ==
+@ T=54 M=4/4 K=bM
+@@ b99 T=54
+@@ b100 T=52
+@@ b101 T=50 "morendo"
+@@ b104 T=40
+vcs:   | {ks:Legato Slur} 4. {pp} [f#5 8 e5 2 d#5 | 4 c#5 8 e5 f#5 4 g#5 a#5 | {ks:Sus NV NV VB Solo} 1 {ppp}{"senza vibrato"} b5~] | 1 b5~ | 1 b5~ | 1 {>} b5* |
+vn1:   | R*2 | {ks:Sus MAX} 1 {ppp}{div} (d#5 f#5)~ | 1 (d#5 f#5)~ | 1 (d#5 f#5)~ | 1 {>} (d#5 f#5)* |
+vn2:   | {ks:Sus MAX} 1 {pp}{div} (d#4 f#4) | 2 (c#4 e4) (c#4 e4) | 1 {ppp} (f#4 b4)~ | 1 (f#4 b4)~ | 1 (f#4 b4)~ | 1 {>} (f#4 b4)* |
+va:    | {ks:Sus MAX} 1 {pp}{div} (f#3 b3) | 2 (e3 b3) (e3 a#3) | 1 {ppp} (b3 d#4)~ | 1 (b3 d#4)~ | 1 (b3 d#4)~ | 1 {>} (b3 d#4)* |
+vc:    | R*2 | {ks:Sus MAX} 1 {ppp}{div} (b2 f#3)~ | 1 (b2 f#3)~ | 1 (b2 f#3)~ | 1 {>} (b2 f#3)* |
+cb:    | {ks:Sus MAX} 1 {pp} b1 | 2 c#2 f#1 | 1 {ppp} b1~ | 1 b1~ | 1 b1~ | 1 {>} b1* |
+
+HANDOFF:
+End of the piece: bar 104, fermata on the final B-major chord, T=40, morendo.

@@ -1,0 +1,60 @@
+# =====================================================================
+#  The Hour Between  -  Nocturne for Solo Cello and Strings
+#  by Johann Sebastian Grok, for Simon.   B minor (-> B major), c. 6'50"
+#  SGN score (format v1.1, see FORMAT.md at the root of this
+#  repository) + extensions v1.2 as in KUMI ({ks:...}, CB floor c1).
+#  Alternative title:  "Until the D-sharp"
+# =====================================================================
+# Everything in docs/sgn-v1.1-spec.txt holds
+# (concert pitch, c4 = middle C, sticky durations, R / R*n, chords lowest
+# first, ~ ties, x=32 measured, doubling lines =src -8 @bA-B {ks:..},
+# HANDOFF blocks).  This file has NO notes.
+#
+# FILES (play in this order; bars are numbered continuously, all 4/4)
+#   10-dusk.sgn            b1-14     1 Dusk           T=56 (52) -> 64        0:00.0
+#   20-song.sgn            b15-42    2 Song           T=64 (60), rit. to 54  0:59.3
+#   30-restless-hour.sgn   b43-65    3 Restless Hour  T=72-76-66, cadenza 60-44-50, 56  2:46.6
+#   40-moonlight.sgn       b66-90    4 Moonlight      T=64 (60), rit. to 56  4:11.9
+#   50-dawn.sgn            b91-104   5 Dawn           T=58 -> 54-52-50 -> 40 5:46.9
+#   end of b104                                                             6:49.5
+#   (times computed from T= and M= and cross-checked against
+#    sgn2flp's tempo map)
+#   Rubato is written as small tempo steps (@@ bN T=..) at phrase ends.
+#   Every block's first bar repeats its tempo as  @@ bN T=..  so that
+#   sgn2flp never drops a block-start tempo.
+#
+# ---------------------------------------------------------------------
+# E1. PART CODES (score order).
+#   vcs   SOLO CELLO (Hollywood Solo Cello, monophonic)
+#   vn1 vn2 va vc cb   Hollywood Strings sections.  A dyad with {div}
+#         = divisi (use the DIV A patch for vn1 / va / vc if wanted;
+#         articulation names are identical).  cb floor c1.
+#
+# E2. KEYSWITCH TOKEN {ks:<exact articulation name from the KS JSON>} is
+#   sticky along its line; every keyswitched written line sets one before
+#   its first note in every block; doubling lines carry exactly one.
+#
+# E3. ARTICULATIONS THAT DO NOT EXIST in these patches (KS JSON) and how
+#   the score replaces them:
+#     pizzicato  -> basses' "heartbeat" = Stac On Bow RRx9, soft, short
+#     tremolo    -> measured 32nds (x=32) on Staccatissimo / Stac On Bow
+#     con sord.  -> none; the hush is pp/ppp and thin spacing
+#     harmonics  -> none; the final B5 is Sus NV NV VB Solo (senza vib.)
+#
+# E4. CONTRABASS FLOOR = c1 (sgn2flp: set CB_FLOOR = 24).
+#   (This score's basses never go below e1 anyway.)
+#
+# ---------------------------------------------------------------------
+# MATERIAL
+#   THE SONG (vcs b15, vn1 8va b67, vcs in B major b91):
+#     | f#4. b4 d5 - | c#5 d5 e5 d5 c#5 b4 | g5. f#5 e5 - | d5 c#5 b4 a#4 - |
+#     a rising B-minor triad, a turn, the minor-sixth sigh B->G, the fall
+#     to A#.  Its head F#-B-D is also the cello's first words (Dusk b2)
+#     and its last shadow (Restless Hour b55, in G minor; b63, low).
+#   LAMENT BASS  B - A - G - F#  under every statement of the Song.
+#   NOCTURNE FIGURE  celli section, eighths, 4-note open voicings
+#     (bass, 5th/3rd, octave, 3rd) in shapes 0123-2121 / 0123-2321;
+#     basses' heartbeat on beats 1 and 3.
+#   THE D-SHARP  the Song's third, turned major (b87 vn1, b91 vcs):
+#     the whole piece waits for it.
+# =====================================================================

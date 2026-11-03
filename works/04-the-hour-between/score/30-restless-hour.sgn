@@ -1,0 +1,58 @@
+# SECTION 3 - RESTLESS HOUR   b43-65   (2:47 - 4:12)
+# Più mosso (T=72).  The harmony darkens: a chromatic descending bass, G minor,
+# the Neapolitan C major (the cello's highest note, C6, ff), diminished
+# chords.  The cello is urgent: triplets, octave and sixth leaps.  Then the
+# Song's opening is heard in the shadows (G minor, low) under a high measured
+# tremolo, and a cadenza over the F# pedal.  The Dusk voice returns (b63).
+
+# -- b43-48: chromatic bass B-A#-A-G#-G-F#; the cello in triplet waves, then
+# -- octave and sixth leaps.  The heartbeat doubles (lub-dub) and the violas pulse
+# -- off the beat.
+# -- b49-54: Em - C#halfdim7 - C/E (the Neapolitan: the cello's highest note, C6)
+# -- - A#dim/E - Bm/F# - F#7: the Song's half-cadence figure, now ff.
+== b43-54 [Restless Hour] ==
+@ T=72 M=4/4 K=bm "Poco più mosso, inquieto"
+@@ b43 T=72
+@@ b51 T=76 "spingendo"
+@@ b53 T=72
+@@ b54 T=66 "allargando"
+vcs:   | {ks:Legato Slur} 8t {mf}{"agitato"} [f#3 b3 d4 4 f#4 8t e4 d4 c#4 4 d4] | 8t [c#3 f#3 a#3 4 c#4 8t f#4 e4 c#4 4 a#3] | 8t {<} [a2 d3 f#3 4 a3 8t d4 f#4 b4 4 a4] | 4. [d5 8 b4 4 g#4 8 f#4 g#4] | 8 {f} g3> [g4 4 bb4 8 a4 g4 4 d5] | 4. {>} [e5 8 c#5 4 a#4 f#4] | 8 {mf} e3> [b3 4 g4 8 f#4 e4 4 b4] | 8 [c#4 e4 4 g4 8 f#4 e4 4 c#5] | 4. {f}{<} [e5 8 g5 4 c6> 8 b5 g5 | 4. g5 8 e5 4 c#5 8 a#4 c#5 | 4. {ff} f#5 8 e5 4 d5 8 c#5 d5 | 4 {>} e5 8 d5 c#5 2 a#4] |
+vn1:   | R*8 | {ks:Sus MAX} 1 {f}{div} (e5 g5) | 1 (e5 g5) | 1 {>} (f#5 b5) | 1 {mp} (e5 a#5) |
+vn2:   | {ks:Sus MAX} 1 {p}{div}{<} (b4 d5) | 1 {>} (a#4 c#5) | 1 {<} (a4 d5) | 1 {>} (g#4 b4) | 1 {mp}{<} (g4 bb4) | 1 {>} (a#4 c#5) | 1 {mp} (b4 e5) | 1 {<} (b4 e5) | 1 {f} (c5 e5) | 1 (c#5 e5) | 1 {>} (b4 d5) | 1 {mp} (a#4 c#5) |
+va:    | {ks:Stac On Bow RRx9} {p}{div} 8 r (d4 f#4)' r (d4 f#4)' r (d4 f#4)' r (d4 f#4)' | 8 r (c#4 f#4)' r (c#4 f#4)' r (c#4 f#4)' r (c#4 f#4)' | 8 r (d4 f#4)' r (d4 f#4)' r (d4 f#4)' r (d4 f#4)' | 8 r (d4 f#4)' (d4 f#4)' r r (d4 f#4)' (d4 f#4)' r | {mp} 8 r (d4 g4)' r (d4 g4)' r (d4 g4)' r (d4 g4)' | 8 r (c#4 e4)' (c#4 e4)' r r (c#4 e4)' (c#4 e4)' r | 8 r (e4 g4)' r (e4 g4)' r (e4 g4)' r (e4 g4)' | 8 r (e4 g4)' r (e4 g4)' r (e4 g4)' r (e4 g4)' | {mf} 8 r (e4 g4)' r (e4 g4)' r (e4 g4)' r (e4 g4)' | 8 r (e4 g4)' r (e4 g4)' r (e4 g4)' r (e4 g4)' | 8 r (d4 f#4)' r (d4 f#4)' r (d4 f#4)' r (d4 f#4)' | {mp} 8 r (c#4 e4)' (c#4 e4)' r r (c#4 e4)' (c#4 e4)' r |
+vc:    | {ks:Sus MAX} 1 {p}{<} b2 | 1 {>} a#2 | 1 {<} a2 | 1 {>} g#2 | 1 {mp} g2 | 1 f#2 | 1 e2 | 1 c#3 | 1 {mf} e2 | 1 e2 | 1 f#2 | 1 {>} f#2 |
+cb:    | {ks:Stac On Bow RRx9} {p} 8 b1' b1' 4 r 8 b1' b1' 4 r | 8 a#1' a#1' 4 r 8 a#1' a#1' 4 r | 8 a1' a1' 4 r 8 a1' a1' 4 r | 8 g#1' g#1' 4 r 8 g#1' g#1' 4 r | {mp} 8 g1' g1' 4 r 8 g1' g1' 4 r | 8 f#1' f#1' 4 r 8 f#1' f#1' 4 r | 8 e1' e1' 4 r 8 e1' e1' 4 r | 8 c#2' c#2' 4 r 8 c#2' c#2' 4 r | {mf} 8 e1' e1' 4 r 8 e1' e1' 4 r | 8 e1' e1' 4 r 8 e1' e1' 4 r | 8 f#1' f#1' 4 r 8 f#1' f#1' 4 r | {mp} 8 f#1' f#1' 4 r 8 f#1' f#1' 4 r |
+
+# -- The Song's first phrase in the shadows: G minor instead of B minor, an
+# -- octave and more below, over a high trembling chord (no tremolo patch exists:
+# -- the tremolo is written as measured 32nds on the short articulations).
+== b55-58 ==
+@ T=66 M=4/4 K=bm
+@@ b55 T=66 "sotto voce"
+vcs:   | {ks:Legato Slur} 4 {p}{"sotto voce"} [d3 8 g3 bb3 2 d4 | 8 c#4 d4 e4 d4 4 c#4 b3 | 4. g4 8 f#4 2 e4 | 4 d4 8 c#4 b3 2 a#3] |
+vn1:   | {ks:Staccatissimo RRx9} 1 {pp}{div}{"trem."} (bb5 d6)=32 | 1 (b5 e6)=32 | 1 (b5 e6)=32 | 1 (a#5 e6)=32 |
+vn2:   | {ks:Stac On Bow RRx9} 1 {pp}{div}{"trem."} (d5 g5)=32 | 1 (c#5 e5)=32 | 1 (b4 e5)=32 | 1 (c#5 e5)=32 |
+va:    | {ks:Staccatissimo RRx16} 1 {pp}{div}{"trem."} (g4 bb4)=32 | 1 (g4 b4)=32 | 1 (g4 b4)=32 | 1 (f#4 a#4)=32 |
+cb:    | {ks:Sus MAX} 1 {pp} g1 | 1 e1 | 1 g1 | 1 f#1 |
+
+# -- b59-62 CADENZA over the dominant pedal F#: arpeggio up all four strings,
+# -- a scale run, the held F#5 (fermata, written as T=44), and a run down to F#3.
+# -- b63-65: the cello alone again, low, the Dusk voice: F#-B-D on the C string.
+== b59-65 ==
+@ T=60 M=4/4 K=bm
+@@ b59 T=60 "quasi cadenza, ad lib."
+@@ b60 T=66
+@@ b61 T=44
+@@ b62 T=50
+@@ b63 T=56 "Tempo I, lontano"
+vcs:   | {ks:Legato Slur} 8t {mp}{<} [f#3 a#3 c#4 f#4 a#4 c#5 4 {mf} e5 8 d5 c#5 | 16 b4 c#5 d5 e5 f#5 e5 d5 c#5 4 d5 8 b4 g5 | 2 {f} f#5~* 8t f#5 {>} e5 d5 c#5 b4 a#4 | 16 {mp} g4 f#4 e4 d4 c#4 b3 a#3 g3 2 {p} f#3] | 4. {pp}{"come da lontano"} [f#2 8 b2 2 d3 | 8 c#3 d3 e3 d3 4 c#3 b2 | 4. a#2 8 c#3 2 f#3] |
+vn1:   | {ks:Staccatissimo RRx9} 1 {ppp}{div} (a#5 e6)=32 | 1 {>} (a#5 e6)=32 | R*5 |
+vn2:   | {ks:Stac On Bow RRx9} 1 {ppp}{div} (c#5 e5)=32 | 1 (c#5 e5)=32 | 2 {>} (c#5 e5)=32 2 r | R*4 |
+va:    | {ks:Staccatissimo RRx16} 1 {ppp}{div} (f#4 a#4)=32 | 1 (f#4 a#4)=32 | 1 {>} (f#4 a#4)=32 | R | {ks:Sus MAX} 1 {ppp}{div} (b3 d4) | 1 (a3 c#4) | 1 (a#3 c#4) |
+vc:    | {ks:Sus MAX} 1 {pp} f#2~ | 1 f#2~ | 1 f#2~ | 1 {>} f#2 | R*3 |
+cb:    | {ks:Sus MAX} 1 {pp} f#1~ | 1 f#1~ | 1 f#1~ | 1 {>} f#1 | 1 {ppp} b1 | 1 a1 | 1 f#1 |
+
+HANDOFF:
+Bar 65 ends on F#7 at T=56: solo cello on F#3, violas A#3-C#4, basses F#1,
+ppp.  Moonlight (b66, T=64) begins with one bar of the nocturne figure and the
+heartbeat (as b13), then violins I take the tune (b67).

@@ -1,0 +1,49 @@
+# SECTION 4 - MOONLIGHT   b66-90   (4:12 - 5:47)
+# The melody returns in violins I, an octave above the Song; the solo cello
+# sings a counter-melody against it (tenor register, D4-D5), moving where the
+# tune holds.  b87: the tune's head in B major (D#) - the turn to Dawn.
+
+# -- The tune in violins I, an octave above the Song (F#5-A6).  The solo cello
+# -- answers it: where the tune holds, the cello moves; where the tune moves, the
+# -- cello holds.  Violas pad between them (div.), the figure and heartbeat below.
+== b66-74 [Moonlight] ==
+@ T=64 M=4/4 K=bm "Tempo del canto - Moonlight"
+@@ b66 T=64
+vn1:   | R | {ks:Leg Slur MAX} 4. {mp}{"espress."} [f#5 8 b5 {<} 2 d6 | 8 c#6 d6 e6 d6 {>} 4 c#6 b5 | 4. {mf} g6 8 f#6 {>} 2 e6 | 4 d6 8 c#6 b5 2 {mp} a#5] | 4. [f#5 8 b5 2 d6 | 8 {<} c#6 d6 e6 f#6 4 g6 f#6 | 4. {mf} a6 8 g6 {>} 4 f#6 e6 | 4 d6 8 e6 c#6 2 {mp} b5] |
+vcs:   | R | {ks:Legato Slur} 2 {mp}{"cantabile, contro canto"} [d4 8 c#4 d4 e4 f#4 | 2 e4~ 8 e4 d4 c#4 b3 | 2 b3 8 b3 c#4 d4 e4 | 2 f#4 4 e4 c#4] | 2 [d4 8 c#4 b3 c#4 d4 | 2 e4 8 c#4 d4 e4 c#4 | 2 {<} f#4 2 g4 | 4 {mf} f#4 e4 2 {mp} d4] |
+va:    | R | {ks:Sus MAX} 1 {pp}{div} (b4 d5) | 1 (a4 c#5) | 1 (g4 b4) | 1 (a#4 c#5) | 1 (b4 d5) | 1 (g4 c#5) | 2 (a4 d5) (b4 d5) | 2 (a#4 c#5) (b4 d5) |
+vc:    | {ks:Leg Slur MAX} {pp} 8 [b2 f#3 b3 d4 b3 f#3 b3 f#3] | 8 [b2 f#3 b3 d4 b3 d4 b3 f#3] | 8 [a2 e3 a3 c#4 a3 e3 a3 e3] | 8 [g2 e3 g3 b3 g3 e3 g3 e3] | 8 [f#2 c#3 e3 a#3 e3 c#3 e3 c#3] | 8 [b2 f#3 b3 d4 b3 f#3 b3 f#3] | 8 [a2 e3 g3 c#4 g3 c#4 g3 e3] | 8 [f#2 d3 a3 d4 g2 g3 d3 b3] | 8 [f#2 c#3 e3 a#3 b2 b3 f#3 d4] |
+cb:    | {ks:Stac On Bow RRx9} {p} 4 b1' r b1' r | 4 b1' r b1' r | 4 a1' r a1' r | 4 g1' r g1' r | 4 f#1' r f#1' r | 4 b1' r b1' r | 4 a1' r a1' r | 4 f#1' r g1' r | 4 f#1' r b1' r |
+
+# -- THEME B in violins I (violins II join an octave below for the peak, b79-81);
+# -- the cello fills each rest at the start of the tune's bars, and climbs to D5
+# -- against the tune's B6.
+== b75-82 ==
+@ T=64 M=4/4 K=bm
+@@ b75 T=64
+@@ b82 T=60 "poco rit."
+vn1:   | {ks:Leg Slur MAX} 4 r 8 {mf} [a5 d6 4. {<} f#6 8 e6 | 4 d6 8 c#6 d6 2 a5] | 4 r 8 [b5 e6 4. {<} g6 8 f#6 | 4 e6 8 d#6 e6 2 b5] | 4 r 8 [c#6 e6 4. {<} a6 8 g6 | 2 {f} b6~ 8 b6 {>} a6 g6 f#6 | 4. {mf} e6 8 d6 4 c#6 8 b5 a#5 | 2. {p} b5] 4 r |
+vn2:   =vn1 -8 @b79-81 {ks:Leg Slur MAX}
+vcs:   | {ks:Legato Slur} 2 {mf} [d4~ 8 d4 e4 f#4 g4 | 4 a4 8 g4 e4 2 f#4] | 2 [g4~ 8 g4 a4 b4 a4 | 2 a4 g4] | 2 {<} [e4~ 8 e4 f#4 g4 a4 | 2 {f} d5 {>} 4 b4 a4 | 2 {mf} g4 4 f#4 e4 | 2. {p} d4] 4 r |
+va:    | {ks:Sus MAX} 1 {pp}{div} (a4 d5) | 2 (a4 c#5) (a4 d5) | 1 (g4 b4) | 2 (f#4 a4) (g4 b4) | 1 {<} (g4 c#5) | 1 {p} (g4 b4) | 2 {>} (g4 b4) (a#4 c#5) | 1 {pp} (b4 d5) |
+vc:    | {ks:Leg Slur MAX} {pp} 8 [d2 a2 d3 f#3 d3 a2 d3 a2] | 8 [c#3 e3 g3 a3 d2 d3 a2 f#3] | 8 [e2 b2 e3 g3 e3 b2 e3 b2] | 8 [d#3 f#3 a3 b3 e2 e3 b2 g3] | 8 [a2 e3 g3 c#4 g3 c#4 g3 e3] | 8 [g2 d3 g3 b3 g3 d3 g3 d3] | 8 [e2 c#3 g3 b3 f#2 e3 c#3 a#3] | 8 [b2 f#3 b3 d4 b3 f#3 b3 f#3] |
+cb:    | {ks:Stac On Bow RRx9} {p} 4 d2' r d2' r | 4 c#2' r d2' r | 4 e1' r e1' r | 4 d#2' r e1' r | 4 a1' r a1' r | 4 g1' r g1' r | 4 e1' r f#1' r | 4 b1' r b1' r |
+
+# -- THEME A for the last time, and at b87 the head turns major: F#-B-D#.  The
+# -- D-sharp is the first light (B major, then C#m7, Emaj7, F#sus4-F#7).
+== b83-90 ==
+@ T=64 M=4/4 K=bm
+@@ b83 T=64 "dolce"
+@@ b87 T=62 "luminoso"
+@@ b89 T=60
+@@ b90 T=56 "rit."
+vn1:   | {ks:Leg Slur MAX} 4. {p}{"dolce"} [f#5 8 b5 2 d6 | 8 c#6 d6 e6 d6 4 c#6 b5 | 4. g6 8 f#6 2 e6 | 4 d6 8 c#6 b5 2 a#5] | 4. {pp} [f#5 8 b5 {<} 2 d#6 | 8 {p} c#6 d#6 e6 d#6 4 c#6 b5 | 4. g#6 8 f#6 4 e6 d#6 | 4. {>} e6 8 d#6 2 {pp} c#6] |
+vcs:   | {ks:Legato Slur} 2 {p} [f#4 8 e4 d4 c#4 b3 | 2 e4 8 a4 g4 f#4 e4 | 2 b4 8 a4 g4 f#4 e4 | 2 f#4 4 e4 c#4] | 2 {pp}{"luminoso"} [d#4 8 f#4 e4 d#4 c#4 | 2 e4 8 g#4 f#4 e4 c#4 | 2 g#3 8 b3 c#4 d#4 e4 | 2 c#4 4 b3 a#3] |
+va:    | {ks:Sus MAX} 1 {pp}{div} (b4 d5) | 1 (a4 c#5) | 1 (g4 b4) | 1 (a#4 c#5) | 1 {ppp} (b4 d#5) | 1 (b4 e5) | 1 (b4 d#5) | 2 (b4 c#5) (a#4 c#5) |
+vc:    | {ks:Leg Slur MAX} {pp} 8 [b2 f#3 b3 d4 b3 d4 b3 f#3] | 8 [a2 e3 a3 c#4 a3 e3 a3 e3] | 8 [g2 g3 e3 b3 g3 e3 b3 e3] | 8 [f#2 c#3 e3 a#3 e3 c#3 e3 c#3] | {ppp} 8 [b2 f#3 b3 d#4 b3 f#3 b3 f#3] | 8 [c#3 e3 g#3 b3 g#3 e3 g#3 e3] | 8 [e2 b2 d#3 g#3 d#3 b2 d#3 b2] | 8 [f#2 c#3 e3 b3 f#2 e3 c#3 a#3] |
+cb:    | {ks:Stac On Bow RRx9} {p} 4 b1' r b1' r | 4 a1' r a1' r | 4 g1' r g1' r | 4 f#1' r f#1' r | {pp} 4 b1' r b1' r | 4 c#2' r c#2' r | 4 e1' r e1' r | 4 f#1' r f#1' r |
+
+HANDOFF:
+Bar 90 ends on F#7 (after F#sus4) at T=56: violins I on C#6, cello A#3,
+violas A#4-C#5, celli section figure, basses' heartbeat on F#1, pp.  Dawn
+(b91, B major, T=58) resolves it: everything thins.
